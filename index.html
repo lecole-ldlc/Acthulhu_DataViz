@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="custom.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Bitter"/>
+    <title>Acthulhu - dataviz</title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+            integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+            crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<!-- .container -->
+<div class="container">
+
+    <div class="jumbotron">
+        <div class="col-lg-12">
+            <h1>Bienvenue sur la dataviz d'Acthulhulhu</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2">
+            </div>
+            <div class="col-lg-4">
+                <p>Dataset</p>
+            </div>
+            <div class="col-lg-4">
+                <div>
+                    <select onchange="regen();" id="csv" class="csv">
+                        <option value="data/data_task_10.csv">Task 10</option>
+                        <option value="data/data_task_100.csv">Task 100</option>
+                        <option value="data/data_task_1000.csv">Task 1000</option>
+                        <option value="data/data_task_10000.csv">Task 10000</option>
+                    </select>
+
+                </div>
+            </div>
+            <div class="col-lg-2">
+            </div>
+        </div>
+    </div>
+
+</div>
+    <footer>
+        <a href="https://acthulhu.fr/">Acthulhu, l'actu tentaculaire</a>
+    </footer>
+</html>
