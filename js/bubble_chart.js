@@ -19,16 +19,16 @@ function bubbleChart() {
   var center = { x: width / 2, y: height / 2 };
 
   var sexeCenters = {
-    homme: { x: width / 3, y: height / 2 },
+    Homme: { x: width / 3, y: height / 2 },
     //femme: { x: width / 2, y: height / 2 },
-    femme: { x: 2 * width / 3, y: height / 2 }
+    Femme: { x: 2 * width / 3, y: height / 2 }
   };
 
   // X locations of the year titles.
   var sexeTitleX = {
-    Homme: 160,
+    H: 160,
     //2009: width / 2,
-    Femme: width - 160
+    F: width - 160
   };
 
   // @v4 strength to apply to the position forces
@@ -104,10 +104,11 @@ function bubbleChart() {
     // Checkout http://learnjsdata.com/ for more on
     // working with data.
     var myNodes = rawData.map(function (d) {
+        console.log(d);
       return {
         key: d.key,
         radius: radiusScale,
-        sexe: d.sexe,
+        sexe: d.Sexe,
         AnneeNaissance: d.AnneeNaissance,
         CSP: d.CSP,
         AgeDec: d.AgeDec,
@@ -118,9 +119,10 @@ function bubbleChart() {
 
     // sort them to prevent occlusion of smaller nodes.
     //myNodes.sort(function (a, b) { return b.value - a.value; });
-
+        console.log(myNodes);
     return myNodes;
   }
+
 
   /*
    * Main entry point to the bubble chart. This function is returned
@@ -198,7 +200,7 @@ function bubbleChart() {
    * Provides a x value for each node to be used with the split by year
    * x force.
    */
-  function nodeSexePos(d) {
+  function nodeYearPos(d) {
     return sexeCenters[d.sexe].x;
   }
 
@@ -230,7 +232,7 @@ function bubbleChart() {
     showSexeTitles();
 
     // @v4 Reset the 'x' force to draw the bubbles to their year centers
-    simulation.force('x', d3.forceX().strength(forceStrength).x(nodeSexePos));
+    simulation.force('x', d3.forceX().strength(forceStrength).x(nodeYearPos));
 
     // @v4 We can reset the alpha value and restart the simulation
     simulation.alpha(1).restart();
@@ -329,7 +331,7 @@ function display(error, data) {
   if (error) {
     console.log(error);
   }
-
+    console.log(data);
   myBubbleChart('#vis', data);
 }
 
