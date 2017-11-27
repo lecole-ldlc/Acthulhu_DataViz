@@ -1,4 +1,4 @@
-key,Sexe,AnneeNaissance,CSP,AgeDec,ClubJDR,NbJeuJoue,FreqJeu,DureeMoyPartie,PJ/MJ,Conv,AchatJDR,NbUniversAchat,NbOuvrageAche,DpnsAnnull
+key,Sexe,AnneeNaissance,CSP,AgeDec,ClubJDR,NbJeuJoue,FreqJeu,DureeMoyPartie,PJMJ,Conv,AchatJDR,NbUniversAchat,NbOuvrageAche,DpnsAnnull
 1,H,1976-1980,Cadre ou profession intellectuelle superieure,11-12,Non, 11-20,Au moins deux fois par mois,Cinq a six heures,MJ,Non,Oui,6-10,51,100-200 
 2,F,1986-1990,En recherche d'emploi,19-20 ,Oui,21,Au moins trois fois par an,Cinq a six heures,PJ,Oui,Non,N/A,N/A,N/A
 3,H,1981-1985,Cadre ou profession intellectuelle superieure,15-16 ,Oui, 11-20,Au moins deux fois par mois,Cinq a six heures,Les deux,Oui,Oui,6-10, 16-20,50-100 

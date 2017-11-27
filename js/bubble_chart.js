@@ -19,9 +19,15 @@ function bubbleChart() {
   var center = { x: width / 2, y: height / 2 };
 
   var sexeCenters = {
-    Homme: { x: width / 3, y: height / 2 },
+    H: { x: width / 3, y: height / 2 },
     //femme: { x: width / 2, y: height / 2 },
-    Femme: { x: 2 * width / 3, y: height / 2 }
+    F: { x: 2 * width / 3, y: height / 2 }
+  };
+
+  var PJMJCenter = {
+    PJ: {x: sexeCenters.x, y: height/3},
+    MJ: {x: sexeCenters.x, y: 2 * height / 3},
+    les_deux: {x: sexeCenters.x, y: height}
   };
 
   // X locations of the year titles.
@@ -112,6 +118,7 @@ function bubbleChart() {
         AnneeNaissance: d.AnneeNaissance,
         CSP: d.CSP,
         AgeDec: d.AgeDec,
+        role: d.PJMJ,
         x: Math.random() * 900,
         y: Math.random() * 800
       };
@@ -119,7 +126,6 @@ function bubbleChart() {
 
     // sort them to prevent occlusion of smaller nodes.
     //myNodes.sort(function (a, b) { return b.value - a.value; });
-        console.log(myNodes);
     return myNodes;
   }
 
@@ -205,6 +211,7 @@ function bubbleChart() {
   }
 
 
+
   /*
    * Sets visualization in "single group mode".
    * The year labels are hidden and the force layout
@@ -264,6 +271,7 @@ function bubbleChart() {
   }
 
 
+
   /*
    * Function called on mouseover to display the
    * details of a bubble in the tooltip.
@@ -304,11 +312,11 @@ function bubbleChart() {
    * displayName is expected to be a string and either 'year' or 'all'.
    */
   chart.toggleDisplay = function (displayName) {
-    if (displayName === 'sexe') {
-      splitBubbles();
-    } else {
-      groupBubbles();
-    }
+      if (displayName === 'sexe') {
+          splitBubbles();
+      } else {
+          groupBubbles();
+      }
   };
 
 
