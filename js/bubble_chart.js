@@ -10,6 +10,8 @@ function bubbleChart() {
     // Constants for sizing
     var width = 940;
     var height = 600;
+    var selector;
+    var rawData;
 
     // tooltip for mouseover functionality
     var tooltip = floatingTooltip('gates_tooltip', 240);
@@ -18,24 +20,7 @@ function bubbleChart() {
     // on which view mode is selected.
     var center = {x: width / 2, y: height / 2};
 
-    var centers = {
-        key1: {x: width / 3, y: height / 2},
-        //femme: { x: width / 2, y: height / 2 },
-        key2: {x: 2 * width / 3, y: height / 2}
-    };
-
-    var PJMJCenter = {
-        PJ: {x: centers, y: height / 3},
-        MJ: {x: centers, y: 2 * height / 3},
-        les_deux: {x: centers, y: height}
-    };
-
-    // X locations of the year titles.
-    var sexeTitleX = {
-        H: 160,
-        //2009: width / 2,
-        F: width - 160
-    };
+    var centers = {};
 
     // @v4 strength to apply to the position forces
     var forceStrength = 0.03;
@@ -44,7 +29,9 @@ function bubbleChart() {
     var svg = null;
     var bubbles = null;
     var nodes = [];
-
+    var keys1 = [];
+    var keys2 = [];
+    var splitted = false;
     // Charge function that is called for each node.
     // As part of the ManyBody force.
     // This is what creates the repulsion between nodes.
@@ -96,7 +83,7 @@ function bubbleChart() {
      * This function returns the new node array, with a node in that
      * array for each element in the rawData input.
      */
-    function createNodes(rawData, key1, key2) {
+    function createNodes(key1, key2) {
         // Use the max total_amount in the data as the max in the scale's domain
         // note we have to ensure the total_amount is a number.
         //var maxAmount = d3.max(rawData, function (d) { return +d.total_amount; });
@@ -114,7 +101,6 @@ function bubbleChart() {
         // Checkout http://learnjsdata.com/ for more on
         // working with data.
         var myNodes = rawData.map(function (d) {
-            console.log(d);
             return {
                 key: d.key,
                 radius: radiusScale,
@@ -135,23 +121,11 @@ function bubbleChart() {
         return myNodes;
     }
 
+    function do_redraw(svg, key1, key2) {
 
-    /*
-     * Main entry point to the bubble chart. This function is returned
-     * by the parent closure. It prepares the rawData for visualization
-     * and adds an svg element to the provided selector and starts the
-     * visualization creation process.
-     *
-     * selector is expected to be a DOM element or CSS selector that
-     * points to the parent element of the bubble chart. Inside this
-     * element, the code will add the SVG continer for the visualization.
-     *
-     * rawData is expected to be an array of data objects as provided by
-     * a d3 loading function like d3.csv.
-     */
-    var chart = function chart(selector, rawData, key1, key2) {
-        // convert raw data into nodes data
-        nodes = createNodes(rawData, key1, key2);
+        svg.selectAll('.bubble').remove();
+
+        nodes = createNodes(key1, key2);
 
         nested_data = d3.nest()
             .key(function (d) {
@@ -162,26 +136,25 @@ function bubbleChart() {
             })
             .entries(rawData);
 
-         var x_num = nested_data.length;
+        var x_num = nested_data.length;
         var y_num = d3.max(nested_data, function (d) {
             return d.values.length;
         });
 
-        var keys1 = nested_data.map(function (d) {
+        keys1 = nested_data.map(function (d) {
             return d.key
         });
         var k2 = nested_data.map(function (d) {
-            if (d.values.length == y_num){
-                return d.values.map(function(d){
+            if (d.values.length == y_num) {
+                return d.values.map(function (d) {
                     return d.key
                 })
             }
         });
-        var keys2;
-        k2.forEach(function(d){
-           if (d){
-               keys2 = d;
-           }
+        k2.forEach(function (d) {
+            if (d) {
+                keys2 = d;
+            }
         });
         console.log("DATA");
         console.log(nested_data);
@@ -189,22 +162,13 @@ function bubbleChart() {
         console.log(keys1);
         console.log(keys2);
 
-        keys1.forEach(function(k1){
-            keys2.forEach(function(k2){
-                center[k1 + '_' + k2].x = width
-
+        keys1.forEach(function (k1, ind1) {
+            keys2.forEach(function (k2, ind2) {
+                centers[k1 + '_' + k2] = {x: (ind1 + 1) * width / (x_num + 1), y: (ind2 + 1) * height / (y_num + 1)};
             })
-        })
+        });
 
-        console.log(x_num, y_num);
-        // Create a SVG element inside the provided selector
-        // with desired size.
-        svg = d3.select(selector)
-            .append('svg')
-            .attr('width', width)
-            .attr('height', height);
-
-        // Bind nodes data to what will become DOM elements to represent them.
+         // Bind nodes data to what will become DOM elements to represent them.
         bubbles = svg.selectAll('.bubble')
             .data(nodes, function (d) {
                 return d.key;
@@ -219,7 +183,7 @@ function bubbleChart() {
             .classed('bubble', true)
             .attr('r', 0)
             .attr('fill', function (d) {
-                return fillColor(d.CSP);
+                return fillColor(d.sexe);
             })
             .attr('stroke', function (d) {
                 return d3.rgb(fillColor(d.CSP)).darker();
@@ -242,9 +206,44 @@ function bubbleChart() {
         // Set the simulation's nodes to our newly created nodes array.
         // @v4 Once we set the nodes, the simulation will start running automatically!
         simulation.nodes(nodes);
-
+        showTitles();
         // Set initial layout to single group.
         groupBubbles();
+
+        hideTitles();
+        showTitles();
+    }
+
+    /*
+     * Main entry point to the bubble chart. This function is returned
+     * by the parent closure. It prepares the rawData for visualization
+     * and adds an svg element to the provided selector and starts the
+     * visualization creation process.
+     *
+     * selector is expected to be a DOM element or CSS selector that
+     * points to the parent element of the bubble chart. Inside this
+     * element, the code will add the SVG continer for the visualization.
+     *
+     * rawData is expected to be an array of data objects as provided by
+     * a d3 loading function like d3.csv.
+     */
+    var chart = function chart(selector_, rawData_, key1, key2) {
+        // convert raw data into nodes data
+        selector = selector_;
+        rawData = rawData_;
+
+        svg = d3.select(selector)
+            .append('svg')
+            .attr('width', width)
+            .attr('height', height);
+
+        do_redraw(svg, key1, key2);
+
+        // Create a SVG element inside the provided selector
+        // with desired size.
+
+
+
     };
 
     /*
@@ -268,10 +267,13 @@ function bubbleChart() {
      * Provides a x value for each node to be used with the split by year
      * x force.
      */
-    function nodeYearPos(d) {
-        return centers[d.sexe].x;
+    function xPos(d) {
+        return centers[d.key1 + "_" + d.key2].x;
     }
 
+    function yPos(d) {
+        return centers[d.key1 + "_" + d.key2].y;
+    }
 
     /*
      * Sets visualization in "single group mode".
@@ -280,10 +282,11 @@ function bubbleChart() {
      * center of the visualization.
      */
     function groupBubbles() {
-        hideSexeTitles();
+        //hideTitles();
 
         // @v4 Reset the 'x' force to draw the bubbles to the center.
         simulation.force('x', d3.forceX().strength(forceStrength).x(center.x));
+        simulation.force('y', d3.forceY().strength(forceStrength).y(center.y));
 
         // @v4 We can reset the alpha value and restart the simulation
         simulation.alpha(1).restart();
@@ -297,10 +300,11 @@ function bubbleChart() {
      * yearCenter of their data's year.
      */
     function splitBubbles() {
-        showSexeTitles();
+
 
         // @v4 Reset the 'x' force to draw the bubbles to their year centers
-        simulation.force('x', d3.forceX().strength(forceStrength).x(nodeYearPos));
+        simulation.force('x', d3.forceX().strength(forceStrength).x(xPos));
+        simulation.force('y', d3.forceY().strength(forceStrength).y(yPos));
 
         // @v4 We can reset the alpha value and restart the simulation
         simulation.alpha(1).restart();
@@ -309,26 +313,39 @@ function bubbleChart() {
     /*
      * Hides Year title displays.
      */
-    function hideSexeTitles() {
-        svg.selectAll('.sexe').remove();
+    function hideTitles() {
+        svg.selectAll('.keys1').remove();
+        svg.selectAll('.keys2').remove();
     }
 
     /*
      * Shows Year title displays.
      */
-    function showSexeTitles() {
+    function showTitles() {
         // Another way to do this would be to create
         // the year texts once and then just hide them.
-        var sexeData = d3.keys(sexeTitleX);
-        var sexe = svg.selectAll('.sexe')
-            .data(sexeData);
 
-        sexe.enter().append('text')
-            .attr('class', 'sexe')
-            .attr('x', function (d) {
-                return sexeTitleX[d];
+        svg.selectAll('.keys1')
+            .data(keys1)
+            .enter().append('text')
+            .attr('class', 'keys1')
+            .attr('x', function (d, ind) {
+                return (ind + 1) * width / (keys1.length + 1);
             })
             .attr('y', 40)
+            .attr('text-anchor', 'middle')
+            .text(function (d) {
+                return d;
+            });
+
+        svg.selectAll('.keys2')
+            .data(keys2)
+            .enter().append('text')
+            .attr('class', 'keys2')
+            .attr('y', function (d, ind) {
+                return (ind + 1) * height / (keys2.length + 1);
+            })
+            .attr('x', 40)
             .attr('text-anchor', 'middle')
             .text(function (d) {
                 return d;
@@ -375,12 +392,19 @@ function bubbleChart() {
      *
      * displayName is expected to be a string and either 'year' or 'all'.
      */
-    chart.toggleDisplay = function (displayName) {
-        if (displayName === 'sexe') {
+    chart.toggleDisplay = function () {
+        console.log("TOGGLE DISPLAY !", splitted);
+        if (!splitted) {
+            splitted = true;
             splitBubbles();
         } else {
+            splitted = false;
             groupBubbles();
         }
+    };
+
+    chart.redraw = function (key1, key2) {
+        do_redraw(d3.select(selector).select("svg"), key1, key2);
     };
 
 
@@ -393,64 +417,3 @@ function bubbleChart() {
  * to create a new bubble chart instance, load the data, and display it.
  */
 
-var myBubbleChart = bubbleChart();
-
-/*
- * Function called once data is loaded from CSV.
- * Calls bubble chart function to display inside #vis div.
- */
-function display(error, data) {
-    if (error) {
-        console.log(error);
-    }
-    console.log(data);
-    myBubbleChart('#vis', data, "PJMJ", "Sexe");
-}
-
-/*
- * Sets up the layout buttons to allow for toggling between view modes.
- */
-function setupButtons() {
-    d3.select('#toolbar')
-        .selectAll('.button')
-        .on('click', function () {
-            // Remove active class from all buttons
-            d3.selectAll('.button').classed('active', false);
-            // Find the button just clicked
-            var button = d3.select(this);
-
-            // Set it as the active button
-            button.classed('active', true);
-
-            // Get the id of the button
-            var buttonId = button.attr('id');
-
-            // Toggle the bubble chart based on
-            // the currently clicked button.
-            myBubbleChart.toggleDisplay(buttonId);
-        });
-}
-
-/*
- * Helper function to convert a number into a string
- * and add commas to it to improve presentation.
- */
-function addCommas(nStr) {
-    nStr += '';
-    var x = nStr.split('.');
-    var x1 = x[0];
-    var x2 = x.length > 1 ? '.' + x[1] : '';
-    var rgx = /(\d+)(\d{3})/;
-    while (rgx.test(x1)) {
-        x1 = x1.replace(rgx, '$1' + ',' + '$2');
-    }
-
-    return x1 + x2;
-}
-
-// Load the data.
-d3.csv('207test.csv', display);
-console.log("coucou");
-
-// setup the buttons.
-setupButtons();
