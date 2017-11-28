@@ -9,7 +9,7 @@
 function bubbleChart() {
     // Constants for sizing
     var width = 940;
-    var height = 600;
+    var height = 700;
     var selector;
     var rawData;
 
