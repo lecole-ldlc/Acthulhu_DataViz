@@ -111,6 +111,8 @@ function bubbleChart() {
                 key2: d[key2],
                 AgeDec: d.AgeDec,
                 role: d.PJMJ,
+                DureeMoy: d.DureeMoyPartie,
+                FreqJeu: d.FreqJeu,
                 x: Math.random() * 900,
                 y: Math.random() * 800
             };
@@ -210,7 +212,7 @@ function bubbleChart() {
         // Set initial layout to single group.
         groupBubbles();
 
-        hideTitles();
+        hideTitles(); //bon on sait pas si ça sert à quelque chose mais ça casse pas le code. Donc, bon on garde. Ciao
         showTitles();
     }
 
