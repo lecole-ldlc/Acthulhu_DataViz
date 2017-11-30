@@ -1,297 +1,303 @@
-<!DOCTYPE HTML>
-<!--
-	Twenty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html dir="ltr" lang="fr-FR">
 <head>
-	<title>La meilleure dataviz de ta vie</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	<link rel="icon" type="image/png" href="images/favicon.png" />
-	<script src="https://d3js.org/d3.v4.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="Acthulhu"/>
+
+    <!-- Stylesheets
+    ============================================= -->
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic"
+          rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet" href="css/dark.css" type="text/css"/>
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css"/>
+    <link rel="stylesheet" href="css/animate.css" type="text/css"/>
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css"/>
+
+    <link rel="stylesheet" href="css/responsive.css" type="text/css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!-- Document Title
+    ============================================= -->
+    <title>Dataviz d'Acthulhu
+    </title>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
             integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
             crossorigin="anonymous"></script>
+
+
 </head>
-<body class="index">
-<div id="page-wrapper">
 
-	<!-- Header -->
-	<header id="header" class="alt">
-		<h1 id="logo"><a href="index.html">Acthulhu <span>powered by HTML5 UP</span></a></h1>
-		<nav id="nav">
-		</nav>
-	</header>
+<body class="stretched">
 
-	<!-- Banner -->
-	<section id="banner">
+<!-- Document Wrapper
+============================================= -->
+<div id="wrapper" class="clearfix">
 
-		<!--
-            ".inner" is set up as an inline-block so it automatically expands
-            in both directions to fit whatever's inside it. This means it won't
-            automatically wrap lines, so be sure to use line breaks where
-            appropriate (<br />).
-        -->
-		<div class="inner">
+    <!-- Page Title
+    ============================================= -->
+    <section id="page-title">
 
-			<header>
-				<h2>La communaudés</h2>
-			</header>
-			<p>Bienvenue sur la dataviz
-				<br/>
-				<strong>la plus tentaculaire</strong>
-				<br />
-				par <a href="https://acthulhu.fr/"></a><strong>Acthulhu</strong></p>
-			<footer>
-				<ul class="buttons vertical">
-					<li><a href="#dataviz" class="button fit scrolly">Voir le travail des Goules</a></li>
-				</ul>
-			</footer>
+        <div class="container-fullwidth clearfix">
+            <h1>Dataviz d'Acthulhu</h1>
+        </div>
 
-		</div>
+    </section><!-- #page-title end -->
 
-	</section>
+    <!-- Content
+    ============================================= -->
+    <section id="content">
 
+        <div class="content-wrap">
 
-	<!-- Three -->
-	<article id="dataviz">
-		<section class="wrapper style3 container special">
+            <div class="container-fullwidth clearfix">
 
-			<header class="major">
-				<h2>Voici notre magnifique <strong>dataviz</strong></h2>
-			</header>
+                <div class="col-full text-center" id="interactions">
+                    <h2>Problématiques :</h2>
+                    <button class="btn btn-primary problematique" id="pb1" data-key1="DureeMoyPartie"
+                            data-key2="FreqJeu">Fréquence de jeu - durée moyenne d'une partie
+                    </button>
+                    <button class="btn btn-primary problematique" id="pb2" data-key1="PJMJ"
+                            data-key2="DpnsAnnull">MJ PJ - dépenses
+                    </button>
+                    <button class="btn btn-primary problematique" id="pb3" data-key1="CSP" data-key2="FreqJeu">CSP -
+                        fréquence
+                    </button>
+                    <button class="btn btn-primary problematique" id="pb4" data-key1="CSP" data-key2="PJMJ">MJ PJ - CSP
+                    </button>
+                    <a id="all" class="button">Séparer</a>
+                </div>
 
+                <div class="col-full" id="vis">
+                </div>
+                <div class="col_full">
+                    Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies
+                    vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis
+                    mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur. Cras mattis
+                    consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper.
+                </div>
 
-			<div class="container">
-				<!-- .container
+                <div class="col_half">
+                    <h5>Half Width</h5>
+                    Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies
+                    vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis
+                    mollis, est non commodo luctus.
+                </div>
 
-                    <div class="jumbotron">
-                        <div class="col-lg-12">
-                            <h1>Bienvenue sur la dataviz d'Acthulhu</h1>
-                        </div>
+                <div class="col_half col_last">
+                    <h5>Half Width (Last)</h5>
+                    Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies
+                    vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis
+                    mollis, est non commodo luctus.
+                </div>
+
+                <div class="clear"></div>
+
+                <div class="col_two_third">
+                    <h5>2/3 Width</h5>
+                    Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies
+                    vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis
+                    mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur. Cras mattis
+                    consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper.
+                </div>
+
+                <div class="col_one_third col_last">
+                    <h5>1/3 Width (Last)</h5>
+                    Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies
+                    vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis
+                    mollis, est non commodo luctus.
+                </div>
+
+                <div class="clear"></div>
+
+                <div class="col_one_fourth nobottommargin">
+                    <h5>1/4 Width</h5>
+                    Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies
+                    vehicula ut id elit. Integer posuere erat a ante.
+                </div>
+
+                <div class="col_three_fourth nobottommargin col_last">
+                    <h5>3/4 Width (Last)</h5>
+                    Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies
+                    vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis
+                    mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur. Cras mattis
+                    consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper.
+                </div>
+
+                <div class="clear"></div>
+
+            </div>
+
+        </div>
+
+    </section><!-- #content end -->
+
+    <!-- Dataviz
+    ============================================= -->
+    <section id="dataviz">
+
+        <div class="container-fullwidth clearfix">
+
+        </div>
+
+    </section><!-- #page-title end -->
+
+    <!-- Footer
+    ============================================= -->
+    <footer id="footer" class="dark">
+
+        <div class="container-fullwidth">
+
+        </div>
+
+        <!-- Copyrights
+        ============================================= -->
+        <div id="copyrights">
+
+            <div class="container-fullwidth clearfix">
+
+                <div class="col_half">
+                    Copyrights &copy; 2017 All Rights Reserved by Acthulhu<br>
+                </div>
+
+                <div class="col_half col_last tright">
+                    <div class="fright clearfix">
+                        <a href="#" class="social-icon si-small si-borderless si-facebook">
+                            <i class="icon-facebook"></i>
+                            <i class="icon-facebook"></i>
+                        </a>
+
+                        <a href="#" class="social-icon si-small si-borderless si-twitter">
+                            <i class="icon-twitter"></i>
+                            <i class="icon-twitter"></i>
+                        </a>
+
+                        <a href="#" class="social-icon si-small si-borderless si-gplus">
+                            <i class="icon-gplus"></i>
+                            <i class="icon-gplus"></i>
+                        </a>
+
+                        <a href="#" class="social-icon si-small si-borderless si-pinterest">
+                            <i class="icon-pinterest"></i>
+                            <i class="icon-pinterest"></i>
+                        </a>
+
+                        <a href="#" class="social-icon si-small si-borderless si-vimeo">
+                            <i class="icon-vimeo"></i>
+                            <i class="icon-vimeo"></i>
+                        </a>
+
+                        <a href="#" class="social-icon si-small si-borderless si-github">
+                            <i class="icon-github"></i>
+                            <i class="icon-github"></i>
+                        </a>
+
+                        <a href="#" class="social-icon si-small si-borderless si-yahoo">
+                            <i class="icon-yahoo"></i>
+                            <i class="icon-yahoo"></i>
+                        </a>
+
+                        <a href="#" class="social-icon si-small si-borderless si-linkedin">
+                            <i class="icon-linkedin"></i>
+                            <i class="icon-linkedin"></i>
+                        </a>
                     </div>
-                -->
-				<div class="container">
-					<div class="row">
-						<button class="btn btn-primary problematique" id="pb1" data-key1="Sexe" data-key2="PJMJ">Pb1</button>
-						<button class="btn btn-primary problematique" id="pb1" data-key1="CSP" data-key2="Sexe">Pb2</button>
-					</div>
 
-					<div class="row">
-						<div id="toolbar" class="col-lg-4">
-							<a id="all" class="button">Séparer</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-12" id="vis">
-				</div>
+                    <div class="clear"></div>
 
-			</div>
-			<script src="js/tooltip.js"></script>
-			<script src="js/bubble_chart.js"></script>
-			<script>
-				var myBubbleChart = bubbleChart();
-				var data = [];
-				/*
-				 * Function called once data is loaded from CSV.
-				 * Calls bubble chart function to display inside #vis div.
-				 */
-				function data_loaded(error, data_l) {
-					if (error) {
-						console.log(error);
-					}
-					console.log(data_l);
-					data = data_l;
-					myBubbleChart = bubbleChart();
-					myBubbleChart('#vis', data, "Sexe", "PJMJ");
-					setupButtons();
-				}
+                    <i class="icon-envelope2"></i><a class="middot" href="mailto:hello@acthulhu.fr"> hello@acthulhu.fr </a>
+                </div>
 
-				$(".problematique").click(function (e) {
-					var key1 = $(this).attr('data-key1');
-					var key2 = $(this).attr('data-key2');
-					console.log(key1, key2);
-					myBubbleChart.redraw(key1, key2);
-				});
-				/*
-				 * Sets up the layout buttons to allow for toggling between view modes.
-				 */
-				function setupButtons() {
-					$("#all").click(function () {
-						myBubbleChart.toggleDisplay();
-					});
-				}
+            </div>
 
-				/*
-				 * Helper function to convert a number into a string
-				 * and add commas to it to improve presentation.
-				 */
-				function addCommas(nStr) {
-					nStr += '';
-					var x = nStr.split('.');
-					var x1 = x[0];
-					var x2 = x.length > 1 ? '.' + x[1] : '';
-					var rgx = /(\d+)(\d{3})/;
-					while (rgx.test(x1)) {
-						x1 = x1.replace(rgx, '$1' + ',' + '$2');
-					}
-
-					return x1 + x2;
-				}
-
-				// Load the data.
-				d3.csv('4K_full_clean.csv', data_loaded);
-				console.log("coucou");
-
-				// setup the buttons.
-			</script>
+        </div><!-- #copyrights end -->
 
 
-			<footer class="major">
-				<ul class="buttons">
-					<li><a href="#cta" class="button fit scrolly">En savoir plus</a></li>
-				</ul>
-			</footer>
+        <script src="js/tooltip.js"></script>
+        <script src="js/bubble_chart.js"></script>
+        <a href="https://acthulhu.fr/">Acthulhu, l'actu tentaculaire</a>
+    </footer><!-- #footer end -->
 
-		</section>
+</div><!-- #wrapper end -->
 
-	</article>
+<!-- Go To Top
+============================================= -->
+<div id="gotoTop" class="icon-angle-up"></div>
 
-	<!-- CTA -->
-	<section id="cta">
+<!-- External JavaScripts
+============================================= -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/plugins.js"></script>
 
-		<header>
-			<h2>La <strong>politique</strong> vous intéresse ?</h2>
-			<p>Visiter notre site Acthulhu</p>
-		</header>
-		<footer>
-			<div class="buttons"> <a href="https://acthulhu.fr/" target="_blank" class="button special">Notre site</a></div>
-		</footer>
+<!-- Footer Scripts
+============================================= -->
+<script type="text/javascript" src="js/functions.js"></script>
 
-	</section>
+<script>
+    var myBubbleChart = bubbleChart();
+    var data = [];
 
-	<!-- Footer -->
-	<footer id="footer">
+    /*
+     * Function called once data is loaded from CSV.
+     * Calls bubble chart function to display inside #vis div.
+     */
+    function data_loaded(error, data_l) {
+        if (error) {
+            console.log(error);
+        }
+        console.log(data_l);
+        data = data_l;
+        myBubbleChart = bubbleChart();
+        myBubbleChart('#vis', data, "Sexe", "PJMJ");
+        setupButtons();
+    }
 
-		<ul class="icons">
-			<li><a href="https://twitter.com/Cthulhulhu_news" target="_blank" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
-			<li><a href="https://www.facebook.com/Acthulhu.News/" target="_blank" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
-			<li><a href="https://github.com/lecole-ldlc/Acthulhu_DataViz" target="_blank" class="icon circle fa-github"><span class="label">Github</span></a></li>
-		</ul>
+    $(".problematique").click(function (e) {
+        var key1 = $(this).attr('data-key1');
+        var key2 = $(this).attr('data-key2');
+        console.log(key1, key2);
+        myBubbleChart.redraw(key1, key2);
+    });
 
-		<ul class="copyright">
-			<li>&copy; Acthulhu</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-		</ul>
+    /*
+     * Sets up the layout buttons to allow for toggling between view modes.
+     */
+    function setupButtons() {
+        $("#all").click(function () {
+            myBubbleChart.toggleDisplay();
+        });
+    }
 
-	</footer>
+    /*
+     * Helper function to convert a number into a string
+     * and add commas to it to improve presentation.
+     */
+    function addCommas(nStr) {
+        nStr += '';
+        var x = nStr.split('.');
+        var x1 = x[0];
+        var x2 = x.length > 1 ? '.' + x[1] : '';
+        var rgx = /(\d+)(\d{3})/;
+        while (rgx.test(x1)) {
+            x1 = x1.replace(rgx, '$1' + ',' + '$2');
+        }
 
-</div>
+        return x1 + x2;
+    }
 
-<!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.dropotron.min.js"></script>
-<script src="assets/js/jquery.scrolly.min.js"></script>
-<script src="assets/js/jquery.scrollgress.min.js"></script>
-<script src="assets/js/skel.min.js"></script>
-<script src="assets/js/util.js"></script>
-<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-<script src="assets/js/main.js"></script>
+    // Load the data.
+    d3.csv('4K_full_clean.csv', data_loaded);
+    console.log("coucou");
 
+    // setup the buttons.
+</script>
 
 </body>
 </html>
-
-
-<!-- Main
-    <article id="main">
-
-        <header class="special container">
-            <span class="icon fa-bar-chart-o"></span>
-            <h2>As this is my <strong>twentieth</strong> freebie for HTML5 UP
-            <br />
-            I decided to give it a really creative name.</h2>
-            <p>Turns out <strong>Twenty</strong> was the best I could come up with. Anyway, lame name aside,
-            <br />
-            it's minimally designed, fully responsive, built on HTML5/CSS3/<strong>skel</strong>,
-            and, like all my stuff,
-            <br />
-            released for free under the <a href="http://html5up.net/license">Creative Commons Attribution 3.0</a> license. Have fun!</p>
-        </header>
-
-        <!-- One
-            <section class="wrapper style2 container special-alt">
-                <div class="row 50%">
-                    <div class="8u 12u(narrower)">
-
-                        <header>
-                            <h2>Behold the <strong>icons</strong> that visualize what you’re all about. or just take up space. your call bro.</h2>
-                        </header>
-                        <p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu comteger ut fermentum lorem. Lorem ipsum dolor sit amet. Sed tristique purus vitae volutpat ultrices. eu elit eget commodo. Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo.</p>
-                        <footer>
-                            <ul class="buttons">
-                                <li><a href="#" class="button">Find Out More</a></li>
-                            </ul>
-                        </footer>
-
-                    </div>
-                    <div class="4u 12u(narrower) important(narrower)">
-
-                        <ul class="featured-icons">
-                            <li><span class="icon fa-clock-o"><span class="label">Feature 1</span></span></li>
-                            <li><span class="icon fa-volume-up"><span class="label">Feature 2</span></span></li>
-                            <li><span class="icon fa-laptop"><span class="label">Feature 3</span></span></li>
-                            <li><span class="icon fa-inbox"><span class="label">Feature 4</span></span></li>
-                            <li><span class="icon fa-lock"><span class="label">Feature 5</span></span></li>
-                            <li><span class="icon fa-cog"><span class="label">Feature 6</span></span></li>
-                        </ul>
-
-                    </div>
-                </div>
-            </section>
-
-        <!-- Two
-            <section class="wrapper style1 container special">
-                <div class="row">
-                    <div class="4u 12u(narrower)">
-
-                        <section>
-                            <span class="icon featured fa-check"></span>
-                            <header>
-                                <h3>This is Something</h3>
-                            </header>
-                            <p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-                        </section>
-
-                    </div>
-                    <div class="4u 12u(narrower)">
-
-                        <section>
-                            <span class="icon featured fa-check"></span>
-                            <header>
-                                <h3>Also Something</h3>
-                            </header>
-                            <p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-                        </section>
-
-                    </div>
-                    <div class="4u 12u(narrower)">
-
-                        <section>
-                            <span class="icon featured fa-check"></span>
-                            <header>
-                                <h3>Probably Something</h3>
-                            </header>
-                            <p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-                        </section>
-
-                    </div>
-                </div>
-            </section>
-
--->

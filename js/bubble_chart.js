@@ -8,7 +8,7 @@
  */
 function bubbleChart() {
     // Constants for sizing
-    var width = 940;
+    var width = 1800;
     var height = 700;
     var selector;
     var rawData;
@@ -90,7 +90,7 @@ function bubbleChart() {
 
         // Sizes bubbles based on area.
         // @v4: new flattened scale names.
-        var radiusScale = 5;
+        var radiusScale = 3;
 
         centers = {
             H: {x: width / 3, y: height / 2},
@@ -187,10 +187,10 @@ function bubbleChart() {
             .attr('fill', function (d) {
                 return fillColor(d.sexe);
             })
-          //  .attr('stroke', function (d) {
-          //      return d3.rgb(fillColor(d.CSP)).darker();
-          //  })
-          //  .attr('stroke-width', 2)
+        //    .attr('stroke', function (d) {
+        //        return d3.rgb(fillColor(d.CSP)).darker();
+        //    })
+        //    .attr('stroke-width', 2)
             .on('mouseover', showDetail)
             .on('mouseout', hideDetail);
 
