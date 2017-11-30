@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="custom.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Bitter"/>
+    <title>Acthulhu - dataviz</title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+            integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+            crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<!-- .container -->
+<div class="container">
+    <!-- .container
+
+        <div class="jumbotron">
+            <div class="col-lg-12">
+                <h1>Bienvenue sur la dataviz d'Acthulhu</h1>
+            </div>
+        </div>
+    -->
+    <div class="container">
+        <div class="row">
+            <button class="btn btn-primary problematique" id="pb1" data-key1="DureeMoyPartie" data-key2="FreqJeu">Pb1</button>
+            <button class="btn btn-primary problematique" id="pb2" data-key1="CSP" data-key2="FreqJeu">Pb2</button>
+        </div>
+
+        <div class="row">
+            <div id="toolbar" class="col-lg-4">
+                <a href="#" id="all" class="button">Séparer</a>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="col-lg-12" id="vis">
+    </div>
+
+</div>
+<footer>
+    <script src="js/tooltip.js"></script>
+    <script src="js/bubble_chart.js"></script>
+    <a href="https://acthulhu.fr/">Acthulhu, l'actu tentaculaire</a>
+</footer>
+
+<script>
+    var myBubbleChart = bubbleChart();
+    var data = [];
+    /*
+     * Function called once data is loaded from CSV.
+     * Calls bubble chart function to display inside #vis div.
+     */
+    function data_loaded(error, data_l) {
+        if (error) {
+            console.log(error);
+        }
+        console.log(data_l);
+        data = data_l;
+        myBubbleChart = bubbleChart();
+        myBubbleChart('#vis', data, "Sexe", "PJMJ");
+        setupButtons();
+    }
+
+    $(".problematique").click(function (e) {
+        var key1 = $(this).attr('data-key1');
+        var key2 = $(this).attr('data-key2');
+        console.log(key1, key2);
+        myBubbleChart.redraw(key1, key2);
+    });
+    /*
+     * Sets up the layout buttons to allow for toggling between view modes.
+     */
+    function setupButtons() {
+        $("#all").click(function () {
+            myBubbleChart.toggleDisplay();
+        });
+    }
+
+    /*
+     * Helper function to convert a number into a string
+     * and add commas to it to improve presentation.
+     */
+    function addCommas(nStr) {
+        nStr += '';
+        var x = nStr.split('.');
+        var x1 = x[0];
+        var x2 = x.length > 1 ? '.' + x[1] : '';
+        var rgx = /(\d+)(\d{3})/;
+        while (rgx.test(x1)) {
+            x1 = x1.replace(rgx, '$1' + ',' + '$2');
+        }
+
+        return x1 + x2;
+    }
+
+    // Load the data.
+    d3.csv('207test.csv', data_loaded);
+    console.log("coucou");
+
+    // setup the buttons.
+</script>
+</body>
+</html>
