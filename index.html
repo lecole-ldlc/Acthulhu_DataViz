@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/font-icons.css" type="text/css"/>
     <link rel="stylesheet" href="css/animate.css" type="text/css"/>
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css"/>
-    <link rel="icon" type="image/png" href="images/ico.png" />
+    <link rel="icon" type="image/png" href="images/ico.png"/>
     <link rel="stylesheet" href="css/responsive.css" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
@@ -40,7 +40,8 @@
 
     <!-- Page Title
     ============================================= -->
-    <section id="page-title">
+    <!-- TODO : put padding in CSS -->
+    <section id="page-title" style="padding-top: 30px; padding-bottom: 30px">
 
         <div class="container-fullwidth clearfix">
             <h1>Dataviz d'Acthulhu</h1>
@@ -52,136 +53,94 @@
     ============================================= -->
     <section id="content">
 
-        <div class="content-wrap">
+        <!-- TODO : put padding in CSS -->
+        <div class="content-wrap" style="padding-top: 30px;">
 
             <div class="container-fullwidth clearfix">
 
-                <div class="col-full text-center" id="interactions">
-                    <h2>Problématiques :</h2>
+                <div class="col-lg-3 text-center" id="interactions">
 
-                    <button class="btn btn-primary problematique" id="pb1" data-key1="AnneeNaissance"
-                            data-key2="Sexe" data-toggle="collapse" data-target="#text1" aria-expanded="false"
-                            aria-controls="multiCollapseExample2">Date de naissance - Sexe
-                    </button>
-                    <button class="btn btn-primary problematique" id="pb2" data-key1="AnneeNaissance"
-                            data-key2="AgeDec" data-toggle="collapse" data-target="#text2" aria-expanded="false"
-                            aria-controls="multiCollapseExample2">Age - Découverte du JDR
-                    </button>
-                    <button class="btn btn-primary problematique" id="pb3" data-key1="AnneeNaissance" data-key2="PJMJ"
-                            data-toggle="collapse" data-target="#text3" aria-expanded="false"
-                            aria-controls="multiCollapseExample2">Age - MJPJ
-                    </button>
-                    <button class="btn btn-primary problematique" id="pb4" data-key1="AnneeNaissance"
-                            data-key2="FreqJeu"
-                            data-toggle="collapse" data-target="#text4" aria-expanded="false"
-                            aria-controls="multiCollapseExample2">Age - Fréquence
-                    </button>
-                    <button class="btn btn-primary problematique" id="pb5" data-key1="AnneeNaissance"
-                            data-key2="DpnsAnnull"
-                            data-toggle="collapse" data-target="#text5" aria-expanded="false"
-                            aria-controls="multiCollapseExample2">Age - Dépense
-                    </button>
+                    <div id="exp1">
+                        <h2>Explications 1 --></h2>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio ex, congue facilisis
+                            nulla
+                            eu, scelerisque luctus nibh. Integer id elementum turpis. Etiam sit amet enim ante. Praesent
+                            efficitur urna mauris, sit amet tempus enim condimentum sed. Aliquam in sodales odio, vitae
+                            ullamcorper est. Sed. </p>
+                    </div>
+
+                    <h2>Problématiques</h2>
+
+                    <!--<div class="col-lg-12 col_last"
+                         style="border-bottom: 5px;padding-bottom: 5px;padding-top: 5px;">
+                        <button class="btn btn-primary problematique" id="pb1" data-key1="AnneeNaissance"
+                                data-key2="Sexe"> Quelle est la corrélation entre l'age des rolistes<br>
+                            et leur genre ?
+                        </button>
+                    </div>-->
+                    <div class="col-lg-12 col_last" style="border-bottom: 5px;padding-bottom: 5px;padding-top: 5px;">
+                        <button class="btn btn-primary problematique" id="pb2" data-key1="AnneeNaissance"
+                                data-key2="AgeDec"> Quelle est la corrélation entre l'age des
+                            rolistes<br> et leur age de découverte ?
+                        </button>
+                    </div>
+                    <div class="col-lg-12 col_last" style="border-bottom: 5px;padding-bottom: 5px;padding-top: 5px;">
+                        <button class="btn btn-primary problematique" id="pb3" data-key1="AnneeNaissance"
+                                data-key2="PJMJ"> Quelle est la corrélation entre l'age des
+                            rolistes<br> et leur role préféré ?
+                        </button>
+                    </div>
+                    <div class="col-lg-12 col_last" style="border-bottom: 5px;padding-bottom: 5px;padding-top: 5px;">
+                        <button class="btn btn-primary problematique" id="pb4" data-key1="AnneeNaissance"
+                                data-key2="FreqJeu"> Quelle est la corrélation entre l'age des
+                            rolistes<br> et leur fréquence de jeu ?
+                        </button>
+                    </div>
+                    <div class="col-lg-12 col_last" style="border-bottom: 5px;padding-bottom: 5px;padding-top: 5px;">
+                        <button class="btn btn-primary problematique" id="pb5" data-key1="AnneeNaissance"
+                                data-key2="DpnsAnnull">Quelle est la corrélation entre l'age des
+                            rolistes<br> et leurs dépenses annuelles ?
+                        </button>
+                    </div>
                     <a id="all" class="button">Séparer</a>
                 </div>
 
-                <div class="col-full" id="vis">
+                <div class="col-lg-9" id="vis">
                 </div>
 
                 <div class="clear comment"></div>
 
             </div>
 
-            <div class="container-fullwidth clearfix">
-                <div id="accordion" role="tablist">
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingOne">
-                            <h5 class="mb-0">
-                                <a data-toggle="collapse" href="#collapseOne" aria-expanded="true"
-                                   aria-controls="collapseOne">
-                                    Explications #1
-                                </a>
-                            </h5>
-                        </div>
-
-                        <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne"
-                             data-parent="#accordion">
-                            <div class="card-body">
-                                Diminution de l’écart hommes/femmes de génération en génération : si les femmes ne
-                                représentent que
-                                5,3 % des rôlistes nés avant 1965, leur proportion atteint 40 % des moins de 18 ans.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingTwo">
-                            <h5 class="mb-0">
-                                <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false"
-                                   aria-controls="collapseTwo">
-                                    Explications #2
-                                </a>
-                            </h5>
-                        </div>
-                        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo"
-                             data-parent="#accordion">
-                            <div class="card-body">
-                                La génération des années 1970 a découvert le JDR plus tôt que la génération des années
-                                1990.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingThree">
-                            <h5 class="mb-0">
-                                <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false"
-                                   aria-controls="collapseThree">
-                                    Explications #3
-                                </a>
-                            </h5>
-                        </div>
-                        <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree"
-                             data-parent="#accordion">
-                            <div class="card-body">
-                                Plus on est jeune, moins on se définit comme pur MJ et plus il y a parallèlement de
-                                purs PJs. Effet d’âge, sans doute, mais aussi peut-être de génération.
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" role="tab" id="headingThree">
-                                <h5 class="mb-0">
-                                    <a class="collapsed" data-toggle="collapse" href="#collapseThree"
-                                       aria-expanded="false"
-                                       aria-controls="collapseThree">
-                                        Explications #4
-                                    </a>
-                                </h5>
-                            </div>
-                            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree"
-                                 data-parent="#accordion">
-                                <div class="card-body">
-                                    Effet d’âge logique, les plus assidus sont les plus jeunes des répondants.
-                                </div>
-                            </div>
-                            <div class="card-header" role="tab" id="headingThree">
-                                <h5 class="mb-0">
-                                    <a class="collapsed" data-toggle="collapse" href="#collapseThree"
-                                       aria-expanded="false"
-                                       aria-controls="collapseThree">
-                                        Explications #5
-                                    </a>
-                                </h5>
-                            </div>
-                            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree"
-                                 data-parent="#accordion">
-                                <div class="card-body">
-                                    Les anciens dépensent davantage.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
     </section><!-- #content end -->
+
+    <section id="explanations">
+
+        <div class="content-wrap">
+            <div class="container-fullwidth clearfix">
+                <h2>Qu'est-ce qu'Acthulhu ?</h2>
+                <div class="col-lg-9">
+                    <h4>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis justo mi. Cras rutrum porta
+                        blandit. Sed porttitor ex eget elit aliquet dictum et eu dui. Praesent tortor lectus, pharetra
+                        in
+                        scelerisque a, consequat facilisis magna. Phasellus vel pretium erat, in vehicula felis. Sed
+                        bibendum varius porttitor. Fusce volutpat ipsum neque, nec porttitor libero laoreet ut. Quisque
+                        vestibulum orci sem. Sed interdum dapibus tristique. Cras ac sapien ipsum. Etiam aliquam, velit
+                        placerat facilisis fermentum, sem neque accumsan magna, vitae fringilla purus enim tempor
+                        turpis. In
+                        in risus sed velit vulputate facilisis.
+                    </h4>
+                </div>
+                <div class="col-lg-3">
+                    <img src="cthulhulhu.png" alt="cthulhulhu le petit reporter envoyé par Nodens">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
 
     <!-- Dataviz
     ============================================= -->
@@ -213,17 +172,20 @@
 
                 <div class="col_half col_last tright">
                     <div class="fright clearfix">
-                        <a href="https://www.facebook.com/Acthulhu.News/" target="_blank" class="social-icon si-small si-borderless si-facebook">
+                        <a href="https://www.facebook.com/Acthulhu.News/" target="_blank"
+                           class="social-icon si-small si-borderless si-facebook">
                             <i class="icon-facebook"></i>
                             <i class="icon-facebook"></i>
                         </a>
 
-                        <a href="https://twitter.com/Cthulhulhu_news?lang=fr" target="_blank" class="social-icon si-small si-borderless si-twitter">
+                        <a href="https://twitter.com/Cthulhulhu_news?lang=fr" target="_blank"
+                           class="social-icon si-small si-borderless si-twitter">
                             <i class="icon-twitter"></i>
                             <i class="icon-twitter"></i>
                         </a>
 
-                        <a href="https://github.com/lecole-ldlc/Acthulhu_DataViz" target="_blank" class="social-icon si-small si-borderless si-github">
+                        <a href="https://github.com/lecole-ldlc/Acthulhu_DataViz" target="_blank"
+                           class="social-icon si-small si-borderless si-github">
                             <i class="icon-github"></i>
                             <i class="icon-github"></i>
                         </a>
@@ -289,7 +251,7 @@
         console.log(data_l);
         data = data_l;
         myBubbleChart = bubbleChart();
-        myBubbleChart('#vis', data, "Sexe", "PJMJ");
+        myBubbleChart('#vis', data, "AnneeNaissance", "PJMJ");
         setupButtons();
     }
 
@@ -329,8 +291,6 @@
     // Load the data.
     d3.csv('1K_full_clean.csv', data_loaded);
     console.log("coucou");
-
-    // setup the buttons.
 </script>
 
 </body>

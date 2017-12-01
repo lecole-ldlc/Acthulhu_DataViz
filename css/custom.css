@@ -46,3 +46,12 @@ p {
 #oui {
 	padding-bottom="15";
 }
+
+.pb_custom {
+	padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+tooltip {
+    background-color: #1ABC9C;
+}

@@ -8,8 +8,8 @@
  */
 function bubbleChart() {
     // Constants for sizing
-    var width = 1800;
-    var height = 900;
+    var width = 1365;
+    var height = 700;
     var selector;
     var rawData;
 
@@ -124,6 +124,8 @@ function bubbleChart() {
     }
 
     function do_redraw(svg, key1, key2) {
+
+        splitted = false;
 
         svg.selectAll('.bubble').remove();
 
@@ -363,7 +365,7 @@ function bubbleChart() {
         // change outline to indicate hover state.
         d3.select(this).attr('stroke', 'black');
 
-        var content = '<span class="name">CSP: </span><span class="value">' +
+        var content = '<span class="name" style="color: darkred">CSP: </span><span class="value">' +
             d.CSP +
             '</span><br/>' +
             '<span class="name">AnneeNaissance: </span><span class="value">' +
@@ -409,6 +411,7 @@ function bubbleChart() {
         do_redraw(d3.select(selector).select("svg"), key1, key2);
     };
 
+    // TODO : Add legend
 
     // return the chart function from closure.
     return chart;
