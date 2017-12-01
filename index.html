@@ -59,23 +59,27 @@
                 <div class="col-full text-center" id="interactions">
                     <h2>Problématiques :</h2>
 
-                    <button class="btn btn-primary problematique" id="pb1" data-key1="DureeMoyPartie"
-                            data-key2="FreqJeu" data-toggle="collapse" data-target="#text1" aria-expanded="false"
-                            aria-controls="multiCollapseExample2">Fréquence de jeu - durée moyenne d'une
-                        partie
+                    <button class="btn btn-primary problematique" id="pb1" data-key1="AnneeNaissance"
+                            data-key2="Sexe" data-toggle="collapse" data-target="#text1" aria-expanded="false"
+                            aria-controls="multiCollapseExample2">Date de naissance - Sexe
                     </button>
-                    <button class="btn btn-primary problematique" id="pb2" data-key1="PJMJ"
-                            data-key2="DpnsAnnull" data-toggle="collapse" data-target="#text2" aria-expanded="false"
-                            aria-controls="multiCollapseExample2">MJ PJ - dépenses
+                    <button class="btn btn-primary problematique" id="pb2" data-key1="AnneeNaissance"
+                            data-key2="AgeDec" data-toggle="collapse" data-target="#text2" aria-expanded="false"
+                            aria-controls="multiCollapseExample2">Age - Découverte du JDR
                     </button>
-                    <button class="btn btn-primary problematique" id="pb3" data-key1="CSP" data-key2="FreqJeu"
+                    <button class="btn btn-primary problematique" id="pb3" data-key1="AnneeNaissance" data-key2="PJMJ"
                             data-toggle="collapse" data-target="#text3" aria-expanded="false"
-                            aria-controls="multiCollapseExample2">CSP -
-                        fréquence
+                            aria-controls="multiCollapseExample2">Age - MJPJ
                     </button>
-                    <button class="btn btn-primary problematique" id="pb4" data-key1="CSP" data-key2="PJMJ"
+                    <button class="btn btn-primary problematique" id="pb4" data-key1="AnneeNaissance"
+                            data-key2="FreqJeu"
                             data-toggle="collapse" data-target="#text4" aria-expanded="false"
-                            aria-controls="multiCollapseExample2">MJ PJ - CSP
+                            aria-controls="multiCollapseExample2">Age - Fréquence
+                    </button>
+                    <button class="btn btn-primary problematique" id="pb5" data-key1="AnneeNaissance"
+                            data-key2="DpnsAnnull"
+                            data-toggle="collapse" data-target="#text5" aria-expanded="false"
+                            aria-controls="multiCollapseExample2">Age - Dépense
                     </button>
                     <a id="all" class="button">Séparer</a>
                 </div>
@@ -102,15 +106,9 @@
                         <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne"
                              data-parent="#accordion">
                             <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
-                                quinoa
-                                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                                single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                                beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-                                vice
-                                lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                                probably haven't heard of them accusamus labore sustainable VHS.
+                                Diminution de l’écart hommes/femmes de génération en génération : si les femmes ne
+                                représentent que
+                                5,3 % des rôlistes nés avant 1965, leur proportion atteint 40 % des moins de 18 ans.
                             </div>
                         </div>
                     </div>
@@ -126,15 +124,8 @@
                         <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo"
                              data-parent="#accordion">
                             <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
-                                quinoa
-                                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                                single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                                beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-                                vice
-                                lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                                probably haven't heard of them accusamus labore sustainable VHS.
+                                La génération des années 1970 a découvert le JDR plus tôt que la génération des années
+                                1990.
                             </div>
                         </div>
                     </div>
@@ -150,21 +141,45 @@
                         <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree"
                              data-parent="#accordion">
                             <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
-                                quinoa
-                                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                                single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                                beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-                                vice
-                                lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                                probably haven't heard of them accusamus labore sustainable VHS.
+                                Plus on est jeune, moins on se définit comme pur MJ et plus il y a parallèlement de
+                                purs PJs. Effet d’âge, sans doute, mais aussi peut-être de génération.
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingThree">
+                                <h5 class="mb-0">
+                                    <a class="collapsed" data-toggle="collapse" href="#collapseThree"
+                                       aria-expanded="false"
+                                       aria-controls="collapseThree">
+                                        Explications #4
+                                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    Effet d’âge logique, les plus assidus sont les plus jeunes des répondants.
+                                </div>
+                            </div>
+                            <div class="card-header" role="tab" id="headingThree">
+                                <h5 class="mb-0">
+                                    <a class="collapsed" data-toggle="collapse" href="#collapseThree"
+                                       aria-expanded="false"
+                                       aria-controls="collapseThree">
+                                        Explications #5
+                                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    Les anciens dépensent davantage.
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
     </section><!-- #content end -->
 
