@@ -1,16 +1,18 @@
 key,Sexe,AnneeNaissance,CSP,AgeDec,ClubJDR,NbJeuJoue,FreqJeu,DureeMoyPartie,PJMJ,Conv,AchatJDR,NbUniversAchat,NbOuvrageAche,DpnsAnnull
-10,H,1981-1985,En recherche d'emploi,19-20,Oui,11-20,1/mois,5-6 h ,Les 2,Oui,Oui,11-15,31-50,20-50 
-12,H,1966-1970,En recherche d'emploi,13-14,Oui,6-10,1/mois,7 h +,MJ,Non,Oui,2-5,31-50,100-200 
-15,H,1971-1975,Employe,11-12,Oui,21+,1/mois,7 h +,Les 2,Oui,Oui,2-5,16-20,20-50 
+164,H,1961-1965,Employe,17-18,Oui,21+,Je ne joue plus vraiment,5-6 h ,Les 2,Oui,Oui,11-15,51+,20
+12,H,1966-1970,En recherche d'emploi,13-14,Oui,6-10,1/mois,7 h +,MJ,Non,Oui,2-5,31-50,100-200
+15,H,1971-1975,Employe,11-12,Oui,21+,1/mois,7 h +,Les 2,Oui,Oui,2-5,16-20,20-50
+20,H,1976-1980,Travailleur independant,10,Oui,21+,2/mois,5-6 h ,MJ,Oui,Oui,16+,51+,500+
+10,H,1981-1985,En recherche d'emploi,19-20,Oui,11-20,1/mois,5-6 h ,Les 2,Oui,Oui,11-15,31-50,20-50
+26,H,1986-1990,Cadre +,15-16,Oui,6-10,3/an,7 h +,Les 2,Oui,Oui,2-5,7-10,20
+43,H,1991-1995,Etudiant,15-16,Oui,2-5,2/mois,5-6 h ,Les 2,Oui,Non,0,0,0
+1049,H,1996-2000,Etudiant,13-14,Oui,2-5,2/mois,5-6 h ,Les 2,Non,Oui,2-5,2 ou 3,20-50
 16,H,1971-1975,Cadre +,11-12,Oui,6-10,Je ne joue plus vraiment,5-6 h ,Les 2,Oui,Oui,6-10,7-10,20-50 
-18,F,1981-1985,Cadre +,15-16,Oui,6-10,1/mois,5-6 h ,Les 2,Non,Oui,2-5,2 ou 3,20 
-20,H,1976-1980,Travailleur independant,10,Oui,21+,2/mois,5-6 h ,MJ,Oui,Oui,16+,51+,500+ 
-26,H,1986-1990,Cadre +,15-16,Oui,6-10,3/an,7 h +,Les 2,Oui,Oui,2-5,7-10,20 
+18,F,1981-1985,Cadre +,15-16,Oui,6-10,1/mois,5-6 h ,Les 2,Non,Oui,2-5,2 ou 3,20
 30,H,1986-1990,Employe,13-14,Non,21+,1/mois,5-6 h ,Les 2,Oui,Oui,6-10,31-50,20-50 
 32,H,1986-1990,Cadre +,21-22,Oui,2-5,1/an,5-6 h ,Les 2,Non,Oui,2-5,1,20 
 34,H,1966-1970,Employe,15-16,Oui,11-20,3/an,5-6 h ,MJ,Oui,Oui,16+,51+,100-200 
 41,H,1976-1980,Profession intermediaire,11-12,Non,2-5,3/an,5-6 h ,PJ,Non,Non,0,0,0
-43,H,1991-1995,Etudiant,15-16,Oui,2-5,2/mois,5-6 h ,Les 2,Oui,Non,0,0,0
 44,H,1976-1980,Employe,15-16,Non,6-10,1/mois,3-4 h ,Les 2,Oui,Oui,2-5,11-15,100-200 
 45,H,1991-1995,Profession intermediaire,15-16,Oui,11-20,3/an,3-4 h ,Les 2,Oui,Oui,2-5,21-30,50-100 
 49,F,1986-1990,Cadre +,17-18,Oui,11-20,1/mois,3-4 h ,PJ,Oui,Oui,1,2 ou 3,20 
@@ -44,8 +46,7 @@ key,Sexe,AnneeNaissance,CSP,AgeDec,ClubJDR,NbJeuJoue,FreqJeu,DureeMoyPartie,PJMJ
 142,F,1986-1990,Je ne souhaite pas repondre,19-20,Oui,11-20,1/mois,7 h +,PJ,Oui,Oui,2-5,11-15,20 
 155,H,1976-1980,Je ne souhaite pas repondre,11-12,Oui,21+,1/mois,3-4 h ,MJ,Oui,Oui,16+,51+,50-100 
 158,F,1971-1975,Profession intermediaire,25-30,Non,6-10,1/semaine,3-4 h ,PJ,Oui,Oui,2-5,2 ou 3,20 
-163,F,1976-1980,Cadre +,15-16,Oui,11-20,2/mois,3-4 h ,PJ,Oui,Oui,2-5,4-6,50-100 
-164,H,1961-1965,Employe,17-18,Oui,21+,Je ne joue plus vraiment,5-6 h ,Les 2,Oui,Oui,11-15,51+,20 
+163,F,1976-1980,Cadre +,15-16,Oui,11-20,2/mois,3-4 h ,PJ,Oui,Oui,2-5,4-6,50-100
 169,H,1986-1990,Cadre +,21-22,Oui,11-20,1/semaine,3-4 h ,Les 2,Oui,Oui,2-5,21-30,200-500 
 170,H,1986-1990,Cadre +,17-18,Non,2-5,1/mois,5-6 h ,PJ,Non,Oui,6-10,11-15,200-500 
 178,H,1976-1980,Employe,11-12,Oui,21+,1/mois,5-6 h ,MJ,Non,Oui,6-10,51+,100-200 
@@ -264,8 +265,7 @@ key,Sexe,AnneeNaissance,CSP,AgeDec,ClubJDR,NbJeuJoue,FreqJeu,DureeMoyPartie,PJMJ
 1038,H,1966-1970,Employe,17-18,Non,11-20,Je ne joue plus vraiment,7 h +,Les 2,Non,Oui,16+,51+,50-100 
 1039,H,1971-1975,Cadre +,13-14,Oui,11-20,2/mois,5-6 h ,Les 2,Oui,Oui,2-5,51+,200-500 
 1040,H,1991-1995,Etudiant,13-14,Oui,21+,1/semaine,3-4 h ,Les 2,Oui,Oui,2-5,16-20,100-200 
-1043,H,1981-1985,Ouvrier,11-12,Oui,21+,1/semaine,5-6 h ,Les 2,Non,Oui,6-10,21-30,100-200 
-1049,H,1996-2000,Etudiant,13-14,Oui,2-5,2/mois,5-6 h ,Les 2,Non,Oui,2-5,2 ou 3,20-50 
+1043,H,1981-1985,Ouvrier,11-12,Oui,21+,1/semaine,5-6 h ,Les 2,Non,Oui,6-10,21-30,100-200
 1055,H,1971-1975,Employe,13-14,Non,21+,1/mois,5-6 h ,Les 2,Non,Oui,6-10,31-50,100-200 
 1057,H,1981-1985,Cadre +,11-12,Oui,11-20,3/an,5-6 h ,Les 2,Non,Oui,6-10,21-30,200-500 
 1075,F,1996-2000,Etudiant,15-16,Oui,6-10,1/mois,Le week end,PJ,Non,Non,0,0,0
