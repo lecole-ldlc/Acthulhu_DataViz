@@ -366,7 +366,7 @@ function bubbleChart() {
         var content = '<span class="name">CSP: </span><span class="value">' +
             d.CSP +
             '</span><br/>' +
-            '<span class="name">AnneeNaissance: </span><span class="value">$' +
+            '<span class="name">AnneeNaissance: </span><span class="value">' +
             d.AnneeNaissance +
             '</span><br/>' +
             '<span class="name">Age découverte: </span><span class="value">' +
