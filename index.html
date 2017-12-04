@@ -64,7 +64,22 @@
                                 href="http://www.le-thiase.fr/sondage-sur-les-rolistes-2014/">Thiase</a>, elles
                         proviennent d'un sondage effectué en 2014 auquel 4143 personnes ont répondus.</p>
                 </div>
+
+                    <h2 id="title1" style="display: ">
+                        Quelle est la corrélation entre l'âge des
+                            rolistes et leur role préféré ?
+                    </h2>
+                    <h2 id="title2" style="display: none">
+                        Quelle est la corrélation entre l'âge des
+                            rolistes et leur fréquence de jeu ?
+                    </h2>
+                    <h2 id="title3" style="display: none">
+                        Quelle est la corrélation entre l'âge des
+                            rolistes et leurs dépenses annuelles ?
+                    </h2>
+
                 <div class="col-lg-3 text-center" id="interactions">
+
 
 
                     <h2>Problématiques</h2>
@@ -85,7 +100,7 @@
                     <div class="col-lg-12 col_last" style="border-bottom: 5px;padding-bottom: 5px;padding-top: 5px;">
                         <button class="btn btn-primary problematique" id="pb3" value="ShowDiv"
                                 data-key1="AnneeNaissance"
-                                data-key2="PJMJ"> Quelle est la corrélation entre l'age des
+                                data-key2="PJMJ"> Quelle est la corrélation entre l'âge des
                             rolistes<br> et leur role préféré ?
                         </button>
                     </div>
@@ -97,7 +112,7 @@
                     </div>
                     <div class="col-lg-12 col_last" style="border-bottom: 5px;padding-bottom: 5px;padding-top: 5px;">
                         <button class="btn btn-primary problematique" id="pb5" data-key1="AnneeNaissance"
-                                data-key2="DpnsAnnull">Quelle est la corrélation entre l'age des
+                                data-key2="DpnsAnnull">Quelle est la corrélation entre l'âge des
                             rolistes<br> et leurs dépenses annuelles ?
                         </button>
                     </div>
@@ -246,6 +261,7 @@
 <script>
     document.getElementById('pb3').onclick=function(){
         document.getElementById("explanation2").style.display="none";
+        document.getElementById("explanation3").style.display="none";
         document.getElementById('explanation1').style.display='';
     }
     document.getElementById('pb4').onclick=function(){
@@ -258,6 +274,25 @@
         document.getElementById("explanation1").style.display="none";
         document.getElementById("explanation2").style.display="none";
         document.getElementById('explanation3').style.display='';
+    }
+</script>
+
+<script>
+    document.getElementById('pb3').onclick=function(){
+        document.getElementById("title2").style.display="none";
+        document.getElementById("title3").style.display="none";
+        document.getElementById('title1').style.display='';
+    }
+    document.getElementById('pb4').onclick=function(){
+        document.getElementById("title1").style.display="none";
+        document.getElementById("title3").style.display="none";
+        document.getElementById('title2').style.display='';
+    }
+
+    document.getElementById('pb5').onclick=function(){
+        document.getElementById("title1").style.display="none";
+        document.getElementById("title2").style.display="none";
+        document.getElementById('title3').style.display='';
     }
 </script>
 
