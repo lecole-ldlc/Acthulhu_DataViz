@@ -59,13 +59,13 @@
             <div class="container-fullwidth clearfix">
                 <div id="context">
 
-                    <p>Cette visualisation de données a pour objectif de faire ressortir des typologies de rôlistes. Les
+                    <p>Cette visualisation de données a pour objectif de faire ressortir des typologies de rôlistes en France. Les
                         données utilisées sont celles du <a
                                 href="http://www.le-thiase.fr/sondage-sur-les-rolistes-2014/">Thiase</a>, elles
                         proviennent d'un sondage effectué en 2014 auquel 4143 personnes ont répondus.</p>
                 </div>
 
-                    <h2 id="title0" style="display: ">
+                    <h2 id="title1" style="display: ">
                         Quelle est la corrélation entre l'âge des
                             rolistes et leur role préféré ?
                     </h2>
@@ -263,34 +263,24 @@
         document.getElementById("explanation2").style.display="none";
         document.getElementById("explanation3").style.display="none";
         document.getElementById('explanation1').style.display='';
+        document.getElementById("title2").style.display="none";
+        document.getElementById("title3").style.display="none";
+        document.getElementById('title1').style.display='';
     }
     document.getElementById('pb4').onclick=function(){
         document.getElementById("explanation1").style.display="none";
         document.getElementById("explanation3").style.display="none";
         document.getElementById('explanation2').style.display='';
+        document.getElementById("title1").style.display="none";
+        document.getElementById("title3").style.display="none";
+        document.getElementById('title2').style.display='';
     }
 
     document.getElementById('pb5').onclick=function(){
         document.getElementById("explanation1").style.display="none";
         document.getElementById("explanation2").style.display="none";
         document.getElementById('explanation3').style.display='';
-    }
-</script>
-
-<script>
-    document.getElementById('pb3').onclick=function(){
-        document.getElementById("title2").style.display="none";
-        document.getElementById("title3").style.display="none";
-        document.getElementById('title0').style.display='';
-    }
-    document.getElementById('pb4').onclick=function(){
-        document.getElementById("title0").style.display="none";
-        document.getElementById("title3").style.display="none";
-        document.getElementById('title2').style.display='';
-    }
-
-    document.getElementById('pb5').onclick=function(){
-        document.getElementById("title0").style.display="none";
+        document.getElementById("title1").style.display="none";
         document.getElementById("title2").style.display="none";
         document.getElementById('title3').style.display='';
     }
