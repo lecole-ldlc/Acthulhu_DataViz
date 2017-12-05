@@ -243,6 +243,7 @@ th {
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
+
   }
   .label {
     border: 1px solid #000;
@@ -2185,6 +2186,7 @@ select[multiple].input-lg {
 .btn {
   display: inline-block;
   margin-bottom: 0;
+  margin-right: 20px;
   font-weight: normal;
   text-align: center;
   vertical-align: middle;
@@ -2194,7 +2196,7 @@ select[multiple].input-lg {
   background-image: none;
   border: 1px solid transparent;
   white-space: nowrap;
-  padding: 6px 12px;
+  padding: 9px 12px;
   font-size: 14px;
   line-height: 1.42857143;
   border-radius: 4px;
@@ -2203,6 +2205,31 @@ select[multiple].input-lg {
   -ms-user-select: none;
   user-select: none;
 }
+
+/* basic positioning */
+.legend {
+    list-style: none;
+}
+.legend li {
+    float: left;
+    margin-right: 10px;
+    margin-left: 165px;
+}
+.legend span {
+    border: 1px solid #ccc;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+}
+/* your colors */
+.legend .homme {
+    background-color: #d84b2a;
+}
+.legend .femme {
+    background-color: #349142;
+}
+
 .btn:hover,
 .btn:focus,
 .btn.focus {

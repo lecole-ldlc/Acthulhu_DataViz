@@ -57,32 +57,9 @@
         <div class="content-wrap" style="padding-top: 30px;">
 
             <div class="container-fullwidth clearfix">
-                <div id="context">
-
-                    <p>Cette visualisation de données a pour objectif de faire ressortir des typologies de rôlistes en France. Les
-                        données utilisées sont celles du <a
-                                href="http://www.le-thiase.fr/sondage-sur-les-rolistes-2014/">Thiase</a>, elles
-                        proviennent d'un sondage effectué en 2014 auquel 4143 personnes ont répondus.</p>
-                </div>
-
-                    <h2 id="title1" style="display: ; text-align: center">
-                        Quelle est la corrélation entre l'âge des
-                            rolistes et leur role préféré ?
-                    </h2>
-                    <h2 id="title2" style="display: none ; text-align: center">
-                        Quelle est la corrélation entre l'âge des
-                            rolistes et leur fréquence de jeu ?
-                    </h2>
-                    <h2 id="title3" style="display: none ; text-align: center">
-                        Quelle est la corrélation entre l'âge des
-                            rolistes et leurs dépenses annuelles ?
-                    </h2>
-
-                <div class="col-lg-3 text-center" id="interactions">
 
 
-
-                    <h2>Problématiques</h2>
+                    <h2 style="text-align: center">Problématiques</h2>
 
                     <!--<div class="col-lg-12 col_last"
                          style="border-bottom: 5px;padding-bottom: 5px;padding-top: 5px;">
@@ -97,26 +74,31 @@
                             rolistes<br> et leur age de découverte ?
                         </button>
                     </div>-->
-                    <div class="col-lg-12 col_last" style="border-bottom: 5px;padding-bottom: 5px;padding-top: 5px;">
+                    <div class="col-lg-12 col_last" style="border-bottom: 5px;padding-bottom: 5px;padding-top: 5px;text-align: center;">
                         <button class="btn btn-primary problematique" id="pb3" value="ShowDiv"
                                 data-key1="AnneeNaissance"
-                                data-key2="PJMJ"> Quelle est la corrélation entre l'âge des
-                            rolistes<br> et leur role préféré ?
+                                data-key2="PJMJ" > Quelle est la corrélation entre l'âge des
+                            rolistes et leur role préféré ?
                         </button>
-                    </div>
-                    <div class="col-lg-12 col_last" style="border-bottom: 5px;padding-bottom: 5px;padding-top: 5px;">
+
                         <button class="btn btn-primary problematique" id="pb4" data-key1="AnneeNaissance"
-                                data-key2="FreqJeu"> Quelle est la corrélation entre l'âge des
-                            rolistes<br> et leur fréquence de jeu ?
+                                data-key2="FreqJeu" > Quelle est la corrélation entre l'âge des
+                            rolistes et leur fréquence de jeu ?
                         </button>
-                    </div>
-                    <div class="col-lg-12 col_last" style="border-bottom: 5px;padding-bottom: 5px;padding-top: 5px;">
+
                         <button class="btn btn-primary problematique" id="pb5" data-key1="AnneeNaissance"
-                                data-key2="DpnsAnnull">Quelle est la corrélation entre l'âge des
-                            rolistes<br> et leurs dépenses annuelles ?
+                                data-key2="DpnsAnnull" >Quelle est la corrélation entre l'âge des
+                            rolistes et leurs dépenses annuelles ?
                         </button>
+                        <a id="all" class="button">Séparer</a>
                     </div>
-                    <a id="all" class="button">Séparer</a>
+
+
+                <div class="col-lg-3 text-center" id="interactions"><br>
+
+
+
+                    <!-- -->
 
 
                     <h2>Commentaire :</h2>
@@ -131,23 +113,26 @@
                     </div>
                     <div id="explanation3" style="display: none">
                         Il y a une corrélation entre l'âge des rôlistes et les dépenses effectuées pour ce loisir. Les personnes plus âgées ont plus tendance à dépenser. Cependant, la répartion des dépenses est assez homogènes, ainsi, nous pouvons voir qu'il y a presque autant de personne qui dépensent entre 100 et 200€ que de personnes qui en dépensent 20.
-                    </div>
+                    </div><br><br>
+
+                    <h2>Légende :</h2>
+                    <ul class="legend">
+                        <li><span class="homme "></span> Homme</li>
+                        <li><span class="femme"></span> Femme</li>
+                    </ul>
                 </div>
+
 
 
                 <div class="col-lg-9" id="vis">
                 </div>
+                <div id="context">
 
-                <div class="clear comment"></div>
-
-            </div>
-
-    </section><!-- #content end -->
-
-    <section id="explanations">
-
-        <div class="content-wrap">
-            <div class="container-fullwidth clearfix">
+                    <p>Cette visualisation de données a pour objectif de faire ressortir des typologies de rôlistes en France. Les
+                        données utilisées sont celles du <a
+                                href="http://www.le-thiase.fr/sondage-sur-les-rolistes-2014/">Thiase</a>, elles
+                        proviennent d'un sondage effectué en 2014 auquel 4143 personnes ont répondus.</p>
+                </div>
                 <h2>Qu'est-ce qu'Acthulhu ?</h2>
                 <div class="col-lg-9">
                     <h4>
@@ -160,10 +145,24 @@
                     <img src="cthulhulhu.png" alt="cthulhulhu le petit reporter envoyé par Nodens">
                 </div>
 
+                <div class="clear comment"></div>
+
+            </div>
+
+
+    <!-- </section><!-- #content end -->
+
+    <!-- <section id="explanations">
+
+        <div class="content-wrap">
+            <div class="container-fullwidth clearfix">
+
+
+
             </div>
         </div>
 
-    </section>
+    </section> -->
 
     <!-- Dataviz
     ============================================= -->
