@@ -13,6 +13,7 @@ function floatingTooltip(tooltipId, width) {
     .attr('id', tooltipId)
     .style('pointer-events', 'none');
 
+
   // Set a width if it is provided.
   if (width) {
     tt.style('width', width);
@@ -29,7 +30,8 @@ function floatingTooltip(tooltipId, width) {
    * event is d3.event for positioning.
    */
   function showTooltip(content, event) {
-    tt.style('opacity', 1.0)
+
+      tt.style('opacity', 1.0)
       .html(content);
 
     updatePosition(event);
