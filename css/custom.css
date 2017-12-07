@@ -51,6 +51,9 @@ p {
 	padding-top: 20px !important;
     padding-bottom: 20px !important;
 }
+.problematique:focus{
+	background: #132e46;
+}
 
 tooltip {
     background-color: #1ABC9C;

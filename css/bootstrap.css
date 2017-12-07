@@ -2205,6 +2205,9 @@ select[multiple].input-lg {
   -ms-user-select: none;
   user-select: none;
 }
+.problematique:focus{
+  background: #132e46;
+}
 
 /* basic positioning */
 .legend {
@@ -2321,8 +2324,8 @@ fieldset[disabled] .btn-default.focus {
 .btn-primary:focus,
 .btn-primary.focus {
   color: #ffffff;
-  background-color: #286090;
-  border-color: #122b40;
+  background-color: #132e46;
+  border-color: #08131d;
 }
 .btn-primary:hover {
   color: #ffffff;
