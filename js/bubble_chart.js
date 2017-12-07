@@ -55,10 +55,10 @@ var rawData;
 
 // Sizes bubbles based on area.
 // @v4: new flattened scale names.
-var radiusScale = 2;
+var radiusScale = 3;
 
 var myBubbleChart = bubbleChart();
-var data = [];
+var data = {};
 
 // old way to separate the bubbles (with the "séparer" button)
 function separate() {
@@ -131,7 +131,7 @@ function initialisation() {
     }
 
     // Load the data.
-    d3.csv('4K_full_clean.csv', data_loaded);
+    d3.csv('1000.csv', data_loaded);
     console.log("coucou");
 }
 
@@ -144,7 +144,7 @@ function bubbleChart() {
     // on which view mode is selected.
     var center = {x: width / 2, y: height / 2};
 
-    var centers = {};
+    var centers = [];
 
 
     // These will be set in create_nodes and create_vis
@@ -180,7 +180,7 @@ function bubbleChart() {
         .velocityDecay(0.2)
         .force('x', d3.forceX().strength(forceStrength).x(center.x))
         .force('y', d3.forceY().strength(forceStrength).y(center.y))
-        .force('collide', d3.forceCollide().radius(3).iterations(2).strength(1))
+        .force('collide', d3.forceCollide().radius(4).iterations(2).strength(1))
         //.force('charge', d3.forceManyBody().strength(charge).distanceMax(50w00).distanceMin(1))
         .on('tick', ticked);
 
@@ -215,7 +215,7 @@ function bubbleChart() {
         });
     }
 
-    function collide(d) {
+    function collide() {
         return 4;
     }
 
@@ -285,6 +285,10 @@ function bubbleChart() {
         keys1 = nested_data.map(function (d) {
             return d.key
         });
+        keys1.sort(function(a,b){
+            return d3.ascending(a, b)
+        });
+
         var k2 = nested_data.map(function (d) {
             if (d.values.length == y_num) {
                 return d.values.map(function (d) {
@@ -297,17 +301,22 @@ function bubbleChart() {
                 keys2 = d;
             }
         });
-        //console.log("DATA");
-        //console.log(nested_data);
-        //console.log(nested_data.length);
-        //console.log(keys1);
-        //console.log(keys2);
+        keys2.sort(function(a,b){
+            return d3.ascending(a, b)
+        });
+
 
         keys1.forEach(function (k1, ind1) {
             keys2.forEach(function (k2, ind2) {
-                centers[k1 + '_' + k2] = {x: (ind1 + 1) * width / (x_num + 1), y: (ind2 + 1) * height / (y_num + 1)};
+                centers[k1 + '_' + k2] = {
+                    x: (ind1 + 1) * width / (x_num + 1),
+                    y: (ind2 + 1) * height / (y_num + 1)
+                };
             })
+
         });
+
+
 
 
         // Set the simulation's nodes to our newly created nodes array.
