@@ -8,41 +8,6 @@
     padding: 15px;
 }
 
-h1 {
-    font-family: Bitter;
-    font-size: 36px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 500;
-    line-height: 26.4px;
-}
-
-h2 {
-    font-family: Bitter;
-    font-size: 24px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 500;
-    line-height: 26.4px;
-}
-
-h3 {
-    font-family: Bitter;
-    font-size: 14px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 500;
-    line-height: 15.4px;
-}
-
-p {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    line-height: 20px;
-
 #oui {
     padding-bottom = "15";
 }
@@ -58,10 +23,19 @@ p {
 
 .tile {
     padding-top: 98px;
-    padding-bottom: 20px; !important;
+    padding-bottom: 20px;
 }
 
+#vis {
+    position: fixed;
+    right: 0;
+}
 
-tooltip {
-    background-color: #1ABC9C;
+.tooltip {
+    background-color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border-color: #212121;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    font-size: 100%;
 }

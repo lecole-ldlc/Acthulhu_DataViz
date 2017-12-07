@@ -22,7 +22,6 @@ function toggle(anId) {
 }
 
 
-
 // Constants for sizing
 var width = 1365;
 var height = 700;
@@ -45,7 +44,7 @@ function separate() {
     });
 }
 
-function erase () {
+function erase() {
     $("#all").click(function () {
         hideTitles();
     });
@@ -268,7 +267,7 @@ function bubbleChart() {
         keys1 = nested_data.map(function (d) {
             return d.key
         });
-        keys1.sort(function(a,b){
+        keys1.sort(function (a, b) {
             return d3.ascending(a, b)
         });
 
@@ -284,7 +283,7 @@ function bubbleChart() {
                 keys2 = d;
             }
         });
-        keys2.sort(function(a,b){
+        keys2.sort(function (a, b) {
             //var order = {"1/semaine" : 1, "2/mois" : 2, "1/mois" : 3, "3/an" : 4, "1/an" : 5, "joue plus vraiment" : 6};
             return d3.ascending(a, b)
         });
@@ -298,8 +297,6 @@ function bubbleChart() {
             })
 
         });
-
-
 
 
         // Set the simulation's nodes to our newly created nodes array.
@@ -522,13 +519,13 @@ function bubbleChart() {
         // change outline to indicate hover state.
         d3.select(this).attr('stroke', 'black');
 
-        var content = '<span class="name" style="color: darkred">CSP: </span><span class="value">' +
+        var content = '<span class="name" style="font-weight:bold">CSP : </span><span class="value">' +
             d.CSP +
             '</span><br/>' +
-            '<span class="name">AnneeNaissance: </span><span class="value">' +
+            '<span class="name" style="font-weight:bold">AnneeNaissance : </span><span class="value">' +
             d.AnneeNaissance +
             '</span><br/>' +
-            '<span class="name">Age découverte: </span><span class="value">' +
+            '<span class="name" style="font-weight:bold">Age découverte : </span><span class="value">' +
             d.AgeDec +
             '</span>';
 
@@ -541,7 +538,7 @@ function bubbleChart() {
     function hideDetail(d) {
         // reset outline
         d3.select(this)
-            .attr('stroke',"none");
+            .attr('stroke', "none");
 
         tooltip.hideTooltip();
     }
