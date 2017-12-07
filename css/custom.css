@@ -22,13 +22,17 @@
 }
 
 .tile {
-    padding-top: 98px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
 #vis {
+    display: inline-block;
     position: fixed;
     right: 0;
+    top: 60px;
+    z-index: 1;
+    margin-left: 0;
 }
 
 .tooltip {
@@ -38,4 +42,16 @@
     border-color: #212121;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
     font-size: 100%;
+}
+
+#sections {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    top: 0px;
+    z-index: 90;
+}
+
+.step {
+    margin-bottom: 200px;
 }
