@@ -14,6 +14,8 @@ function floatingTooltip(tooltipId, width) {
     .style('pointer-events', 'none');
 
 
+
+
   // Set a width if it is provided.
   if (width) {
     tt.style('width', width);
@@ -33,6 +35,7 @@ function floatingTooltip(tooltipId, width) {
 
       tt.style('opacity', 1.0)
       .html(content);
+
 
     updatePosition(event);
   }
