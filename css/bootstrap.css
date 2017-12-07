@@ -2205,7 +2205,7 @@ select[multiple].input-lg {
   -ms-user-select: none;
   user-select: none;
 }
-.problematique:active{
+.problematique:focus{
   background: #132e46;
 }
 
@@ -2234,8 +2234,8 @@ select[multiple].input-lg {
 }
 
 .btn:hover,
-.btn:active,
-.btn.active {
+.btn:focus,
+.btn.focus {
   color: #333333;
   text-decoration: none;
 }
@@ -2285,11 +2285,11 @@ fieldset[disabled] a.btn {
 .btn-default:active:hover,
 .btn-default.active:hover,
 .open > .dropdown-toggle.btn-default:hover,
-.btn-default:active,
-.btn-default.active,
+.btn-default:active:focus,
+.btn-default.active:focus,
 .open > .dropdown-toggle.btn-default:focus,
-.btn-default:active,
-.btn-default.active,
+.btn-default:active.focus,
+.btn-default.active.focus,
 .open > .dropdown-toggle.btn-default.focus {
   color: #333333;
   background-color: #d4d4d4;
@@ -2324,8 +2324,8 @@ fieldset[disabled] .btn-default.focus {
 .btn-primary:focus,
 .btn-primary.focus {
   color: #ffffff;
-  background-color: #204d74;
-  border-color: #204d74;
+  background-color: #132e46;
+  border-color: #08131d;
 }
 .btn-primary:hover {
   color: #ffffff;

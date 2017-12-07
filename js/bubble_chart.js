@@ -131,7 +131,7 @@ function initialisation() {
     }
 
     // Load the data.
-    d3.csv('1000.csv', data_loaded);
+    d3.csv('1000_test.csv', data_loaded);
     console.log("coucou");
 }
 
@@ -302,9 +302,9 @@ function bubbleChart() {
             }
         });
         keys2.sort(function(a,b){
+            //var order = {"1/semaine" : 1, "2/mois" : 2, "1/mois" : 3, "3/an" : 4, "1/an" : 5, "joue plus vraiment" : 6};
             return d3.ascending(a, b)
         });
-
 
         keys1.forEach(function (k1, ind1) {
             keys2.forEach(function (k2, ind2) {
@@ -320,7 +320,7 @@ function bubbleChart() {
 
 
         // Set the simulation's nodes to our newly created nodes array.
-        // @v4 Once we set the nodwes, the simulation will start running automatically!
+        // @v4 Once we set the nodes, the simulation will start running automatically!
         simulation.nodes(nodes);
         showTitles();
         // Set initial layout to single group.
@@ -504,7 +504,7 @@ function bubbleChart() {
             .attr('x', 40)
             .attr('text-anchor', 'middle')
             .text(function (d) {
-                return d;
+                return d.substr(2);
             });
 
         if (false) {
@@ -538,13 +538,13 @@ function bubbleChart() {
         // change outline to indicate hover state.
         d3.select(this).attr('stroke', 'black');
 
-        var content = '<span class="name" style="font-weight:bold">CSP : </span><span class="value">' +
+        var content = '<span class="name" style="color: darkred">CSP: </span><span class="value">' +
             d.CSP +
             '</span><br/>' +
-            '<span class="name" style="font-weight:bold">AnneeNaissance : </span><span class="value">' +
+            '<span class="name">AnneeNaissance: </span><span class="value">' +
             d.AnneeNaissance +
             '</span><br/>' +
-            '<span class="name" style="font-weight:bold">Age découverte : </span><span class="value">' +
+            '<span class="name">Age découverte: </span><span class="value">' +
             d.AgeDec +
             '</span>';
 

@@ -13617,14 +13617,3 @@ body:not(.no-transition) #wrapper,
 	padding:0!important
 }
 
-.tooltip {
-	background-color: white;
-	padding: 8px;
-	border-radius: 8px;
-	border-color: #212121;
-	box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-	font-size:100%;
-
-
-}
-
