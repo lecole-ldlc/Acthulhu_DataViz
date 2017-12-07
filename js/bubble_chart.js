@@ -21,31 +21,7 @@ function toggle(anId) {
     }
 }
 
-document.getElementById('pb3').onclick = function () {
-    document.getElementById("explanation2").style.display = "none";
-    document.getElementById("explanation3").style.display = "none";
-    document.getElementById('explanation1').style.display = '';
-    document.getElementById("title2").style.display = "none";
-    document.getElementById("title3").style.display = "none";
-    document.getElementById('title1').style.display = '';
-}
-document.getElementById('pb4').onclick = function () {
-    document.getElementById("explanation1").style.display = "none";
-    document.getElementById("explanation3").style.display = "none";
-    document.getElementById('explanation2').style.display = '';
-    document.getElementById("title1").style.display = "none";
-    document.getElementById("title3").style.display = "none";
-    document.getElementById('title2').style.display = '';
-}
 
-document.getElementById('pb5').onclick = function () {
-    document.getElementById("explanation1").style.display = "none";
-    document.getElementById("explanation2").style.display = "none";
-    document.getElementById('explanation3').style.display = '';
-    document.getElementById("title1").style.display = "none";
-    document.getElementById("title2").style.display = "none";
-    document.getElementById('title3').style.display = '';
-}
 
 // Constants for sizing
 var width = 1365;
