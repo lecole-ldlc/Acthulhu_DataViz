@@ -65,6 +65,13 @@ function separate() {
     myBubbleChart.toggleDisplay();
     $("#all").click(function () {
         myBubbleChart.toggleDisplay();
+
+    });
+}
+
+function erase () {
+    $("#all").click(function () {
+        hideTitles();
     });
 }
 
@@ -327,6 +334,7 @@ function bubbleChart() {
         groupBubbles();
 
         separate();
+        erase();
     }
 
     /*
