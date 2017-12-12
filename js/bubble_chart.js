@@ -93,12 +93,12 @@ function initialisation() {
         });
     }
 
-    $(".problematique").click(function (e) {
+    /*$(".problematique").click(function (e) {
         var key1 = $(this).attr('data-key1');
         var key2 = $(this).attr('data-key2');
         console.log(key1, key2);
         myBubbleChart.redraw(key1, key2);
-    });
+    });*/
 
     /*
      * Sets up the layout buttons to allow for toggling between view modes.
@@ -122,12 +122,46 @@ function initialisation() {
         return x1 + x2;
     }
 
+    var scroll = scroller()
+                    .container(d3.select('body'));
+
+            console.log(d3.selectAll('.tile'));
+            // pass in .step selection as the steps
+            scroll(d3.selectAll('.tile'));
+
+            // setup event handling
+            scroll.on('active', function (index) {
+                // highlight current step text
+                //d3.selectAll('.step')
+                //        .style('opacity', function (d, i) {
+                //            return i === index ? 1 : 0.1;
+                //        });
+
+                // activate current section
+                console.log("ACTIVATE " + index);
+                if (index == 0){
+                    myBubbleChart.redraw("Sexe","");
+
+                }
+                if (index == 1){
+                    myBubbleChart.redraw("AnneeNaissance","FreqJeu");
+
+                }
+                if(index == 2){
+                    myBubbleChart.redraw("AnneeNaissance", "DpnsAnnull");
+                }
+
+            });
+
+            scroll.on('progress', function (index, progress) {
+
+            });
     // Load the data.
     d3.csv('1000_test.csv', data_loaded);
     console.log("coucou");
 }
 
-function bubbleChart() {
+function bubbleChart(abscisse,ordonnee) {
 
     // tooltip for mouseover functionality
     var tooltip = floatingTooltip('gates_tooltip', 240);
@@ -138,7 +172,8 @@ function bubbleChart() {
 
     var centers = [];
 
-
+    key1 = abscisse;
+    key2 = ordonnee;
     // These will be set in create_nodes and create_vis
     var svg = null;
     var bubbles = null;
