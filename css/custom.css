@@ -22,7 +22,7 @@
 }
 
 .tile {
-    width: 350px;
+    width: 360px;
     padding: 20px;
     border:solid; /* no info for size nor color yet */
     box-shadow: 0 0 0 8px #f7f7f7;
