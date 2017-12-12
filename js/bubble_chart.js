@@ -83,12 +83,12 @@ function initialisation() {
         });
     }
 
-    $(".problematique").click(function (e) {
+    /*$(".problematique").click(function (e) {
         var key1 = $(this).attr('data-key1');
         var key2 = $(this).attr('data-key2');
         console.log(key1, key2);
         myBubbleChart.redraw(key1, key2);
-    });
+    });*/
 
     /*
      * Sets up the layout buttons to allow for toggling between view modes.
@@ -117,7 +117,7 @@ function initialisation() {
     console.log("coucou");
 }
 
-function bubbleChart() {
+function bubbleChart(abscisse,ordonnee) {
 
     // tooltip for mouseover functionality
     var tooltip = floatingTooltip('gates_tooltip', 240);
@@ -128,7 +128,8 @@ function bubbleChart() {
 
     var centers = [];
 
-
+    key1 = abscisse;
+    key2 = ordonnee;
     // These will be set in create_nodes and create_vis
     var svg = null;
     var bubbles = null;

@@ -57,7 +57,7 @@
     <section id="content">
 
         <!-- TODO : put padding in CSS -->
-        <div class="content-wrap" style="padding-top: 30px;">
+        <div class="content-wrap" id="#graphic" style="padding-top: 30px;">
 
             <div class="container-fullwidth clearfix">
 
@@ -251,7 +251,43 @@
         <script type="text/javascript" src="js/functions.js"></script>
 
         <script>
-            initialisation()
+            initialisation();
+
+            var scroll = scroller()
+                    .container(d3.select('body'));
+
+            console.log(d3.selectAll('.tile'));
+            // pass in .step selection as the steps
+            scroll(d3.selectAll('.tile'));
+
+            // setup event handling
+            scroll.on('active', function (index) {
+                // highlight current step text
+                //d3.selectAll('.step')
+                //        .style('opacity', function (d, i) {
+                //            return i === index ? 1 : 0.1;
+                //        });
+
+                // activate current section
+                console.log("ACTIVATE " + index);
+                if (index == 0){
+                    myBubbleChart.redraw("Sexe","");
+
+                }
+                if (index == 1){
+                    myBubbleChart.redraw("AnneeNaissance","FreqJeu");
+
+                }
+                if(index == 2){
+                    myBubbleChart.redraw("AnneeNaissance", "DpnsAnnull");
+                }
+
+            });
+
+            scroll.on('progress', function (index, progress) {
+
+            });
+
         </script>
 
 
