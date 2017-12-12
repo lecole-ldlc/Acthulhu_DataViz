@@ -35,11 +35,21 @@ var radiusScale = 3;
 var myBubbleChart = bubbleChart();
 var data = {};
 
+
+function myFunction () {
+    myBubbleChart.myFunction();
+    $("#all").onclick(function(){
+        $('#all').css('background', 'red');
+    })
+
+};
+
 // old way to separate the bubbles (with the "séparer" button)
 function separate() {
     myBubbleChart.toggleDisplay();
     $("#all").click(function () {
         myBubbleChart.toggleDisplay();
+
 
     });
 }
