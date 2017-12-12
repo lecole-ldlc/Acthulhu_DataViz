@@ -27,6 +27,7 @@
     border:solid; /* no info for size nor color yet */
     box-shadow: 0 0 0 8px #f7f7f7;
     border-radius:3px; /* prefix not needed anymore */
+    text-align: justify;
 }
 
 #vis {
@@ -56,10 +57,18 @@
 }
 
 .step {
-    margin-top: 80px;
+    margin-top: 100px;
     margin-bottom: 200px;
 }
 
 #context {
     width: 350px;
+}
+
+.target {
+    opacity: 1;
+}
+
+.forget {
+    opacity: 0.2;
 }
