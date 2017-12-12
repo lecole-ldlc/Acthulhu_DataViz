@@ -141,7 +141,6 @@ function initialisation() {
                 console.log("ACTIVATE " + index);
                 if (index == 0){
                     myBubbleChart.redraw("Sexe","");
-
                 }
                 if (index == 1){
                     myBubbleChart.redraw("AnneeNaissance","FreqJeu");
