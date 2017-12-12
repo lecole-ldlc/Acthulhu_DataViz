@@ -72,3 +72,7 @@
 .forget {
     opacity: 0.2;
 }
+
+#Auteur {
+    box-shadow: 0 0 0 8px #3EAD4E;
+}
