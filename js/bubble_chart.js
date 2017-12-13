@@ -23,7 +23,7 @@ function toggle(anId) {
 
 
 // Constants for sizing
-var width = 1365;
+var width = 1300;
 var height = 700;
 var selector;
 var rawData;
@@ -140,13 +140,21 @@ function initialisation() {
                 // activate current section
                 console.log("ACTIVATE " + index);
                 if (index == 0){
-                    myBubbleChart.redraw("Sexe","");
-                }
-                if (index == 1){
-                    myBubbleChart.redraw("AnneeNaissance","FreqJeu");
+                    myBubbleChart.redraw();
 
                 }
-                if(index == 2){
+                if (index == 2){
+                    myBubbleChart.redraw("Sexe",);
+
+                }
+                if (index == 3){
+                    myBubbleChart.redraw("AnneeNaissance","PJMJ");
+
+                }
+                if(index == 4){
+                    myBubbleChart.redraw("AnneeNaissance", "FreqJeu");
+                }
+                if(index == 5){
                     myBubbleChart.redraw("AnneeNaissance", "DpnsAnnull");
                 }
 
@@ -275,8 +283,8 @@ function bubbleChart(abscisse,ordonnee) {
                 DureeMoyPartie: d.DureeMoyPartie,
                 DpnsAnnull: d.DpnsAnnull,
                 FreqJeu: d.FreqJeu,
-                x: Math.random() * 900,
-                y: 50
+                x: Math.random() * 1000,
+                y: Math.random() * 700
             };
         });
 
