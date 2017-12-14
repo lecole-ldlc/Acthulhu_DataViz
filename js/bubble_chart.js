@@ -27,6 +27,7 @@ var width = 1300;
 var height = 700;
 var selector;
 var rawData;
+var activesection;
 
 // Sizes bubbles based on area.
 // @v4: new flattened scale names.
@@ -36,9 +37,9 @@ var myBubbleChart = bubbleChart();
 var data = {};
 
 
-function myFunction () {
+function myFunction() {
     myBubbleChart.myFunction();
-    $("#all").onclick(function(){
+    $("#all").onclick(function () {
         $('#all').css('background', 'red');
     })
 
@@ -94,11 +95,11 @@ function initialisation() {
     }
 
     /*$(".problematique").click(function (e) {
-        var key1 = $(this).attr('data-key1');
-        var key2 = $(this).attr('data-key2');
-        console.log(key1, key2);
-        myBubbleChart.redraw(key1, key2);
-    });*/
+     var key1 = $(this).attr('data-key1');
+     var key2 = $(this).attr('data-key2');
+     console.log(key1, key2);
+     myBubbleChart.redraw(key1, key2);
+     });*/
 
     /*
      * Sets up the layout buttons to allow for toggling between view modes.
@@ -123,56 +124,57 @@ function initialisation() {
     }
 
     var scroll = scroller()
-                    .container(d3.select('body'));
+        .container(d3.select('body'));
 
-            console.log(d3.selectAll('.tile'));
-            // pass in .step selection as the steps
-            scroll(d3.selectAll('.tile'));
+    console.log(d3.selectAll('.tile'));
+    // pass in .step selection as the steps
+    scroll(d3.selectAll('.tile'));
 
+    // setup event handling
+    scroll.on('active', function (index) {
+        // highlight current step text
+        //d3.selectAll('.step')
+        //        .style('opacity', function (d, i) {
+        //            return i === index ? 1 : 0.1;
+        //        });
+        activesection = index;
+        // activate current section
+        console.log("ACTIVATE " + index);
+        if (index == 0) {
+            myBubbleChart.redraw();
 
-            // setup event handling
-            scroll.on('active', function (index) {
-                // highlight current step text
-                //d3.selectAll('.step')
-                //        .style('opacity', function (d, i) {
-                //            return i === index ? 1 : 0.1;
-                //        });
+        }
+        if (index == 2) {
+            myBubbleChart.redraw("Sexe", "");
 
-                // activate current section
-                console.log("ACTIVATE " + index);
-                if (index == 0){
-                    myBubbleChart.redraw();
+        }
+        if (index == 3) {
+            myBubbleChart.redraw("AnneeNaissance", "PJMJ");
 
-                }
-                if (index == 2){
-                    myBubbleChart.redraw("Sexe",);
+        }
+        if (index == 4) {
+            myBubbleChart.redraw("AnneeNaissance", "FreqJeu");
+        }
+        if (index == 5) {
+            myBubbleChart.redraw("AnneeNaissance", "DpnsAnnull");
+            console.log("j'aurais plei")
+        }
+        if (index == 6) {
+            myBubbleChart.redraw();
+            //document.getElementById("vis").style.position = 'relative';
+        }
 
-                }
-                if (index == 3){
-                    myBubbleChart.redraw("AnneeNaissance","PJMJ");
+    });
 
-                }
-                if(index == 4){
-                    myBubbleChart.redraw("AnneeNaissance", "FreqJeu");
-                }
-                if(index == 5){
-                    myBubbleChart.redraw("AnneeNaissance", "DpnsAnnull");
-                }
-                if(index == 6){
-                    myBubbleChart.redraw();
-                }
+    scroll.on('progress', function (index, progress) {
 
-            });
-
-            scroll.on('progress', function (index, progress) {
-
-            });
+    });
     // Load the data.
     d3.csv('1000_test.csv', data_loaded);
     console.log("coucou");
 }
 
-function bubbleChart(abscisse,ordonnee) {
+function bubbleChart(abscisse, ordonnee) {
 
     // tooltip for mouseover functionality
     var tooltip = floatingTooltip('gates_tooltip', 240);
@@ -471,8 +473,15 @@ function bubbleChart(abscisse,ordonnee) {
      * center of the visualization.
      */
     function groupBubbles() {
-        //hideTitles();
-
+        if (activesection === 0) {
+            hideTitles();
+        }
+        if (activesection === 2) {
+            hideTitles();
+        }
+        if (activesection === 6) {
+            hideTitles();
+        }
         // @v4 Reset the 'x' force to draw the bubbles to the center.
         simulation.force('x', d3.forceX().strength(forceStrength).x(center.x));
         simulation.force('y', d3.forceY().strength(forceStrength).y(center.y));
