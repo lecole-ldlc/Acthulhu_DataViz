@@ -34,8 +34,8 @@
 #vis {
     display: inline-block;
     position: fixed;
-    right: 0px;
-    top: 200px;
+    right: 100px;
+    top: 100px;
     z-index: 1;
     margin-left: 0;
 }
@@ -101,4 +101,22 @@
     background: #dfdedd;
     margin-top: -30px;
     margin-left: -60px;
+}
+
+h1 {
+	font-family: Bitter;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: bold;
+	font-weight: 700;
+    margin-bottom : 0px;
+}
+
+.container-fullwidth.clearfix {
+    padding-left : 70px !important;
+    padding-right : 0px !important;
+}
+
+#intro {
+    width: 350px;
 }
