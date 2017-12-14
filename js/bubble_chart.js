@@ -170,7 +170,7 @@ function initialisation() {
 
     });
     // Load the data.
-    d3.csv('1000.csv', data_loaded);
+    d3.csv('1000_test.csv', data_loaded);
     console.log("coucou");
 }
 
