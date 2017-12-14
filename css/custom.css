@@ -24,6 +24,7 @@
 .tile {
     width: 360px;
     padding: 20px;
+    margin-left: 15px;
     border:solid; /* no info for size nor color yet */
     background: #f4f4f4;
     box-shadow: 0 0 0 8px #f7f7f7;
@@ -90,7 +91,7 @@
 #bg {
     background: #dfdedd;
     margin-top: -30px;
-    margin-left: -60px;
+    margin-left: -70px;
 }
 
 h1 {
