@@ -39,3 +39,4 @@ $(window).on("load",function() {
   } fade(true); //fade elements on page-load
   $(window).scroll(function(){fade(false);}); //fade elements on scroll
 });
+

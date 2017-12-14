@@ -2700,20 +2700,20 @@ select[multiple].input-lg {
 
 /* basic positioning */
 .legend {
-    text-align: center;
+    text-align: right;
     width: 350px;
 
 }
 
 .legend li {
-    float: left;
+    float: right;
     margin-right: 10px;
     margin-left: 165px;
 }
 
 .legend span {
     border: 1px solid #ccc;
-    float: left;
+    float: right;
     width: 20px;
     height: 20px;
     margin: 2px;
@@ -2728,7 +2728,7 @@ select[multiple].input-lg {
 }
 
 .legend .femme {
-    background-color: #349142;
+    background-color: #349042;
     color: #FFFFFF;
     margin-left: auto;
     margin-right: auto;
