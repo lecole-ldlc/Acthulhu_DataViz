@@ -40,6 +40,16 @@
     margin-left: 0;
 }
 
+.middot {
+    padding-top: 3px;
+    padding-right: 10px;
+}
+
+.icon-envelope2 {
+    padding-top: 5px;
+    padding-right: 4px;
+}
+
 .tooltip {
     background-color: white;
     padding: 8px;
