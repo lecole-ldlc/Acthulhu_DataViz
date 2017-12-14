@@ -137,7 +137,7 @@ function initialisation() {
         //        .style('opacity', function (d, i) {
         //            return i === index ? 1 : 0.1;
         //        });
-    activesection = index;
+        activesection = index;
         // activate current section
         console.log("ACTIVATE " + index);
         if (index == 0) {
@@ -157,6 +157,11 @@ function initialisation() {
         }
         if (index == 5) {
             myBubbleChart.redraw("AnneeNaissance", "DpnsAnnull");
+            console.log("j'aurais plei")
+        }
+        if (index == 6) {
+            myBubbleChart.redraw();
+            //document.getElementById("vis").style.position = 'relative';
         }
 
     });
@@ -470,11 +475,11 @@ function bubbleChart(abscisse, ordonnee) {
     function groupBubbles() {
         if (activesection === 0) {
             hideTitles();
-            console.log("activesection" + activesection);
-            console.log('hidetitle');
-
         }
         if (activesection === 2) {
+            hideTitles();
+        }
+        if (activesection === 6) {
             hideTitles();
         }
         // @v4 Reset the 'x' force to draw the bubbles to the center.
