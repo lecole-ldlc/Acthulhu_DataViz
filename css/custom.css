@@ -34,8 +34,8 @@
 #vis {
     display: inline-block;
     position: fixed;
-    right: 0px;
-    top: 200px;
+    right: 100px;
+    top: 100px;
     z-index: 1;
     margin-left: 0;
 }
