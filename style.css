@@ -6611,12 +6611,13 @@ body:not(.device-xs):not(.device-xxs) .countdown.countdown-large.coming-soon .co
 	font-size: 14px;
 	height: 40px;
 	line-height: 40px;
-	background-color: #1ABC9C;
+	background-color: #3EAD4E;
 	color: #FFF;
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	border: none;
+ 	border-radius: 18px;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
