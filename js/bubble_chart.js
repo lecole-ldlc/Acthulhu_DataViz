@@ -170,7 +170,7 @@ function initialisation() {
 
     });
     // Load the data.
-    d3.csv('1000_test.csv', data_loaded);
+    d3.csv('1000_final.csv', data_loaded);
     console.log("coucou");
 }
 
@@ -289,6 +289,12 @@ function bubbleChart(abscisse, ordonnee) {
                 DureeMoyPartie: d.DureeMoyPartie,
                 DpnsAnnull: d.DpnsAnnull,
                 FreqJeu: d.FreqJeu,
+                NbJeuJoue: d.NbJeuJoue,
+                ClubJDR: d.ClubJDR,
+                Conv: d.Conv,
+                AchatJDR: d.AchatJDR,
+                NbUniversAchat: d.NbUniversAchat,
+                NbOuvrageAche: d.NbOuvrageAche,
                 x: Math.random() * 1000,
                 y: Math.random() * 700
             };

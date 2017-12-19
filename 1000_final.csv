@@ -1,0 +1,1001 @@
+Sexe,AnneeNaissance,CSP,AgeDec,ClubJDR,NbJeuJoue,FreqJeu,DureeMoyPartie,PJMJ,Conv,AchatJDR,NbUniversAchat,NbOuvrageAche,DpnsAnnull
+H,1981-1985,Employe,11-12,Non,11-20,b)2/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,d)7-10,d)100-200
+H,1986-1990,En recherche d'emploi,15-16,Oui,11-20,c)1/mois,5-6 h,b)MJ,a)Oui,a)Oui,d)11-15,i)51+,c)50-100
+F,1986-1990,Employe,15-16,Non,11-20,d)3/an,5-6 h,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1981-1985,Cadre +,13-14,Oui,6-10,d)3/an,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,f)16-20,c)50-100
+H,1976-1980,En recherche d'emploi,15-16,Non,6-10,c)1/mois,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,h)31-50,c)50-100
+F,1986-1990,Cadre +,10,Oui,21+,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,f)16-20,b)20-50
+H,1976-1980,Employe,13-14,Oui,21+,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,d)11-15,h)31-50,c)50-100
+H,1971-1975,Cadre +,15-16,Oui,21+,d)3/an,7 h +,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1981-1985,Cadre +,13-14,Oui,21+,c)1/mois,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1981-1985,Cadre +,10,Oui,21+,c)1/mois,5-6 h,b)MJ,b)Non,a)Oui,e)16+,i)51+,e)200-500
+F,1971-1975,Profession intermediaire,10,Non,6-10,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,a)20
+H,1976-1980,Cadre +,23-24,Non,6-10,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,d)11-15,h)31-50,e)200-500
+H,1991-1995,Etudiant,15-16,Non,2-5,d)3/an,3-4 h,a)Les 2,a)Oui,a)Oui,a)1,b)2-3,a)20
+H,1986-1990,En recherche d'emploi,23-24,Oui,6-10,c)1/mois,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,c)4-6,c)50-100
+H,1976-1980,Cadre +,13-14,Oui,21+,d)3/an,5-6 h,C)PJ,b)Non,a)Oui,b)2-5,e)11-15,a)20
+H,1976-1980,Employe,15-16,Oui,21+,a)1/semaine,5-6 h,b)MJ,b)Non,a)Oui,e)16+,i)51+,d)100-200
+H,1961-1965,Travailleur independant,15-16,Oui,21+,d)3/an,7 h +,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,a)20
+F,1971-1975,Employe,21-22,Oui,6-10,d)3/an,3-4 h,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1966-1970,Travailleur independant,15-16,Non,2-5,c)1/mois,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,g)21-30,d)100-200
+H,1981-1985,Cadre +,10,Oui,21+,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,a)20
+H,1976-1980,Profession intermediaire,10,Oui,21+,a)1/semaine,7 h +,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1971-1975,Employe,11-12,Oui,21+,c)1/mois,5-6 h,b)MJ,b)Non,a)Oui,e)16+,i)51+,f)500+
+H,1971-1975,Employe,15-16,Oui,2-5,b)2/mois,3-4 h,C)PJ,a)Oui,a)Oui,b)2-5,d)7-10,d)100-200
+H,1966-1970,Cadre +,13-14,Oui,21+,e)1/an,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1976-1980,Cadre +,11-12,Oui,21+,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,c)50-100
+H,1981-1985,Je ne souhaite pas repondre,15-16,Oui,21+,c)1/mois,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,g)21-30,d)100-200
+H,1996-2000,Etudiant,15-16,Oui,6-10,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,b)2-3,a)20
+H,1981-1985,Employe,17-18,Oui,6-10,a)1/semaine,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,g)21-30,c)50-100
+H,1966-1970,Cadre +,13-14,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,c)50-100
+H,1976-1980,Cadre +,19-20,Oui,11-20,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,e)11-15,b)20-50
+F,1976-1980,Cadre +,15-16,Oui,11-20,b)2/mois,3-4 h,C)PJ,a)Oui,a)Oui,b)2-5,c)4-6,c)50-100
+F,1976-1980,Cadre +,21-22,Oui,2-5,f)Plus vraiment,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,c)4-6,a)20
+H,1976-1980,Employe,11-12,Oui,21+,c)1/mois,5-6 h,b)MJ,b)Non,a)Oui,c)6-10,i)51+,d)100-200
+H,1976-1980,Cadre +,15-16,Non,2-5,d)3/an,5-6 h,C)PJ,a)Oui,a)Oui,b)2-5,e)11-15,a)20
+H,1981-1985,Employe,13-14,Oui,21+,d)3/an,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,g)21-30,d)100-200
+H,1986-1990,Cadre +,19-20,Oui,6-10,a)1/semaine,3-4 h,a)Les 2,b)Non,b)Non,f)0,j)0,g)0
+H,1976-1980,Travailleur independant,25-30,Oui,21+,d)3/an,5-6 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,d)100-200
+H,1986-1990,Employe,11-12,Non,6-10,c)1/mois,3-4 h,b)MJ,a)Oui,a)Oui,c)6-10,h)31-50,c)50-100
+H,1971-1975,Sans activite,11-12,Oui,11-20,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,h)31-50,c)50-100
+H,1966-1970,Cadre +,13-14,Oui,11-20,f)Plus vraiment,7 h +,a)Les 2,b)Non,a)Oui,e)16+,i)51+,c)50-100
+H,1981-1985,Employe,21-22,Non,2-5,f)Plus vraiment,3-4 h,a)Les 2,b)Non,b)Non,f)0,j)0,g)0
+H,1976-1980,Profession intermediaire,10,Non,21+,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,b)20-50
+H,1971-1975,Employe,15-16,Oui,6-10,d)3/an,7 h +,C)PJ,b)Non,a)Oui,b)2-5,c)4-6,a)20
+H,1986-1990,Etudiant,10,Non,11-20,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,b)2-3,a)20
+H,1986-1990,Employe,15-16,Oui,6-10,a)1/semaine,7 h +,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,d)100-200
+H,1976-1980,Cadre +,11-12,Oui,11-20,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,d)11-15,i)51+,d)100-200
+H,1971-1975,Etudiant,13-14,Oui,21+,d)3/an,5-6 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,d)100-200
+H,1976-1980,Cadre +,13-14,Non,11-20,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,h)31-50,c)50-100
+H,1981-1985,Employe,11-12,Oui,21+,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,a)20
+H,1976-1980,Cadre +,10,Oui,11-20,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,d)11-15,i)51+,d)100-200
+H,1966-1970,Employe,11-12,Oui,11-20,d)3/an,7 h +,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,b)20-50
+F,1976-1980,Employe,21-22,Non,21+,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,h)31-50,d)100-200
+H,1976-1980,Employe,11-12,Oui,11-20,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,d)11-15,i)51+,f)500+
+H,1981-1985,Travailleur independant,19-20,Oui,11-20,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,f)16-20,b)20-50
+H,1976-1980,Profession intermediaire,15-16,Non,21+,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,h)31-50,b)20-50
+H,1976-1980,Employe,11-12,Non,11-20,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1976-1980,En recherche d'emploi,11-12,Oui,21+,f)Plus vraiment,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,i)51+,a)20
+H,1976-1980,Cadre +,11-12,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1981-1985,Cadre +,13-14,Non,2-5,f)Plus vraiment,7 h +,a)Les 2,b)Non,b)Non,f)0,j)0,g)0
+H,1981-1985,Profession intermediaire,11-12,Oui,11-20,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,d)11-15,i)51+,e)200-500
+H,1981-1985,Cadre +,15-16,Oui,11-20,b)2/mois,3-4 h,b)MJ,a)Oui,a)Oui,c)6-10,g)21-30,d)100-200
+H,1991-1995,Etudiant,13-14,Non,6-10,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,e)11-15,c)50-100
+H,1971-1975,Cadre +,13-14,Non,21+,d)3/an,3-4 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,e)200-500
+H,1981-1985,Cadre +,15-16,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,d)11-15,f)16-20,c)50-100
+H,1981-1985,Employe,13-14,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,e)200-500
+H,1966-1970,Cadre +,15-16,Oui,21+,c)1/mois,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,g)21-30,c)50-100
+H,1966-1970,Travailleur independant,11-12,Oui,11-20,e)1/an,7 h +,a)Les 2,b)Non,a)Oui,d)11-15,i)51+,d)100-200
+H,1981-1985,Travailleur independant,13-14,Oui,11-20,d)3/an,3-4 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,d)100-200
+H,1971-1975,En recherche d'emploi,17-18,Oui,21+,a)1/semaine,5-6 h,b)MJ,a)Oui,a)Oui,b)2-5,i)51+,e)200-500
+H,1976-1980,En recherche d'emploi,13-14,Non,6-10,a)1/semaine,3-4 h,b)MJ,b)Non,a)Oui,e)16+,i)51+,e)200-500
+H,1981-1985,En recherche d'emploi,13-14,Non,11-20,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,g)21-30,d)100-200
+H,1991-1995,Etudiant,15-16,Oui,6-10,b)2/mois,5-6 h,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1971-1975,En recherche d'emploi,17-18,Oui,6-10,f)Plus vraiment,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,c)4-6,a)20
+H,1971-1975,Cadre +,13-14,Non,21+,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,g)21-30,d)100-200
+H,1971-1975,Cadre +,15-16,Non,11-20,f)Plus vraiment,5-6 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,e)200-500
+H,1991-1995,Employe,10,Oui,21+,b)2/mois,5-6 h,b)MJ,a)Oui,a)Oui,b)2-5,d)7-10,c)50-100
+H,1971-1975,Cadre +,11-12,Non,21+,f)Plus vraiment,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,g)21-30,a)20
+F,1961-1965,Cadre +,41 ou plus,Oui,21+,a)1/semaine,5-6 h,C)PJ,a)Oui,a)Oui,a)1,b)2-3,c)50-100
+H,1971-1975,Cadre +,19-20,Non,11-20,f)Plus vraiment,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,h)31-50,a)20
+H,1971-1975,Employe,13-14,Oui,21+,a)1/semaine,7 h +,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+F,1966-1970,Cadre +,11-12,Oui,2-5,b)2/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,c)4-6,a)20
+F,1981-1985,Cadre +,19-20,Oui,11-20,c)1/mois,7 h +,a)Les 2,a)Oui,a)Oui,b)2-5,g)21-30,a)20
+H,1976-1980,Cadre +,11-12,Oui,21+,f)Plus vraiment,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,f)16-20,a)20
+H,1986-1990,Cadre +,19-20,Non,6-10,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,a)1,c)4-6,e)200-500
+H,1981-1985,Employe,15-16,Oui,11-20,d)3/an,7 h +,C)PJ,b)Non,a)Oui,b)2-5,g)21-30,b)20-50
+H,1981-1985,Cadre +,19-20,Oui,21+,f)Plus vraiment,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,d)100-200
+F,1971-1975,Cadre +,13-14,Oui,21+,b)2/mois,5-6 h,a)Les 2,b)Non,a)Oui,d)11-15,i)51+,e)200-500
+H,1986-1990,Employe,17-18,Oui,6-10,f)Plus vraiment,3-4 h,a)Les 2,a)Oui,b)Non,f)0,j)0,g)0
+H,1971-1975,Profession intermediaire,41 ou plus,Oui,11-20,f)Plus vraiment,Le week end,C)PJ,a)Oui,a)Oui,b)2-5,d)7-10,a)20
+H,1961-1965,Cadre +,13-14,Oui,21+,c)1/mois,7 h +,b)MJ,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1976-1980,Employe,15-16,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,d)11-15,h)31-50,e)200-500
+H,1991-1995,Etudiant,13-14,Non,6-10,e)1/an,5-6 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+F,1981-1985,Employe,17-18,Oui,11-20,f)Plus vraiment,5-6 h,C)PJ,a)Oui,a)Oui,b)2-5,g)21-30,c)50-100
+H,1976-1980,Employe,10,Non,11-20,e)1/an,7 h +,C)PJ,b)Non,a)Oui,c)6-10,h)31-50,a)20
+H,1976-1980,Travailleur independant,10,Oui,11-20,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,b)20-50
+H,1966-1970,Employe,21-22,Oui,21+,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1991-1995,Etudiant,17-18,Non,2-5,d)3/an,5-6 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1981-1985,Profession intermediaire,11-12,Oui,21+,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,g)21-30,d)100-200
+H,1976-1980,Cadre +,11-12,Oui,21+,e)1/an,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,h)31-50,a)20
+H,1976-1980,Cadre +,11-12,Oui,21+,e)1/an,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,h)31-50,a)20
+H,1966-1970,Cadre +,11-12,Non,21+,f)Plus vraiment,Le week end,a)Les 2,b)Non,a)Oui,d)11-15,f)16-20,b)20-50
+H,1976-1980,Employe,13-14,Oui,21+,d)3/an,7 h +,a)Les 2,b)Non,a)Oui,b)2-5,i)51+,c)50-100
+H,1971-1975,Employe,13-14,Non,11-20,d)3/an,3-4 h,a)Les 2,b)Non,a)Oui,d)11-15,i)51+,f)500+
+H,1981-1985,Employe,11-12,Oui,21+,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,b)20-50
+H,1971-1975,Employe,15-16,Oui,11-20,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,h)31-50,e)200-500
+H,1971-1975,Travailleur independant,11-12,Oui,11-20,a)1/semaine,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,g)21-30,c)50-100
+H,1971-1975,Sans activite,19-20,Oui,11-20,b)2/mois,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,h)31-50,b)20-50
+H,1971-1975,Cadre +,11-12,Oui,21+,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1986-1990,Etudiant,21-22,Oui,11-20,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,a)1,b)2-3,c)50-100
+H,1986-1990,Etudiant,15-16,Oui,6-10,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,f)16-20,d)100-200
+H,1976-1980,En recherche d'emploi,15-16,Non,6-10,d)3/an,7 h +,b)MJ,b)Non,a)Oui,d)11-15,h)31-50,d)100-200
+F,1981-1985,Employe,19-20,Oui,6-10,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,c)4-6,b)20-50
+H,1971-1975,Profession intermediaire,11-12,Oui,21+,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,d)11-15,i)51+,e)200-500
+H,1976-1980,Profession intermediaire,10,Oui,11-20,a)1/semaine,7 h +,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1991-1995,Ouvrier,13-14,Oui,11-20,e)1/an,Le week end,a)Les 2,b)Non,a)Oui,b)2-5,h)31-50,b)20-50
+F,1976-1980,Sans activite,15-16,Oui,11-20,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,e)200-500
+H,1966-1970,Travailleur independant,21-22,Oui,11-20,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,f)16-20,e)200-500
+H,1976-1980,Cadre +,17-18,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1981-1985,Employe,23-24,Oui,2-5,c)1/mois,5-6 h,C)PJ,a)Oui,a)Oui,b)2-5,c)4-6,a)20
+H,1991-1995,Etudiant,13-14,Oui,6-10,b)2/mois,3-4 h,b)MJ,b)Non,a)Oui,e)16+,h)31-50,e)200-500
+H,1981-1985,Travailleur independant,17-18,Non,21+,c)1/mois,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,d)100-200
+F,1976-1980,Profession intermediaire,11-12,Oui,21+,c)1/mois,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,d)100-200
+H,1961-1965,Cadre +,21-22,Non,2-5,c)1/mois,5-6 h,b)MJ,a)Oui,a)Oui,b)2-5,g)21-30,a)20
+H,1971-1975,Cadre +,13-14,Non,11-20,d)3/an,7 h +,a)Les 2,b)Non,a)Oui,d)11-15,h)31-50,a)20
+F,1991-1995,Employe,17-18,Non,2-5,a)1/semaine,1-2 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1976-1980,Cadre +,13-14,Non,11-20,d)3/an,Le week end,a)Les 2,b)Non,a)Oui,b)2-5,e)11-15,b)20-50
+F,1981-1985,En recherche d'emploi,13-14,Non,21+,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1991-1995,Etudiant,15-16,Oui,6-10,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,c)4-6,b)20-50
+H,1981-1985,Travailleur independant,13-14,Oui,21+,d)3/an,3-4 h,a)Les 2,a)Oui,a)Oui,a)1,a)1,a)20
+H,1986-1990,Travailleur independant,11-12,Oui,21+,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,b)20-50
+H,1996-2000,Etudiant,15-16,Oui,2-5,a)1/semaine,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,d)7-10,c)50-100
+H,1976-1980,Employe,19-20,Oui,2-5,a)1/semaine,7 h +,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1981-1985,Cadre +,13-14,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,d)11-15,g)21-30,d)100-200
+H,1976-1980,Cadre +,13-14,Oui,21+,f)Plus vraiment,5-6 h,a)Les 2,a)Oui,a)Oui,d)11-15,g)21-30,a)20
+H,1976-1980,Profession intermediaire,21-22,Oui,21+,d)3/an,7 h +,a)Les 2,a)Oui,a)Oui,c)6-10,g)21-30,e)200-500
+F,1981-1985,Profession intermediaire,21-22,Oui,2-5,c)1/mois,3-4 h,C)PJ,a)Oui,a)Oui,a)1,a)1,b)20-50
+H,1986-1990,En recherche d'emploi,21-22,Oui,6-10,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,f)16-20,c)50-100
+H,1981-1985,Cadre +,21-22,Non,6-10,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,f)16-20,a)20
+H,1991-1995,Employe,17-18,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,b)20-50
+H,1991-1995,Etudiant,11-12,Oui,6-10,a)1/semaine,5-6 h,a)Les 2,b)Non,b)Non,f)0,j)0,g)0
+H,1976-1980,En recherche d'emploi,13-14,Non,6-10,e)1/an,5-6 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,b)20-50
+H,1986-1990,En recherche d'emploi,13-14,Non,6-10,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,a)20
+H,1966-1970,Employe,15-16,Oui,21+,d)3/an,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,c)50-100
+H,1991-1995,Etudiant,15-16,Oui,11-20,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,e)11-15,b)20-50
+H,1966-1970,Ouvrier,21-22,Oui,11-20,c)1/mois,3-4 h,a)Les 2,b)Non,a)Oui,d)11-15,h)31-50,c)50-100
+H,1961-1965,Profession intermediaire,17-18,Non,11-20,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,g)21-30,d)100-200
+H,1971-1975,Cadre +,15-16,Non,21+,b)2/mois,3-4 h,C)PJ,b)Non,a)Oui,c)6-10,f)16-20,e)200-500
+H,1976-1980,Cadre +,15-16,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,i)51+,e)200-500
+F,1971-1975,Employe,31-40,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,h)31-50,d)100-200
+H,1976-1980,Cadre +,15-16,Oui,21+,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1991-1995,Etudiant,15-16,Non,6-10,d)3/an,3-4 h,C)PJ,a)Oui,a)Oui,a)1,a)1,a)20
+H,1991-1995,Etudiant,11-12,Oui,21+,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,e)11-15,d)100-200
+H,1976-1980,En recherche d'emploi,10,Oui,11-20,f)Plus vraiment,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,h)31-50,b)20-50
+H,1976-1980,Employe,11-12,Oui,21+,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1976-1980,Cadre +,11-12,Oui,21+,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1960 ou avant,Travailleur independant,19-20,Non,21+,d)3/an,3-4 h,b)MJ,a)Oui,a)Oui,b)2-5,f)16-20,a)20
+H,1976-1980,Cadre +,19-20,Non,6-10,d)3/an,3-4 h,a)Les 2,b)Non,a)Oui,a)1,a)1,a)20
+H,1981-1985,Ouvrier,11-12,Oui,21+,c)1/mois,7 h +,a)Les 2,a)Oui,a)Oui,c)6-10,e)11-15,c)50-100
+H,1981-1985,Cadre +,15-16,Oui,11-20,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,h)31-50,d)100-200
+H,1991-1995,Etudiant,11-12,Non,2-5,f)Plus vraiment,3-4 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1971-1975,Cadre +,11-12,Oui,11-20,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1976-1980,Employe,13-14,Oui,21+,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,d)11-15,i)51+,e)200-500
+H,1981-1985,Profession intermediaire,13-14,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,d)11-15,g)21-30,d)100-200
+H,1976-1980,Cadre +,11-12,Oui,11-20,d)3/an,5-6 h,b)MJ,b)Non,a)Oui,e)16+,i)51+,f)500+
+H,1976-1980,Cadre +,13-14,Oui,11-20,d)3/an,7 h +,a)Les 2,b)Non,a)Oui,b)2-5,a)1,a)20
+H,1971-1975,Je ne souhaite pas repondre,15-16,Oui,2-5,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,g)21-30,d)100-200
+H,1981-1985,Sans activite,13-14,Non,6-10,c)1/mois,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,c)4-6,c)50-100
+H,1976-1980,En recherche d'emploi,11-12,Oui,21+,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,h)31-50,d)100-200
+H,1991-1995,Etudiant,13-14,Non,2-5,e)1/an,5-6 h,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1981-1985,Cadre +,11-12,Oui,11-20,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,h)31-50,d)100-200
+H,1976-1980,Cadre +,10,Non,21+,c)1/mois,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,d)100-200
+H,1981-1985,Employe,15-16,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,i)51+,e)200-500
+H,1976-1980,Employe,15-16,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1971-1975,Profession intermediaire,13-14,Oui,21+,c)1/mois,7 h +,b)MJ,b)Non,a)Oui,e)16+,i)51+,d)100-200
+H,1981-1985,Je ne souhaite pas repondre,19-20,Oui,21+,b)2/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,e)11-15,d)100-200
+H,1966-1970,Cadre +,11-12,Non,6-10,f)Plus vraiment,7 h +,a)Les 2,a)Oui,a)Oui,b)2-5,h)31-50,c)50-100
+H,1976-1980,Travailleur independant,13-14,Oui,21+,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1976-1980,Travailleur independant,15-16,Non,6-10,b)2/mois,5-6 h,b)MJ,a)Oui,a)Oui,d)11-15,i)51+,f)500+
+F,1976-1980,Cadre +,15-16,Oui,21+,c)1/mois,7 h +,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,d)100-200
+H,1976-1980,Cadre +,11-12,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1991-1995,Je ne souhaite pas repondre,15-16,Oui,6-10,a)1/semaine,Le week end,C)PJ,a)Oui,a)Oui,a)1,b)2-3,c)50-100
+H,1991-1995,Etudiant,10,Oui,11-20,b)2/mois,7 h +,a)Les 2,b)Non,a)Oui,b)2-5,g)21-30,d)100-200
+F,1981-1985,Cadre +,19-20,Oui,6-10,a)1/semaine,1-2 h,C)PJ,b)Non,a)Oui,b)2-5,c)4-6,a)20
+H,1981-1985,Employe,15-16,Oui,21+,c)1/mois,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,e)11-15,b)20-50
+H,1961-1965,Cadre +,17-18,Oui,21+,e)1/an,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1981-1985,En recherche d'emploi,19-20,Oui,6-10,d)3/an,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,g)21-30,b)20-50
+H,1976-1980,Cadre +,10,Oui,11-20,d)3/an,Le week end,a)Les 2,b)Non,a)Oui,e)16+,i)51+,d)100-200
+H,1981-1985,Employe,13-14,Non,6-10,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,h)31-50,c)50-100
+H,1976-1980,Profession intermediaire,13-14,Oui,11-20,d)3/an,3-4 h,b)MJ,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1991-1995,Etudiant,17-18,Oui,11-20,a)1/semaine,7 h +,b)MJ,a)Oui,a)Oui,b)2-5,c)4-6,a)20
+F,1976-1980,Je ne souhaite pas repondre,25-30,Oui,2-5,c)1/mois,5-6 h,C)PJ,b)Non,a)Oui,b)2-5,f)16-20,c)50-100
+H,1991-1995,Etudiant,13-14,Oui,11-20,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,d)100-200
+H,1991-1995,Etudiant,15-16,Oui,2-5,c)1/mois,7 h +,a)Les 2,a)Oui,a)Oui,b)2-5,b)2-3,a)20
+H,1976-1980,Travailleur independant,13-14,Oui,21+,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1971-1975,Cadre +,17-18,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,d)11-15,i)51+,b)20-50
+H,1976-1980,Travailleur independant,19-20,Non,6-10,d)3/an,5-6 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1996-2000,Etudiant,11-12,Oui,6-10,a)1/semaine,5-6 h,a)Les 2,b)Non,a)Oui,a)1,a)1,a)20
+H,1986-1990,Etudiant,23-24,Non,2-5,e)1/an,3-4 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+F,1976-1980,Cadre +,25-30,Non,6-10,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,b)2-3,b)20-50
+H,1991-1995,Etudiant,11-12,Non,11-20,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,f)16-20,c)50-100
+H,1991-1995,Employe,13-14,Oui,6-10,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,a)1,b)2-3,d)100-200
+H,1986-1990,Employe,15-16,Oui,6-10,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,f)16-20,d)100-200
+F,1981-1985,Cadre +,17-18,Non,6-10,b)2/mois,5-6 h,C)PJ,b)Non,a)Oui,a)1,e)11-15,c)50-100
+H,1981-1985,Employe,17-18,Oui,21+,e)1/an,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,f)16-20,c)50-100
+H,1971-1975,Cadre +,11-12,Oui,21+,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1986-1990,Etudiant,11-12,Oui,6-10,b)2/mois,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,h)31-50,d)100-200
+H,1976-1980,Cadre +,19-20,Oui,6-10,f)Plus vraiment,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,h)31-50,a)20
+F,1991-1995,Etudiant,17-18,Non,2-5,d)3/an,5-6 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1976-1980,Je ne souhaite pas repondre,15-16,Non,21+,b)2/mois,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,i)51+,b)20-50
+H,1966-1970,Cadre +,17-18,Oui,11-20,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,e)200-500
+H,1971-1975,Cadre +,13-14,Non,21+,f)Plus vraiment,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,d)100-200
+H,1966-1970,Travailleur independant,15-16,Oui,21+,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,c)50-100
+H,1976-1980,Je ne souhaite pas repondre,11-12,Oui,21+,d)3/an,7 h +,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,c)50-100
+H,1966-1970,Cadre +,11-12,Oui,11-20,d)3/an,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,h)31-50,c)50-100
+H,1976-1980,Employe,10,Oui,11-20,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,h)31-50,b)20-50
+H,1996-2000,Etudiant,11-12,Non,2-5,a)1/semaine,3-4 h,a)Les 2,b)Non,a)Oui,e)16+,d)7-10,b)20-50
+H,1981-1985,Employe,15-16,Oui,21+,a)1/semaine,3-4 h,b)MJ,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1976-1980,Employe,11-12,Oui,21+,b)2/mois,5-6 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,d)100-200
+H,1986-1990,Cadre +,11-12,Oui,6-10,c)1/mois,5-6 h,C)PJ,b)Non,a)Oui,b)2-5,b)2-3,a)20
+H,1976-1980,Profession intermediaire,13-14,Non,11-20,b)2/mois,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,i)51+,d)100-200
+F,1986-1990,Cadre +,19-20,Oui,11-20,b)2/mois,7 h +,a)Les 2,a)Oui,a)Oui,b)2-5,e)11-15,b)20-50
+H,1991-1995,En recherche d'emploi,15-16,Oui,11-20,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,d)11-15,h)31-50,f)500+
+H,1991-1995,Etudiant,13-14,Oui,11-20,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,d)7-10,a)20
+H,1991-1995,Etudiant,15-16,Non,2-5,a)1/semaine,3-4 h,a)Les 2,b)Non,b)Non,f)0,j)0,g)0
+H,1991-1995,Etudiant,10,Oui,6-10,b)2/mois,5-6 h,b)MJ,b)Non,a)Oui,a)1,a)1,a)20
+H,1986-1990,En recherche d'emploi,15-16,Non,6-10,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,b)2-3,b)20-50
+H,1991-1995,Ouvrier,15-16,Oui,11-20,b)2/mois,3-4 h,C)PJ,a)Oui,a)Oui,a)1,a)1,a)20
+H,1971-1975,Travailleur independant,11-12,Oui,6-10,f)Plus vraiment,Le week end,C)PJ,b)Non,a)Oui,d)11-15,i)51+,b)20-50
+H,1966-1970,Cadre +,17-18,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1991-1995,Etudiant,19-20,Oui,21+,c)1/mois,5-6 h,a)Les 2,a)Oui,b)Non,f)0,j)0,g)0
+H,1986-1990,Cadre +,17-18,Oui,21+,d)3/an,7 h +,a)Les 2,a)Oui,a)Oui,a)1,b)2-3,a)20
+H,1991-1995,Etudiant,15-16,Oui,11-20,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,b)2-3,b)20-50
+H,1976-1980,Cadre +,10,Oui,11-20,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,e)200-500
+H,1976-1980,Cadre +,15-16,Non,11-20,d)3/an,7 h +,b)MJ,a)Oui,a)Oui,d)11-15,i)51+,d)100-200
+H,1976-1980,Cadre +,13-14,Non,6-10,f)Plus vraiment,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,c)50-100
+H,1971-1975,Je ne souhaite pas repondre,15-16,Non,21+,f)Plus vraiment,5-6 h,b)MJ,b)Non,a)Oui,e)16+,i)51+,e)200-500
+H,1991-1995,Etudiant,13-14,Oui,6-10,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,e)11-15,c)50-100
+H,1971-1975,Cadre +,13-14,Oui,21+,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1971-1975,Cadre +,15-16,Non,6-10,f)Plus vraiment,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,e)200-500
+H,1981-1985,Profession intermediaire,17-18,Non,6-10,c)1/mois,3-4 h,b)MJ,a)Oui,a)Oui,c)6-10,d)7-10,c)50-100
+H,1971-1975,Travailleur independant,10,Oui,21+,c)1/mois,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1966-1970,Cadre +,13-14,Oui,21+,b)2/mois,3-4 h,C)PJ,b)Non,a)Oui,b)2-5,e)11-15,a)20
+H,1981-1985,Travailleur independant,21-22,Oui,11-20,d)3/an,3-4 h,a)Les 2,b)Non,a)Oui,a)1,a)1,a)20
+H,1991-1995,Employe,10,Non,2-5,a)1/semaine,5-6 h,C)PJ,a)Oui,a)Oui,b)2-5,c)4-6,d)100-200
+F,1981-1985,Cadre +,17-18,Non,2-5,d)3/an,7 h +,C)PJ,a)Oui,a)Oui,b)2-5,b)2-3,a)20
+H,1986-1990,Cadre +,15-16,Oui,2-5,d)3/an,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,b)2-3,b)20-50
+H,1966-1970,Travailleur independant,15-16,Oui,11-20,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,i)51+,d)100-200
+H,1966-1970,Employe,17-18,Non,11-20,f)Plus vraiment,7 h +,a)Les 2,b)Non,a)Oui,e)16+,i)51+,c)50-100
+H,1971-1975,Cadre +,13-14,Oui,11-20,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,i)51+,e)200-500
+H,1971-1975,Travailleur independant,13-14,Oui,21+,b)2/mois,5-6 h,b)MJ,b)Non,a)Oui,e)16+,i)51+,e)200-500
+H,1991-1995,Etudiant,15-16,Oui,11-20,d)3/an,7 h +,a)Les 2,b)Non,a)Oui,a)1,a)1,a)20
+H,1976-1980,Employe,13-14,Oui,11-20,a)1/semaine,7 h +,a)Les 2,a)Oui,a)Oui,b)2-5,h)31-50,b)20-50
+H,1991-1995,En recherche d'emploi,15-16,Oui,21+,b)2/mois,7 h +,a)Les 2,a)Oui,a)Oui,b)2-5,f)16-20,c)50-100
+H,1996-2000,Etudiant,13-14,Oui,2-5,b)2/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,b)2-3,b)20-50
+H,1976-1980,Travailleur independant,10,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,d)100-200
+H,1981-1985,Employe,19-20,Oui,2-5,e)1/an,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,b)2-3,a)20
+H,1971-1975,Profession intermediaire,13-14,Oui,11-20,d)3/an,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,g)21-30,a)20
+H,1976-1980,Cadre +,10,Oui,11-20,a)1/semaine,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,b)2-3,a)20
+F,1971-1975,Employe,19-20,Oui,6-10,f)Plus vraiment,3-4 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1976-1980,Cadre +,13-14,Oui,21+,b)2/mois,5-6 h,C)PJ,a)Oui,a)Oui,d)11-15,i)51+,c)50-100
+F,1971-1975,Cadre +,17-18,Non,6-10,d)3/an,5-6 h,C)PJ,b)Non,a)Oui,b)2-5,c)4-6,c)50-100
+H,1971-1975,Employe,13-14,Oui,21+,d)3/an,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,h)31-50,d)100-200
+H,1991-1995,Etudiant,17-18,Non,6-10,c)1/mois,3-4 h,C)PJ,a)Oui,a)Oui,a)1,c)4-6,b)20-50
+H,1976-1980,Cadre +,11-12,Oui,11-20,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,a)1,d)7-10,a)20
+H,1976-1980,Ouvrier,10,Oui,21+,c)1/mois,7 h +,a)Les 2,b)Non,a)Oui,b)2-5,g)21-30,b)20-50
+H,1976-1980,Profession intermediaire,10,Non,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,d)11-15,h)31-50,a)20
+H,1986-1990,En recherche d'emploi,25-30,Non,2-5,c)1/mois,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,f)16-20,a)20
+H,1971-1975,Employe,15-16,Oui,21+,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,d)100-200
+H,1991-1995,Etudiant,15-16,Oui,2-5,a)1/semaine,3-4 h,a)Les 2,b)Non,b)Non,f)0,j)0,g)0
+H,1971-1975,En recherche d'emploi,17-18,Oui,21+,a)1/semaine,3-4 h,a)Les 2,b)Non,a)Oui,d)11-15,i)51+,e)200-500
+H,1971-1975,Profession intermediaire,13-14,Non,11-20,d)3/an,5-6 h,a)Les 2,b)Non,a)Oui,d)11-15,i)51+,d)100-200
+H,1971-1975,Cadre +,15-16,Oui,11-20,b)2/mois,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,e)200-500
+H,1971-1975,Cadre +,11-12,Oui,21+,a)1/semaine,7 h +,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,d)100-200
+H,1991-1995,Etudiant,15-16,Oui,21+,b)2/mois,7 h +,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,d)100-200
+F,1986-1990,En recherche d'emploi,17-18,Oui,6-10,a)1/semaine,3-4 h,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1991-1995,Etudiant,11-12,Oui,6-10,c)1/mois,5-6 h,C)PJ,b)Non,a)Oui,a)1,c)4-6,c)50-100
+H,1976-1980,Cadre +,15-16,Non,2-5,f)Plus vraiment,3-4 h,C)PJ,b)Non,a)Oui,b)2-5,c)4-6,a)20
+H,1976-1980,Employe,15-16,Oui,6-10,d)3/an,5-6 h,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1981-1985,Travailleur independant,11-12,Oui,21+,d)3/an,Le week end,b)MJ,b)Non,a)Oui,e)16+,i)51+,e)200-500
+H,1986-1990,Employe,15-16,Oui,21+,c)1/mois,7 h +,a)Les 2,a)Oui,a)Oui,b)2-5,c)4-6,b)20-50
+H,1976-1980,Employe,17-18,Non,6-10,c)1/mois,3-4 h,C)PJ,b)Non,a)Oui,b)2-5,b)2-3,c)50-100
+H,1976-1980,Cadre +,17-18,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,h)31-50,d)100-200
+H,1986-1990,Etudiant,11-12,Non,11-20,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,f)16-20,a)20
+H,1986-1990,Etudiant,15-16,Oui,2-5,e)1/an,5-6 h,a)Les 2,a)Oui,a)Oui,a)1,b)2-3,a)20
+H,1971-1975,Cadre +,11-12,Oui,11-20,d)3/an,5-6 h,b)MJ,b)Non,a)Oui,d)11-15,i)51+,e)200-500
+H,1986-1990,Profession intermediaire,19-20,Oui,6-10,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,a)1,d)7-10,a)20
+H,1991-1995,Etudiant,11-12,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,b)2-3,a)20
+H,1991-1995,Etudiant,10,Oui,6-10,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,e)200-500
+F,1986-1990,En recherche d'emploi,13-14,Oui,21+,c)1/mois,7 h +,a)Les 2,b)Non,a)Oui,b)2-5,c)4-6,b)20-50
+H,1986-1990,Employe,15-16,Oui,21+,d)3/an,7 h +,a)Les 2,a)Oui,a)Oui,c)6-10,d)7-10,a)20
+H,1981-1985,Employe,13-14,Non,11-20,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,d)11-15,i)51+,d)100-200
+H,1971-1975,Profession intermediaire,10,Oui,11-20,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,h)31-50,b)20-50
+H,1986-1990,Travailleur independant,13-14,Oui,11-20,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,e)11-15,c)50-100
+H,1986-1990,En recherche d'emploi,13-14,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,a)20
+H,1986-1990,Travailleur independant,15-16,Oui,2-5,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,c)4-6,b)20-50
+H,1966-1970,Cadre +,17-18,Oui,11-20,c)1/mois,3-4 h,a)Les 2,a)Oui,a)Oui,d)11-15,g)21-30,d)100-200
+H,1991-1995,Ouvrier,15-16,Oui,11-20,a)1/semaine,3-4 h,C)PJ,a)Oui,a)Oui,b)2-5,e)11-15,d)100-200
+H,1971-1975,Cadre +,13-14,Oui,21+,c)1/mois,5-6 h,C)PJ,b)Non,a)Oui,b)2-5,d)7-10,b)20-50
+H,1971-1975,Cadre +,11-12,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,d)100-200
+H,1971-1975,Travailleur independant,11-12,Oui,21+,c)1/mois,3-4 h,a)Les 2,a)Oui,a)Oui,d)11-15,i)51+,d)100-200
+H,1981-1985,Employe,19-20,Non,11-20,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,d)100-200
+H,1991-1995,Employe,17-18,Oui,2-5,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,a)1,e)11-15,d)100-200
+H,1976-1980,Travailleur independant,10,Oui,21+,c)1/mois,7 h +,a)Les 2,a)Oui,a)Oui,b)2-5,i)51+,c)50-100
+H,1976-1980,Cadre +,15-16,Oui,21+,b)2/mois,3-4 h,a)Les 2,b)Non,a)Oui,d)11-15,i)51+,e)200-500
+H,1976-1980,Employe,10,Non,6-10,e)1/an,3-4 h,b)MJ,a)Oui,a)Oui,b)2-5,i)51+,d)100-200
+F,1981-1985,Employe,23-24,Non,6-10,a)1/semaine,3-4 h,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1961-1965,Cadre +,19-20,Oui,6-10,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,d)100-200
+H,1976-1980,Cadre +,11-12,Non,21+,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1986-1990,Employe,13-14,Oui,11-20,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,h)31-50,c)50-100
+H,1971-1975,Cadre +,11-12,Oui,21+,d)3/an,7 h +,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1966-1970,Travailleur independant,17-18,Oui,11-20,e)1/an,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,e)11-15,a)20
+H,1971-1975,Cadre +,13-14,Non,2-5,f)Plus vraiment,3-4 h,C)PJ,b)Non,a)Oui,a)1,b)2-3,a)20
+H,1976-1980,Cadre +,13-14,Oui,21+,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,f)16-20,b)20-50
+H,1971-1975,Employe,13-14,Oui,6-10,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,g)21-30,e)200-500
+H,1971-1975,Employe,11-12,Oui,6-10,f)Plus vraiment,7 h +,C)PJ,b)Non,a)Oui,b)2-5,f)16-20,a)20
+H,1976-1980,Employe,15-16,Oui,21+,b)2/mois,5-6 h,C)PJ,b)Non,a)Oui,d)11-15,f)16-20,b)20-50
+H,1976-1980,Cadre +,13-14,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,e)200-500
+F,1981-1985,Employe,19-20,Oui,6-10,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,b)20-50
+H,1981-1985,Travailleur independant,19-20,Oui,11-20,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,e)200-500
+H,1981-1985,Employe,13-14,Non,21+,e)1/an,5-6 h,a)Les 2,a)Oui,a)Oui,d)11-15,i)51+,d)100-200
+H,1976-1980,Cadre +,13-14,Oui,21+,c)1/mois,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,h)31-50,b)20-50
+H,1976-1980,Employe,17-18,Oui,21+,a)1/semaine,3-4 h,C)PJ,a)Oui,a)Oui,d)11-15,f)16-20,d)100-200
+H,1986-1990,Cadre +,17-18,Oui,6-10,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,e)200-500
+H,1986-1990,Employe,10,Non,11-20,a)1/semaine,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,f)16-20,b)20-50
+H,1976-1980,Ouvrier,17-18,Oui,11-20,c)1/mois,5-6 h,b)MJ,a)Oui,a)Oui,e)16+,h)31-50,e)200-500
+H,1966-1970,Cadre +,13-14,Oui,21+,f)Plus vraiment,5-6 h,a)Les 2,b)Non,a)Oui,d)11-15,i)51+,a)20
+H,1981-1985,En recherche d'emploi,13-14,Oui,6-10,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,e)200-500
+F,1986-1990,Etudiant,13-14,Oui,6-10,c)1/mois,7 h +,a)Les 2,a)Oui,a)Oui,b)2-5,e)11-15,b)20-50
+H,1976-1980,Cadre +,15-16,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1981-1985,Cadre +,10,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,d)100-200
+H,1976-1980,En recherche d'emploi,11-12,Non,11-20,f)Plus vraiment,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,h)31-50,a)20
+H,1971-1975,En recherche d'emploi,11-12,Oui,21+,c)1/mois,3-4 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,a)20
+H,1986-1990,Cadre +,17-18,Non,2-5,f)Plus vraiment,3-4 h,C)PJ,b)Non,a)Oui,a)1,a)1,a)20
+H,1986-1990,Employe,21-22,Oui,6-10,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,e)11-15,c)50-100
+H,1976-1980,Cadre +,11-12,Non,11-20,d)3/an,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,e)11-15,c)50-100
+H,1976-1980,Profession intermediaire,13-14,Non,2-5,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,f)16-20,e)200-500
+H,1986-1990,Cadre +,15-16,Non,2-5,b)2/mois,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,c)4-6,b)20-50
+H,1971-1975,Travailleur independant,11-12,Oui,6-10,a)1/semaine,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,g)21-30,c)50-100
+H,1971-1975,Je ne souhaite pas repondre,11-12,Oui,6-10,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,i)51+,c)50-100
+H,1981-1985,Employe,11-12,Oui,11-20,d)3/an,7 h +,a)Les 2,a)Oui,a)Oui,b)2-5,f)16-20,a)20
+H,1966-1970,Employe,13-14,Oui,11-20,a)1/semaine,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,i)51+,f)500+
+H,1986-1990,Cadre +,13-14,Oui,6-10,e)1/an,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,b)20-50
+H,1981-1985,Employe,17-18,Oui,11-20,a)1/semaine,5-6 h,C)PJ,a)Oui,a)Oui,b)2-5,c)4-6,c)50-100
+H,1976-1980,Cadre +,13-14,Oui,21+,a)1/semaine,1-2 h,a)Les 2,a)Oui,a)Oui,b)2-5,c)4-6,c)50-100
+H,1976-1980,Profession intermediaire,13-14,Oui,21+,d)3/an,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,e)11-15,c)50-100
+H,1986-1990,Cadre +,17-18,Non,6-10,b)2/mois,3-4 h,C)PJ,a)Oui,a)Oui,b)2-5,c)4-6,a)20
+H,1976-1980,Cadre +,11-12,Oui,11-20,f)Plus vraiment,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,d)7-10,a)20
+H,1981-1985,Cadre +,13-14,Non,11-20,c)1/mois,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,f)16-20,b)20-50
+H,1971-1975,Cadre +,15-16,Oui,6-10,e)1/an,5-6 h,b)MJ,a)Oui,a)Oui,b)2-5,b)2-3,a)20
+H,1971-1975,Cadre +,15-16,Oui,11-20,e)1/an,3-4 h,a)Les 2,a)Oui,a)Oui,d)11-15,i)51+,d)100-200
+H,1981-1985,Cadre +,11-12,Oui,11-20,e)1/an,3-4 h,b)MJ,b)Non,a)Oui,c)6-10,i)51+,b)20-50
+H,1981-1985,Cadre +,15-16,Non,6-10,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,g)21-30,c)50-100
+H,1976-1980,Travailleur independant,17-18,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,c)50-100
+H,1971-1975,Travailleur independant,10,Oui,21+,e)1/an,3-4 h,b)MJ,b)Non,a)Oui,e)16+,i)51+,d)100-200
+H,1981-1985,Cadre +,21-22,Non,2-5,e)1/an,7 h +,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1976-1980,Profession intermediaire,11-12,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1966-1970,Employe,13-14,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,d)100-200
+H,1971-1975,Employe,13-14,Oui,11-20,b)2/mois,7 h +,a)Les 2,a)Oui,a)Oui,c)6-10,g)21-30,e)200-500
+H,1986-1990,Etudiant,17-18,Non,6-10,d)3/an,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,c)4-6,b)20-50
+H,1971-1975,Cadre +,10,Non,2-5,b)2/mois,1-2 h,a)Les 2,b)Non,a)Oui,b)2-5,h)31-50,d)100-200
+H,1976-1980,Cadre +,13-14,Oui,21+,d)3/an,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,b)20-50
+H,1961-1965,Cadre +,15-16,Oui,21+,f)Plus vraiment,3-4 h,b)MJ,b)Non,a)Oui,e)16+,i)51+,a)20
+H,1976-1980,Employe,10,Oui,21+,d)3/an,Le week end,a)Les 2,b)Non,a)Oui,e)16+,i)51+,f)500+
+H,1976-1980,Cadre +,17-18,Oui,11-20,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,g)21-30,c)50-100
+H,1981-1985,Profession intermediaire,13-14,Oui,11-20,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,i)51+,d)100-200
+H,1976-1980,Cadre +,15-16,Oui,11-20,b)2/mois,7 h +,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,e)200-500
+F,1986-1990,Etudiant,13-14,Oui,11-20,a)1/semaine,5-6 h,C)PJ,b)Non,a)Oui,a)1,d)7-10,c)50-100
+H,1971-1975,En recherche d'emploi,10,Oui,21+,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,d)100-200
+H,1966-1970,Cadre +,13-14,Oui,21+,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,i)51+,d)100-200
+H,1971-1975,Employe,15-16,Oui,21+,a)1/semaine,1-2 h,a)Les 2,b)Non,a)Oui,c)6-10,h)31-50,b)20-50
+H,1991-1995,Etudiant,15-16,Non,6-10,d)3/an,7 h +,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1976-1980,Cadre +,17-18,Non,21+,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,d)100-200
+H,1971-1975,Employe,11-12,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,c)50-100
+H,1971-1975,Cadre +,13-14,Non,21+,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,d)100-200
+H,1981-1985,Employe,10,Non,11-20,a)1/semaine,Le week end,a)Les 2,b)Non,a)Oui,b)2-5,h)31-50,d)100-200
+H,1991-1995,Etudiant,19-20,Oui,2-5,c)1/mois,5-6 h,a)Les 2,a)Oui,b)Non,f)0,j)0,g)0
+H,1971-1975,Employe,15-16,Oui,21+,a)1/semaine,3-4 h,b)MJ,a)Oui,a)Oui,e)16+,i)51+,c)50-100
+H,1976-1980,Profession intermediaire,11-12,Oui,21+,c)1/mois,3-4 h,C)PJ,b)Non,a)Oui,e)16+,i)51+,c)50-100
+H,1971-1975,Employe,13-14,Oui,11-20,d)3/an,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,h)31-50,a)20
+H,1981-1985,Employe,11-12,Non,11-20,e)1/an,5-6 h,C)PJ,b)Non,a)Oui,d)11-15,i)51+,b)20-50
+H,1971-1975,Cadre +,13-14,Oui,21+,a)1/semaine,5-6 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,e)200-500
+H,1981-1985,En recherche d'emploi,17-18,Oui,6-10,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,c)4-6,a)20
+H,1981-1985,Cadre +,15-16,Oui,21+,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,g)21-30,c)50-100
+H,1976-1980,Profession intermediaire,11-12,Oui,11-20,f)Plus vraiment,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,a)20
+H,1971-1975,Cadre +,19-20,Oui,21+,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,e)11-15,b)20-50
+F,1991-1995,Etudiant,17-18,Non,2-5,d)3/an,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,b)2-3,b)20-50
+H,1981-1985,Cadre +,15-16,Non,6-10,e)1/an,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,h)31-50,a)20
+H,1971-1975,Cadre +,15-16,Oui,6-10,a)1/semaine,3-4 h,b)MJ,a)Oui,a)Oui,b)2-5,h)31-50,b)20-50
+H,1966-1970,Employe,13-14,Oui,11-20,d)3/an,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,h)31-50,d)100-200
+H,1976-1980,Travailleur independant,19-20,Oui,6-10,d)3/an,7 h +,a)Les 2,a)Oui,a)Oui,b)2-5,f)16-20,b)20-50
+H,1966-1970,Cadre +,13-14,Oui,11-20,f)Plus vraiment,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,a)20
+H,1996-2000,Etudiant,13-14,Oui,6-10,c)1/mois,5-6 h,C)PJ,a)Oui,a)Oui,b)2-5,b)2-3,a)20
+H,1976-1980,Cadre +,13-14,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,d)100-200
+H,1976-1980,Employe,15-16,Oui,21+,b)2/mois,5-6 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,e)200-500
+H,1971-1975,Cadre +,19-20,Oui,21+,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,d)11-15,i)51+,d)100-200
+H,1971-1975,Cadre +,11-12,Oui,11-20,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,d)11-15,i)51+,e)200-500
+H,1981-1985,Employe,10,Oui,21+,a)1/semaine,7 h +,b)MJ,b)Non,a)Oui,e)16+,i)51+,f)500+
+H,1976-1980,Employe,15-16,Oui,11-20,c)1/mois,7 h +,a)Les 2,b)Non,a)Oui,a)1,d)7-10,a)20
+H,1971-1975,Employe,17-18,Oui,21+,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,f)16-20,c)50-100
+H,1976-1980,Profession intermediaire,21-22,Oui,6-10,a)1/semaine,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,g)21-30,e)200-500
+H,1971-1975,Cadre +,13-14,Oui,21+,e)1/an,Le week end,b)MJ,b)Non,a)Oui,d)11-15,i)51+,c)50-100
+F,1986-1990,Employe,17-18,Non,2-5,d)3/an,5-6 h,C)PJ,b)Non,a)Oui,b)2-5,b)2-3,b)20-50
+H,1986-1990,Cadre +,21-22,Oui,6-10,d)3/an,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,c)4-6,c)50-100
+F,1991-1995,Employe,10,Oui,21+,a)1/semaine,Le week end,a)Les 2,a)Oui,a)Oui,c)6-10,h)31-50,f)500+
+H,1976-1980,Cadre +,11-12,Non,11-20,d)3/an,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,i)51+,c)50-100
+H,1966-1970,Cadre +,10,Non,21+,f)Plus vraiment,7 h +,a)Les 2,b)Non,a)Oui,e)16+,i)51+,d)100-200
+H,1971-1975,Cadre +,15-16,Oui,21+,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,d)100-200
+H,1981-1985,En recherche d'emploi,17-18,Non,6-10,f)Plus vraiment,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,b)2-3,b)20-50
+F,1971-1975,Employe,15-16,Oui,11-20,f)Plus vraiment,3-4 h,C)PJ,a)Oui,a)Oui,b)2-5,e)11-15,a)20
+H,1981-1985,Employe,25-30,Non,2-5,c)1/mois,5-6 h,b)MJ,b)Non,a)Oui,b)2-5,c)4-6,c)50-100
+H,1981-1985,Cadre +,10,Non,2-5,f)Plus vraiment,7 h +,a)Les 2,b)Non,a)Oui,b)2-5,b)2-3,a)20
+H,1971-1975,Employe,15-16,Oui,21+,a)1/semaine,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,h)31-50,d)100-200
+H,1976-1980,Employe,11-12,Oui,21+,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,d)100-200
+H,1976-1980,Employe,17-18,Oui,11-20,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,c)50-100
+H,1971-1975,Profession intermediaire,10,Non,6-10,b)2/mois,5-6 h,b)MJ,b)Non,a)Oui,b)2-5,h)31-50,c)50-100
+H,1971-1975,Cadre +,11-12,Non,11-20,d)3/an,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,f)16-20,a)20
+H,1991-1995,Etudiant,13-14,Non,2-5,c)1/mois,7 h +,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1991-1995,Etudiant,19-20,Non,1,b)2/mois,1-2 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1986-1990,Etudiant,11-12,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+F,1986-1990,Etudiant,15-16,Non,6-10,c)1/mois,3-4 h,a)Les 2,a)Oui,a)Oui,a)1,b)2-3,a)20
+H,1971-1975,Ouvrier,11-12,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,c)50-100
+F,1991-1995,Etudiant,15-16,Non,6-10,c)1/mois,7 h +,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1971-1975,Ouvrier,13-14,Oui,21+,a)1/semaine,7 h +,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1971-1975,Travailleur independant,11-12,Oui,21+,c)1/mois,7 h +,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1986-1990,Employe,13-14,Oui,6-10,d)3/an,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,a)20
+F,1991-1995,Etudiant,17-18,Oui,6-10,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,c)4-6,b)20-50
+H,1971-1975,Cadre +,15-16,Oui,21+,a)1/semaine,1-2 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,e)200-500
+H,1981-1985,Travailleur independant,10,Oui,11-20,d)3/an,5-6 h,b)MJ,b)Non,a)Oui,c)6-10,h)31-50,a)20
+H,1986-1990,Cadre +,13-14,Non,11-20,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,h)31-50,e)200-500
+H,1976-1980,Employe,15-16,Oui,21+,c)1/mois,5-6 h,b)MJ,a)Oui,a)Oui,e)16+,i)51+,d)100-200
+H,1966-1970,Employe,11-12,Oui,11-20,b)2/mois,5-6 h,b)MJ,a)Oui,a)Oui,d)11-15,i)51+,f)500+
+H,1976-1980,Cadre +,15-16,Non,11-20,f)Plus vraiment,5-6 h,C)PJ,a)Oui,a)Oui,d)11-15,f)16-20,f)500+
+H,1991-1995,Etudiant,19-20,Non,2-5,d)3/an,3-4 h,a)Les 2,b)Non,b)Non,f)0,j)0,g)0
+H,1976-1980,Travailleur independant,13-14,Non,2-5,c)1/mois,5-6 h,b)MJ,b)Non,a)Oui,c)6-10,g)21-30,c)50-100
+H,1971-1975,Cadre +,15-16,Oui,6-10,c)1/mois,7 h +,a)Les 2,b)Non,a)Oui,b)2-5,i)51+,f)500+
+H,1981-1985,Travailleur independant,17-18,Non,21+,b)2/mois,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,h)31-50,d)100-200
+F,1986-1990,Etudiant,15-16,Oui,21+,d)3/an,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,c)4-6,a)20
+H,1971-1975,Cadre +,11-12,Non,2-5,d)3/an,7 h +,a)Les 2,b)Non,a)Oui,a)1,c)4-6,a)20
+H,1976-1980,Cadre +,11-12,Oui,21+,f)Plus vraiment,7 h +,a)Les 2,a)Oui,a)Oui,d)11-15,i)51+,a)20
+F,1981-1985,Employe,11-12,Oui,11-20,f)Plus vraiment,5-6 h,a)Les 2,a)Oui,b)Non,f)0,j)0,g)0
+H,1976-1980,Cadre +,13-14,Non,6-10,c)1/mois,3-4 h,C)PJ,b)Non,a)Oui,a)1,b)2-3,a)20
+H,1971-1975,Je ne souhaite pas repondre,13-14,Oui,11-20,f)Plus vraiment,5-6 h,a)Les 2,a)Oui,a)Oui,d)11-15,i)51+,d)100-200
+F,1996-2000,Etudiant,13-14,Oui,6-10,c)1/mois,5-6 h,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+F,1976-1980,Employe,17-18,Oui,11-20,e)1/an,5-6 h,C)PJ,a)Oui,a)Oui,a)1,a)1,a)20
+F,1981-1985,Employe,19-20,Non,11-20,d)3/an,5-6 h,C)PJ,a)Oui,a)Oui,a)1,a)1,a)20
+H,1976-1980,Employe,13-14,Oui,2-5,c)1/mois,3-4 h,C)PJ,b)Non,a)Oui,a)1,b)2-3,b)20-50
+H,1991-1995,Profession intermediaire,11-12,Oui,21+,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,d)11-15,h)31-50,c)50-100
+H,1981-1985,Employe,15-16,Oui,6-10,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,d)100-200
+F,1981-1985,Employe,11-12,Oui,6-10,b)2/mois,3-4 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1986-1990,Ouvrier,11-12,Oui,6-10,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,h)31-50,e)200-500
+H,1971-1975,Employe,15-16,Oui,11-20,c)1/mois,5-6 h,C)PJ,b)Non,a)Oui,d)11-15,h)31-50,c)50-100
+H,1976-1980,Cadre +,13-14,Oui,11-20,f)Plus vraiment,3-4 h,a)Les 2,b)Non,a)Oui,d)11-15,h)31-50,a)20
+F,1976-1980,Travailleur independant,25-30,Non,6-10,a)1/semaine,3-4 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1981-1985,En recherche d'emploi,10,Non,11-20,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,d)11-15,g)21-30,d)100-200
+H,1976-1980,Cadre +,31-40,Non,2-5,f)Plus vraiment,5-6 h,C)PJ,a)Oui,a)Oui,b)2-5,b)2-3,a)20
+F,1991-1995,Etudiant,17-18,Non,2-5,e)1/an,5-6 h,C)PJ,a)Oui,a)Oui,a)1,a)1,a)20
+H,1991-1995,Etudiant,17-18,Non,2-5,d)3/an,7 h +,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+F,1986-1990,Employe,17-18,Oui,2-5,c)1/mois,3-4 h,C)PJ,b)Non,a)Oui,b)2-5,c)4-6,c)50-100
+H,1976-1980,Travailleur independant,19-20,Non,2-5,f)Plus vraiment,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,g)21-30,a)20
+H,1971-1975,Cadre +,15-16,Oui,11-20,f)Plus vraiment,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,g)21-30,a)20
+H,1981-1985,Travailleur independant,17-18,Non,6-10,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,f)500+
+H,1971-1975,Employe,15-16,Oui,6-10,c)1/mois,7 h +,a)Les 2,a)Oui,a)Oui,b)2-5,e)11-15,c)50-100
+H,1971-1975,Cadre +,11-12,Oui,21+,c)1/mois,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1991-1995,Employe,17-18,Non,2-5,d)3/an,7 h +,b)MJ,a)Oui,a)Oui,b)2-5,d)7-10,d)100-200
+H,1991-1995,En recherche d'emploi,13-14,Oui,6-10,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,a)1,a)1,b)20-50
+H,1976-1980,Cadre +,13-14,Non,11-20,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,e)11-15,b)20-50
+H,1981-1985,Employe,15-16,Oui,11-20,e)1/an,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,d)7-10,b)20-50
+H,1976-1980,Profession intermediaire,11-12,Oui,21+,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,c)50-100
+H,1976-1980,Cadre +,11-12,Non,21+,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1971-1975,Employe,13-14,Oui,21+,a)1/semaine,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,e)200-500
+H,1971-1975,Cadre +,31-40,Oui,11-20,f)Plus vraiment,3-4 h,C)PJ,b)Non,a)Oui,b)2-5,c)4-6,a)20
+H,1991-1995,Etudiant,13-14,Non,2-5,c)1/mois,7 h +,C)PJ,b)Non,a)Oui,a)1,a)1,b)20-50
+H,1976-1980,En recherche d'emploi,11-12,Non,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,b)2-3,a)20
+H,1991-1995,Etudiant,19-20,Oui,21+,c)1/mois,5-6 h,a)Les 2,a)Oui,b)Non,f)0,j)0,g)0
+H,1991-1995,Etudiant,15-16,Oui,6-10,d)3/an,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,f)16-20,c)50-100
+F,1986-1990,Etudiant,15-16,Oui,11-20,f)Plus vraiment,5-6 h,C)PJ,a)Oui,a)Oui,b)2-5,c)4-6,a)20
+H,1986-1990,Employe,19-20,Oui,11-20,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,e)11-15,d)100-200
+H,1976-1980,Employe,10,Non,1,e)1/an,Le week end,C)PJ,b)Non,a)Oui,b)2-5,g)21-30,d)100-200
+H,1971-1975,Profession intermediaire,15-16,Oui,21+,f)Plus vraiment,5-6 h,C)PJ,a)Oui,a)Oui,b)2-5,b)2-3,a)20
+H,1976-1980,Employe,15-16,Non,2-5,d)3/an,7 h +,b)MJ,b)Non,a)Oui,a)1,c)4-6,a)20
+H,1971-1975,Cadre +,15-16,Oui,6-10,c)1/mois,5-6 h,C)PJ,b)Non,a)Oui,b)2-5,c)4-6,a)20
+H,1986-1990,Cadre +,11-12,Oui,21+,b)2/mois,Le week end,a)Les 2,a)Oui,a)Oui,d)11-15,g)21-30,e)200-500
+H,1976-1980,Employe,13-14,Oui,11-20,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,g)21-30,d)100-200
+H,1971-1975,Employe,13-14,Oui,21+,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,i)51+,e)200-500
+H,1986-1990,Profession intermediaire,13-14,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,d)100-200
+H,1991-1995,Etudiant,11-12,Non,6-10,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,d)100-200
+H,1986-1990,Etudiant,17-18,Oui,2-5,c)1/mois,Le week end,a)Les 2,b)Non,b)Non,f)0,j)0,g)0
+H,1986-1990,Etudiant,15-16,Oui,11-20,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,a)20
+H,1971-1975,Cadre +,19-20,Oui,21+,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,e)200-500
+H,1971-1975,Cadre +,11-12,Non,6-10,f)Plus vraiment,3-4 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,c)50-100
+H,1976-1980,Employe,13-14,Non,11-20,d)3/an,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,b)20-50
+H,1981-1985,Cadre +,11-12,Oui,21+,a)1/semaine,7 h +,a)Les 2,a)Oui,a)Oui,c)6-10,g)21-30,d)100-200
+H,1986-1990,Employe,11-12,Oui,21+,c)1/mois,7 h +,C)PJ,a)Oui,a)Oui,a)1,b)2-3,b)20-50
+F,1981-1985,Employe,10,Non,2-5,b)2/mois,3-4 h,C)PJ,b)Non,a)Oui,a)1,b)2-3,a)20
+H,1981-1985,Employe,11-12,Oui,11-20,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,h)31-50,c)50-100
+H,1976-1980,Je ne souhaite pas repondre,19-20,Non,2-5,f)Plus vraiment,7 h +,a)Les 2,b)Non,a)Oui,c)6-10,d)7-10,a)20
+H,1976-1980,Cadre +,10,Oui,21+,d)3/an,Le week end,a)Les 2,a)Oui,a)Oui,d)11-15,i)51+,c)50-100
+H,1991-1995,Etudiant,17-18,Oui,2-5,a)1/semaine,3-4 h,a)Les 2,a)Oui,b)Non,f)0,j)0,g)0
+H,1971-1975,Cadre +,11-12,Non,11-20,b)2/mois,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,e)200-500
+H,1971-1975,Cadre +,11-12,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1976-1980,Employe,17-18,Oui,21+,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,g)21-30,b)20-50
+H,1991-1995,Cadre +,15-16,Oui,2-5,b)2/mois,5-6 h,C)PJ,a)Oui,a)Oui,c)6-10,d)7-10,c)50-100
+F,1971-1975,Cadre +,19-20,Oui,11-20,c)1/mois,5-6 h,C)PJ,a)Oui,a)Oui,c)6-10,c)4-6,b)20-50
+H,1981-1985,Ouvrier,15-16,Oui,11-20,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,g)21-30,b)20-50
+H,1971-1975,Cadre +,10,Oui,21+,b)2/mois,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,g)21-30,c)50-100
+F,1991-1995,Etudiant,17-18,Oui,6-10,a)1/semaine,3-4 h,a)Les 2,a)Oui,b)Non,f)0,j)0,g)0
+F,1981-1985,Employe,23-24,Oui,11-20,d)3/an,5-6 h,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1981-1985,Etudiant,15-16,Non,11-20,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,f)16-20,c)50-100
+H,1966-1970,Employe,13-14,Oui,21+,f)Plus vraiment,5-6 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,e)200-500
+H,1981-1985,Cadre +,19-20,Non,2-5,f)Plus vraiment,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,c)4-6,a)20
+H,1971-1975,Employe,11-12,Oui,21+,f)Plus vraiment,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,a)20
+F,1986-1990,Cadre +,21-22,Non,6-10,d)3/an,5-6 h,C)PJ,b)Non,a)Oui,b)2-5,b)2-3,a)20
+H,1976-1980,Cadre +,11-12,Non,11-20,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,f)500+
+H,1971-1975,Cadre +,11-12,Non,6-10,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1976-1980,Je ne souhaite pas repondre,10,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,d)100-200
+H,1981-1985,Cadre +,13-14,Oui,11-20,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,a)1,b)20-50
+H,1981-1985,Cadre +,11-12,Non,21+,a)1/semaine,1-2 h,b)MJ,b)Non,a)Oui,e)16+,i)51+,e)200-500
+H,1981-1985,Employe,15-16,Oui,21+,a)1/semaine,7 h +,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1966-1970,Employe,15-16,Oui,21+,b)2/mois,Le week end,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1966-1970,Cadre +,17-18,Oui,11-20,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,f)16-20,d)100-200
+H,1976-1980,Cadre +,15-16,Non,11-20,c)1/mois,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,g)21-30,d)100-200
+F,1986-1990,Etudiant,19-20,Oui,2-5,c)1/mois,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,b)2-3,b)20-50
+H,1971-1975,Cadre +,15-16,Non,21+,d)3/an,7 h +,a)Les 2,b)Non,a)Oui,e)16+,i)51+,c)50-100
+H,1986-1990,Employe,13-14,Non,2-5,c)1/mois,5-6 h,C)PJ,a)Oui,a)Oui,b)2-5,b)2-3,f)500+
+F,1996-2000,Etudiant,13-14,Non,2-5,f)Plus vraiment,3-4 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1976-1980,Ouvrier,15-16,Oui,21+,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,d)11-15,h)31-50,d)100-200
+H,1986-1990,Etudiant,21-22,Oui,11-20,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,a)1,a)1,a)20
+H,1986-1990,Cadre +,10,Non,11-20,e)1/an,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,e)11-15,c)50-100
+F,1986-1990,Employe,21-22,Non,2-5,d)3/an,5-6 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1971-1975,Cadre +,11-12,Oui,21+,f)Plus vraiment,5-6 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,a)20
+F,1986-1990,En recherche d'emploi,23-24,Non,2-5,a)1/semaine,3-4 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1986-1990,En recherche d'emploi,15-16,Oui,11-20,f)Plus vraiment,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,b)2-3,a)20
+H,1991-1995,Etudiant,11-12,Oui,11-20,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,e)11-15,a)20
+F,1986-1990,Cadre +,17-18,Non,2-5,f)Plus vraiment,5-6 h,C)PJ,a)Oui,a)Oui,a)1,c)4-6,d)100-200
+F,1986-1990,En recherche d'emploi,19-20,Oui,6-10,a)1/semaine,5-6 h,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1986-1990,Cadre +,25-30,Non,2-5,b)2/mois,3-4 h,a)Les 2,b)Non,b)Non,f)0,j)0,g)0
+H,1981-1985,Cadre +,17-18,Non,6-10,a)1/semaine,5-6 h,a)Les 2,b)Non,a)Oui,a)1,a)1,a)20
+H,1976-1980,Cadre +,15-16,Oui,11-20,e)1/an,Le week end,a)Les 2,a)Oui,a)Oui,c)6-10,h)31-50,b)20-50
+H,1966-1970,Cadre +,13-14,Non,11-20,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1971-1975,Cadre +,15-16,Oui,11-20,d)3/an,Le week end,a)Les 2,a)Oui,a)Oui,c)6-10,h)31-50,a)20
+H,1971-1975,Employe,15-16,Non,21+,f)Plus vraiment,5-6 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,d)100-200
+H,1991-1995,Etudiant,17-18,Non,2-5,c)1/mois,3-4 h,a)Les 2,b)Non,a)Oui,a)1,c)4-6,c)50-100
+H,1991-1995,Etudiant,11-12,Oui,11-20,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,g)21-30,c)50-100
+H,1971-1975,Cadre +,13-14,Non,21+,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1986-1990,Etudiant,10,Oui,11-20,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,g)21-30,e)200-500
+H,1981-1985,Employe,13-14,Non,11-20,c)1/mois,5-6 h,C)PJ,b)Non,a)Oui,a)1,b)2-3,b)20-50
+H,1981-1985,Cadre +,17-18,Non,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,g)21-30,d)100-200
+H,1971-1975,Employe,11-12,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,d)100-200
+F,1991-1995,Etudiant,15-16,Oui,2-5,a)1/semaine,Le week end,C)PJ,a)Oui,a)Oui,b)2-5,b)2-3,c)50-100
+H,1986-1990,Sans activite,13-14,Oui,21+,a)1/semaine,7 h +,a)Les 2,a)Oui,a)Oui,d)11-15,i)51+,f)500+
+H,1981-1985,Cadre +,23-24,Oui,11-20,a)1/semaine,7 h +,a)Les 2,a)Oui,a)Oui,b)2-5,e)11-15,c)50-100
+H,1976-1980,Travailleur independant,13-14,Oui,21+,a)1/semaine,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,h)31-50,d)100-200
+H,1971-1975,Cadre +,13-14,Oui,11-20,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,d)11-15,g)21-30,d)100-200
+H,1976-1980,Employe,13-14,Oui,21+,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,g)21-30,c)50-100
+H,1991-1995,Etudiant,15-16,Oui,6-10,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,b)2-3,d)100-200
+F,1991-1995,Etudiant,21-22,Oui,6-10,b)2/mois,3-4 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1976-1980,Employe,11-12,Oui,6-10,a)1/semaine,3-4 h,C)PJ,b)Non,a)Oui,b)2-5,d)7-10,b)20-50
+H,1991-1995,Etudiant,11-12,Oui,6-10,b)2/mois,7 h +,a)Les 2,a)Oui,a)Oui,a)1,c)4-6,b)20-50
+F,1966-1970,Je ne souhaite pas repondre,13-14,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,g)21-30,c)50-100
+H,1986-1990,Employe,17-18,Oui,6-10,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,g)21-30,c)50-100
+H,1981-1985,Travailleur independant,10,Non,11-20,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,d)11-15,g)21-30,e)200-500
+H,1986-1990,Employe,13-14,Non,6-10,f)Plus vraiment,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,c)4-6,a)20
+H,1981-1985,Cadre +,11-12,Non,6-10,d)3/an,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,e)11-15,b)20-50
+H,1991-1995,Travailleur independant,21-22,Non,1,c)1/mois,5-6 h,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1981-1985,Cadre +,13-14,Oui,11-20,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,g)21-30,d)100-200
+H,1986-1990,Employe,15-16,Non,2-5,d)3/an,7 h +,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1976-1980,Cadre +,15-16,Oui,21+,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,d)11-15,i)51+,e)200-500
+H,1991-1995,Etudiant,19-20,Oui,1,b)2/mois,3-4 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+F,1986-1990,Employe,15-16,Oui,6-10,c)1/mois,7 h +,C)PJ,a)Oui,a)Oui,a)1,b)2-3,a)20
+H,1976-1980,Profession intermediaire,15-16,Non,11-20,d)3/an,5-6 h,b)MJ,b)Non,a)Oui,c)6-10,g)21-30,b)20-50
+F,1981-1985,Cadre +,19-20,Non,2-5,c)1/mois,7 h +,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1981-1985,Cadre +,13-14,Oui,6-10,f)Plus vraiment,5-6 h,C)PJ,a)Oui,a)Oui,b)2-5,d)7-10,a)20
+H,1981-1985,Employe,13-14,Oui,21+,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,d)11-15,h)31-50,d)100-200
+H,1976-1980,Je ne souhaite pas repondre,13-14,Non,6-10,a)1/semaine,1-2 h,a)Les 2,b)Non,a)Oui,d)11-15,i)51+,f)500+
+H,1976-1980,Travailleur independant,13-14,Non,11-20,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,d)11-15,i)51+,d)100-200
+H,1976-1980,Cadre +,15-16,Non,2-5,c)1/mois,3-4 h,C)PJ,b)Non,a)Oui,a)1,a)1,a)20
+H,1971-1975,Je ne souhaite pas repondre,10,Oui,21+,b)2/mois,7 h +,a)Les 2,a)Oui,a)Oui,d)11-15,i)51+,c)50-100
+H,1991-1995,Etudiant,11-12,Oui,6-10,c)1/mois,1-2 h,a)Les 2,b)Non,a)Oui,b)2-5,b)2-3,a)20
+H,1971-1975,Cadre +,13-14,Oui,11-20,f)Plus vraiment,5-6 h,C)PJ,b)Non,a)Oui,b)2-5,d)7-10,a)20
+F,1991-1995,En recherche d'emploi,19-20,Non,2-5,a)1/semaine,5-6 h,C)PJ,b)Non,a)Oui,b)2-5,a)1,a)20
+H,1966-1970,Employe,11-12,Oui,21+,b)2/mois,7 h +,a)Les 2,a)Oui,a)Oui,d)11-15,i)51+,f)500+
+H,1981-1985,Cadre +,13-14,Oui,11-20,e)1/an,7 h +,a)Les 2,a)Oui,a)Oui,b)2-5,g)21-30,a)20
+H,1986-1990,Etudiant,13-14,Oui,11-20,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,a)1,a)1,a)20
+H,1976-1980,En recherche d'emploi,17-18,Oui,21+,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1976-1980,Employe,13-14,Non,2-5,e)1/an,Le week end,a)Les 2,b)Non,a)Oui,b)2-5,f)16-20,b)20-50
+H,1981-1985,Cadre +,13-14,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,c)50-100
+H,1976-1980,Employe,11-12,Oui,21+,b)2/mois,5-6 h,C)PJ,a)Oui,a)Oui,b)2-5,b)2-3,c)50-100
+H,1986-1990,Employe,15-16,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,f)16-20,d)100-200
+H,1981-1985,En recherche d'emploi,10,Non,11-20,d)3/an,Le week end,a)Les 2,b)Non,a)Oui,c)6-10,h)31-50,e)200-500
+H,1976-1980,Cadre +,13-14,Non,11-20,d)3/an,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,b)20-50
+H,1991-1995,Etudiant,11-12,Oui,21+,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,h)31-50,e)200-500
+H,1981-1985,Employe,11-12,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,f)16-20,c)50-100
+H,1971-1975,Cadre +,11-12,Oui,21+,f)Plus vraiment,7 h +,a)Les 2,b)Non,a)Oui,c)6-10,h)31-50,a)20
+H,1976-1980,Employe,11-12,Non,6-10,c)1/mois,7 h +,C)PJ,b)Non,a)Oui,a)1,b)2-3,a)20
+H,1986-1990,Cadre +,17-18,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,g)21-30,d)100-200
+H,1981-1985,Travailleur independant,21-22,Non,6-10,f)Plus vraiment,Le week end,a)Les 2,b)Non,a)Oui,b)2-5,a)1,a)20
+H,1981-1985,Profession intermediaire,17-18,Oui,6-10,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,e)11-15,c)50-100
+H,1981-1985,Employe,11-12,Non,11-20,f)Plus vraiment,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,h)31-50,c)50-100
+H,1986-1990,En recherche d'emploi,13-14,Non,2-5,f)Plus vraiment,Le week end,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1976-1980,Cadre +,11-12,Non,21+,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,a)20
+H,1971-1975,Cadre +,11-12,Non,2-5,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,g)21-30,f)500+
+F,1991-1995,Etudiant,17-18,Oui,6-10,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,b)2-3,c)50-100
+H,1971-1975,Employe,15-16,Oui,21+,e)1/an,7 h +,b)MJ,b)Non,a)Oui,e)16+,i)51+,a)20
+H,1981-1985,Ouvrier,11-12,Non,11-20,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,f)16-20,d)100-200
+H,1966-1970,Employe,13-14,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1971-1975,Cadre +,19-20,Oui,11-20,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,g)21-30,b)20-50
+H,1976-1980,Employe,13-14,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,d)100-200
+H,1971-1975,Employe,15-16,Oui,11-20,c)1/mois,7 h +,a)Les 2,a)Oui,a)Oui,b)2-5,h)31-50,c)50-100
+H,1986-1990,Profession intermediaire,13-14,Non,11-20,d)3/an,7 h +,a)Les 2,b)Non,a)Oui,d)11-15,i)51+,d)100-200
+H,1976-1980,En recherche d'emploi,15-16,Oui,2-5,a)1/semaine,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,f)16-20,d)100-200
+H,1971-1975,Ouvrier,13-14,Non,11-20,c)1/mois,3-4 h,C)PJ,b)Non,a)Oui,c)6-10,g)21-30,d)100-200
+H,1986-1990,Employe,13-14,Non,21+,d)3/an,7 h +,a)Les 2,a)Oui,a)Oui,b)2-5,g)21-30,d)100-200
+H,1986-1990,Cadre +,19-20,Non,2-5,d)3/an,5-6 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1986-1990,Etudiant,19-20,Oui,6-10,b)2/mois,5-6 h,C)PJ,a)Oui,a)Oui,b)2-5,d)7-10,c)50-100
+H,1981-1985,Employe,13-14,Oui,6-10,a)1/semaine,3-4 h,C)PJ,a)Oui,a)Oui,b)2-5,c)4-6,a)20
+H,1976-1980,Cadre +,10,Oui,11-20,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,b)20-50
+H,1976-1980,Employe,15-16,Non,2-5,d)3/an,5-6 h,b)MJ,b)Non,a)Oui,c)6-10,i)51+,e)200-500
+H,1976-1980,Employe,15-16,Non,2-5,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,b)2-3,b)20-50
+H,1976-1980,Employe,11-12,Non,21+,c)1/mois,7 h +,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,d)100-200
+H,1971-1975,Cadre +,15-16,Non,21+,c)1/mois,3-4 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,f)500+
+H,1971-1975,Employe,19-20,Non,11-20,f)Plus vraiment,Le week end,C)PJ,b)Non,a)Oui,b)2-5,a)1,a)20
+H,1986-1990,En recherche d'emploi,15-16,Oui,11-20,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,h)31-50,d)100-200
+H,1991-1995,Etudiant,17-18,Oui,2-5,c)1/mois,5-6 h,a)Les 2,a)Oui,b)Non,f)0,j)0,g)0
+H,1986-1990,Employe,17-18,Oui,21+,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,f)16-20,c)50-100
+H,1986-1990,Cadre +,17-18,Non,2-5,f)Plus vraiment,3-4 h,b)MJ,b)Non,a)Oui,b)2-5,b)2-3,a)20
+H,1971-1975,Cadre +,15-16,Oui,11-20,c)1/mois,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,d)100-200
+H,1966-1970,Employe,15-16,Oui,21+,c)1/mois,7 h +,a)Les 2,b)Non,a)Oui,e)16+,h)31-50,f)500+
+H,1971-1975,Cadre +,11-12,Non,21+,f)Plus vraiment,7 h +,b)MJ,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1991-1995,Etudiant,19-20,Oui,2-5,b)2/mois,5-6 h,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1981-1985,Employe,17-18,Non,2-5,e)1/an,5-6 h,C)PJ,a)Oui,a)Oui,b)2-5,b)2-3,a)20
+F,1981-1985,Cadre +,19-20,Oui,6-10,c)1/mois,3-4 h,C)PJ,b)Non,a)Oui,b)2-5,d)7-10,b)20-50
+F,1976-1980,Etudiant,25-30,Non,6-10,d)3/an,3-4 h,C)PJ,b)Non,a)Oui,a)1,a)1,a)20
+H,1976-1980,Cadre +,15-16,Non,6-10,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,c)4-6,b)20-50
+H,1981-1985,Cadre +,19-20,Non,6-10,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,g)21-30,e)200-500
+H,1981-1985,Employe,19-20,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,d)7-10,e)200-500
+H,1986-1990,En recherche d'emploi,13-14,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,a)20
+H,1971-1975,En recherche d'emploi,11-12,Non,21+,b)2/mois,7 h +,a)Les 2,b)Non,a)Oui,e)16+,i)51+,f)500+
+H,1991-1995,Etudiant,13-14,Oui,6-10,d)3/an,5-6 h,a)Les 2,b)Non,a)Oui,d)11-15,h)31-50,e)200-500
+H,1981-1985,Employe,17-18,Oui,6-10,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,f)16-20,c)50-100
+H,1971-1975,Cadre +,13-14,Non,2-5,d)3/an,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,e)11-15,a)20
+H,1981-1985,Cadre +,19-20,Non,2-5,e)1/an,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,d)7-10,d)100-200
+H,1981-1985,Employe,11-12,Non,21+,f)Plus vraiment,7 h +,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1971-1975,Cadre +,15-16,Non,11-20,f)Plus vraiment,1-2 h,b)MJ,b)Non,a)Oui,b)2-5,c)4-6,b)20-50
+H,1976-1980,Travailleur independant,13-14,Non,21+,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,d)11-15,i)51+,d)100-200
+H,1981-1985,Employe,13-14,Oui,11-20,f)Plus vraiment,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,g)21-30,d)100-200
+H,1966-1970,Cadre +,13-14,Non,11-20,c)1/mois,3-4 h,b)MJ,b)Non,a)Oui,d)11-15,i)51+,e)200-500
+H,1976-1980,Cadre +,13-14,Non,11-20,d)3/an,5-6 h,a)Les 2,b)Non,a)Oui,d)11-15,d)7-10,b)20-50
+H,1971-1975,Travailleur independant,13-14,Oui,11-20,f)Plus vraiment,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,h)31-50,b)20-50
+H,1971-1975,Cadre +,10,Oui,6-10,d)3/an,Le week end,a)Les 2,a)Oui,a)Oui,b)2-5,f)16-20,b)20-50
+H,1971-1975,Employe,17-18,Oui,11-20,d)3/an,7 h +,b)MJ,b)Non,a)Oui,c)6-10,i)51+,d)100-200
+H,1976-1980,Cadre +,10,Oui,21+,f)Plus vraiment,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,b)20-50
+H,1981-1985,Travailleur independant,21-22,Oui,11-20,b)2/mois,7 h +,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,e)200-500
+H,1986-1990,Travailleur independant,15-16,Non,2-5,b)2/mois,5-6 h,a)Les 2,b)Non,a)Oui,a)1,a)1,a)20
+F,1971-1975,Cadre +,11-12,Oui,21+,f)Plus vraiment,7 h +,a)Les 2,a)Oui,a)Oui,b)2-5,c)4-6,a)20
+H,1981-1985,Etudiant,15-16,Non,6-10,f)Plus vraiment,7 h +,C)PJ,b)Non,a)Oui,b)2-5,h)31-50,a)20
+F,1976-1980,Cadre +,17-18,Oui,11-20,f)Plus vraiment,5-6 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+F,1986-1990,Etudiant,17-18,Oui,2-5,b)2/mois,3-4 h,C)PJ,a)Oui,a)Oui,a)1,b)2-3,b)20-50
+H,1981-1985,Employe,13-14,Oui,11-20,b)2/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,h)31-50,e)200-500
+H,1986-1990,Etudiant,19-20,Oui,21+,b)2/mois,7 h +,a)Les 2,a)Oui,b)Non,f)0,j)0,g)0
+H,1991-1995,Etudiant,11-12,Non,6-10,b)2/mois,7 h +,b)MJ,a)Oui,a)Oui,d)11-15,i)51+,e)200-500
+H,1971-1975,Employe,10,Oui,21+,d)3/an,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,b)20-50
+H,1976-1980,Employe,15-16,Oui,11-20,b)2/mois,7 h +,a)Les 2,b)Non,a)Oui,b)2-5,i)51+,a)20
+H,1976-1980,Cadre +,17-18,Oui,11-20,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,c)50-100
+H,1976-1980,Travailleur independant,10,Non,21+,a)1/semaine,5-6 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,d)100-200
+H,1966-1970,Etudiant,23-24,Non,6-10,b)2/mois,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,h)31-50,b)20-50
+H,1971-1975,Cadre +,10,Oui,21+,e)1/an,5-6 h,a)Les 2,b)Non,a)Oui,a)1,i)51+,c)50-100
+H,1986-1990,Profession intermediaire,21-22,Oui,11-20,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,c)50-100
+F,1986-1990,En recherche d'emploi,19-20,Oui,11-20,c)1/mois,3-4 h,a)Les 2,a)Oui,b)Non,f)0,j)0,g)0
+H,1991-1995,Etudiant,10,Oui,21+,c)1/mois,5-6 h,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1966-1970,Employe,13-14,Non,21+,c)1/mois,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,d)100-200
+F,1981-1985,En recherche d'emploi,15-16,Non,6-10,a)1/semaine,3-4 h,C)PJ,b)Non,a)Oui,b)2-5,b)2-3,a)20
+F,1976-1980,Cadre +,25-30,Non,2-5,e)1/an,3-4 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1991-1995,Etudiant,15-16,Non,11-20,e)1/an,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,a)20
+H,1981-1985,Employe,17-18,Oui,11-20,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,d)100-200
+H,1976-1980,Cadre +,13-14,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+F,1976-1980,Cadre +,31-40,Non,6-10,c)1/mois,5-6 h,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1981-1985,Cadre +,17-18,Oui,21+,c)1/mois,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,d)100-200
+H,1971-1975,Travailleur independant,17-18,Oui,21+,a)1/semaine,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,c)50-100
+F,1986-1990,Etudiant,10,Non,2-5,f)Plus vraiment,3-4 h,C)PJ,a)Oui,a)Oui,a)1,b)2-3,a)20
+H,1986-1990,Employe,10,Non,6-10,d)3/an,7 h +,a)Les 2,b)Non,a)Oui,b)2-5,c)4-6,b)20-50
+H,1976-1980,Profession intermediaire,13-14,Oui,11-20,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,d)11-15,h)31-50,e)200-500
+H,1976-1980,Cadre +,10,Oui,21+,f)Plus vraiment,7 h +,a)Les 2,a)Oui,a)Oui,c)6-10,h)31-50,c)50-100
+H,1971-1975,Travailleur independant,13-14,Oui,21+,f)Plus vraiment,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,a)20
+H,1976-1980,Cadre +,11-12,Non,6-10,c)1/mois,5-6 h,C)PJ,b)Non,a)Oui,d)11-15,g)21-30,c)50-100
+H,1986-1990,Employe,13-14,Oui,6-10,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,a)20
+H,1986-1990,Cadre +,15-16,Non,11-20,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,g)21-30,e)200-500
+H,1986-1990,Cadre +,10,Oui,11-20,a)1/semaine,3-4 h,b)MJ,a)Oui,a)Oui,b)2-5,h)31-50,e)200-500
+H,1966-1970,Travailleur independant,15-16,Oui,21+,b)2/mois,5-6 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,e)200-500
+F,1991-1995,En recherche d'emploi,19-20,Oui,21+,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,a)1,b)2-3,b)20-50
+H,1986-1990,Cadre +,17-18,Oui,21+,c)1/mois,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1971-1975,En recherche d'emploi,11-12,Oui,11-20,b)2/mois,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,d)100-200
+H,1971-1975,Cadre +,11-12,Non,21+,d)3/an,Le week end,a)Les 2,b)Non,a)Oui,e)16+,i)51+,f)500+
+H,1986-1990,Etudiant,13-14,Oui,11-20,f)Plus vraiment,5-6 h,C)PJ,a)Oui,a)Oui,b)2-5,d)7-10,a)20
+H,1986-1990,Cadre +,17-18,Oui,21+,a)1/semaine,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,h)31-50,e)200-500
+H,1981-1985,Cadre +,13-14,Oui,11-20,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,h)31-50,e)200-500
+F,1981-1985,Cadre +,19-20,Oui,11-20,c)1/mois,5-6 h,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1991-1995,Cadre +,19-20,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,c)50-100
+H,1981-1985,Je ne souhaite pas repondre,10,Oui,21+,b)2/mois,3-4 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,d)100-200
+H,1981-1985,Travailleur independant,10,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+F,1966-1970,Cadre +,17-18,Oui,11-20,c)1/mois,5-6 h,C)PJ,a)Oui,a)Oui,b)2-5,g)21-30,a)20
+H,1966-1970,Cadre +,11-12,Non,11-20,d)3/an,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,g)21-30,c)50-100
+H,1976-1980,Cadre +,19-20,Oui,21+,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,h)31-50,c)50-100
+H,1976-1980,Travailleur independant,15-16,Non,21+,d)3/an,Le week end,C)PJ,b)Non,a)Oui,e)16+,i)51+,f)500+
+H,1966-1970,Cadre +,15-16,Non,21+,d)3/an,3-4 h,C)PJ,b)Non,a)Oui,e)16+,i)51+,f)500+
+H,1981-1985,En recherche d'emploi,15-16,Oui,21+,a)1/semaine,7 h +,a)Les 2,a)Oui,a)Oui,c)6-10,h)31-50,d)100-200
+H,1976-1980,Profession intermediaire,15-16,Oui,6-10,f)Plus vraiment,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,f)16-20,a)20
+H,1971-1975,En recherche d'emploi,11-12,Oui,6-10,d)3/an,7 h +,a)Les 2,b)Non,a)Oui,b)2-5,g)21-30,c)50-100
+F,1981-1985,Cadre +,15-16,Oui,2-5,f)Plus vraiment,7 h +,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+F,1986-1990,Employe,15-16,Oui,2-5,c)1/mois,7 h +,C)PJ,b)Non,a)Oui,b)2-5,b)2-3,b)20-50
+H,1971-1975,Travailleur independant,15-16,Oui,11-20,d)3/an,7 h +,C)PJ,b)Non,a)Oui,c)6-10,h)31-50,b)20-50
+H,1976-1980,Cadre +,15-16,Oui,11-20,c)1/mois,7 h +,C)PJ,b)Non,a)Oui,b)2-5,d)7-10,a)20
+H,1986-1990,Employe,15-16,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,g)21-30,e)200-500
+H,1966-1970,Cadre +,13-14,Oui,6-10,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,a)20
+F,1986-1990,En recherche d'emploi,19-20,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,e)200-500
+H,1986-1990,En recherche d'emploi,15-16,Non,11-20,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,h)31-50,d)100-200
+H,1991-1995,Etudiant,15-16,Oui,11-20,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,g)21-30,d)100-200
+H,1976-1980,Sans activite,11-12,Non,2-5,d)3/an,1-2 h,a)Les 2,b)Non,a)Oui,b)2-5,c)4-6,d)100-200
+H,1981-1985,Cadre +,11-12,Non,11-20,b)2/mois,3-4 h,C)PJ,b)Non,a)Oui,b)2-5,c)4-6,a)20
+H,1986-1990,Employe,10,Non,21+,b)2/mois,7 h +,a)Les 2,a)Oui,a)Oui,d)11-15,i)51+,e)200-500
+H,1971-1975,Travailleur independant,11-12,Oui,21+,b)2/mois,7 h +,a)Les 2,b)Non,a)Oui,e)16+,i)51+,c)50-100
+F,1996-2000,Etudiant,13-14,Oui,6-10,b)2/mois,5-6 h,C)PJ,b)Non,a)Oui,a)1,b)2-3,b)20-50
+H,1971-1975,Cadre +,13-14,Oui,11-20,a)1/semaine,5-6 h,a)Les 2,b)Non,a)Oui,e)16+,g)21-30,a)20
+H,1981-1985,Etudiant,10,Oui,21+,a)1/semaine,7 h +,a)Les 2,b)Non,a)Oui,e)16+,i)51+,d)100-200
+H,1991-1995,Etudiant,11-12,Non,2-5,f)Plus vraiment,5-6 h,b)MJ,a)Oui,a)Oui,c)6-10,h)31-50,a)20
+H,1976-1980,Employe,13-14,Oui,2-5,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,e)11-15,d)100-200
+H,1971-1975,Cadre +,11-12,Oui,6-10,c)1/mois,7 h +,a)Les 2,b)Non,a)Oui,c)6-10,h)31-50,c)50-100
+H,1991-1995,En recherche d'emploi,15-16,Oui,6-10,b)2/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,d)7-10,c)50-100
+F,1981-1985,Cadre +,21-22,Oui,2-5,d)3/an,5-6 h,C)PJ,a)Oui,a)Oui,a)1,b)2-3,c)50-100
+H,1976-1980,Cadre +,13-14,Non,11-20,f)Plus vraiment,3-4 h,C)PJ,a)Oui,a)Oui,b)2-5,d)7-10,a)20
+H,1981-1985,Employe,15-16,Non,6-10,a)1/semaine,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,c)4-6,b)20-50
+H,1986-1990,Cadre +,19-20,Oui,2-5,d)3/an,3-4 h,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1966-1970,Cadre +,11-12,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,a)20
+H,1981-1985,Cadre +,11-12,Non,2-5,f)Plus vraiment,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,e)200-500
+H,1996-2000,Etudiant,13-14,Oui,6-10,a)1/semaine,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,f)16-20,d)100-200
+H,1986-1990,Etudiant,11-12,Non,2-5,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,a)20
+F,1981-1985,Cadre +,19-20,Oui,6-10,c)1/mois,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,b)2-3,b)20-50
+H,1981-1985,Employe,19-20,Non,11-20,a)1/semaine,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,d)100-200
+H,1991-1995,Employe,15-16,Oui,2-5,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,a)1,a)1,c)50-100
+H,1986-1990,Employe,15-16,Oui,11-20,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,a)1,a)1,b)20-50
+H,1981-1985,Ouvrier,13-14,Non,6-10,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,e)11-15,c)50-100
+H,1976-1980,Employe,10,Oui,21+,e)1/an,Le week end,a)Les 2,b)Non,a)Oui,b)2-5,e)11-15,a)20
+H,1986-1990,Employe,13-14,Oui,6-10,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,c)4-6,a)20
+H,1986-1990,Employe,15-16,Non,11-20,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,f)16-20,c)50-100
+H,1986-1990,Cadre +,11-12,Non,6-10,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,d)7-10,b)20-50
+H,1981-1985,Cadre +,11-12,Non,2-5,d)3/an,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,e)11-15,b)20-50
+H,1976-1980,Cadre +,19-20,Non,11-20,b)2/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,e)11-15,b)20-50
+H,1971-1975,Cadre +,13-14,Oui,2-5,c)1/mois,7 h +,a)Les 2,a)Oui,a)Oui,b)2-5,h)31-50,b)20-50
+H,1976-1980,Je ne souhaite pas repondre,13-14,Oui,21+,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,e)11-15,a)20
+H,1971-1975,En recherche d'emploi,13-14,Non,6-10,c)1/mois,7 h +,C)PJ,b)Non,a)Oui,b)2-5,d)7-10,a)20
+H,1986-1990,Profession intermediaire,13-14,Non,2-5,f)Plus vraiment,3-4 h,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1976-1980,Employe,10,Oui,11-20,f)Plus vraiment,Le week end,a)Les 2,a)Oui,a)Oui,c)6-10,h)31-50,b)20-50
+H,1976-1980,Cadre +,17-18,Oui,6-10,f)Plus vraiment,5-6 h,C)PJ,b)Non,a)Oui,b)2-5,e)11-15,b)20-50
+H,1971-1975,Cadre +,13-14,Non,6-10,d)3/an,7 h +,a)Les 2,b)Non,a)Oui,c)6-10,e)11-15,b)20-50
+H,1971-1975,Cadre +,13-14,Oui,21+,b)2/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,i)51+,c)50-100
+F,1981-1985,Employe,10,Oui,6-10,d)3/an,7 h +,C)PJ,a)Oui,a)Oui,a)1,b)2-3,b)20-50
+H,1986-1990,Cadre +,19-20,Non,2-5,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,b)2-3,b)20-50
+F,1971-1975,Profession intermediaire,13-14,Oui,21+,c)1/mois,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,g)21-30,e)200-500
+H,1981-1985,Cadre +,13-14,Non,21+,c)1/mois,3-4 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,b)20-50
+H,1991-1995,En recherche d'emploi,10,Oui,21+,b)2/mois,7 h +,a)Les 2,a)Oui,a)Oui,d)11-15,g)21-30,c)50-100
+H,1971-1975,Ouvrier,13-14,Oui,21+,b)2/mois,5-6 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,f)500+
+H,1976-1980,Cadre +,11-12,Oui,21+,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,b)20-50
+H,1986-1990,Profession intermediaire,13-14,Oui,11-20,a)1/semaine,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,h)31-50,d)100-200
+H,1986-1990,Cadre +,17-18,Non,2-5,f)Plus vraiment,7 h +,C)PJ,b)Non,a)Oui,b)2-5,b)2-3,b)20-50
+H,1986-1990,Employe,17-18,Non,6-10,b)2/mois,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,b)2-3,b)20-50
+H,1991-1995,Etudiant,13-14,Non,1,f)Plus vraiment,3-4 h,b)MJ,b)Non,a)Oui,a)1,c)4-6,a)20
+H,1986-1990,En recherche d'emploi,21-22,Non,21+,a)1/semaine,3-4 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,d)100-200
+H,1971-1975,Cadre +,17-18,Oui,11-20,f)Plus vraiment,Le week end,a)Les 2,a)Oui,a)Oui,b)2-5,c)4-6,a)20
+H,1971-1975,Employe,13-14,Oui,21+,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,i)51+,d)100-200
+H,1971-1975,Ouvrier,15-16,Oui,2-5,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,g)21-30,b)20-50
+H,1986-1990,Profession intermediaire,15-16,Non,11-20,a)1/semaine,7 h +,a)Les 2,b)Non,a)Oui,d)11-15,g)21-30,e)200-500
+H,1976-1980,Cadre +,17-18,Non,21+,c)1/mois,7 h +,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1981-1985,Cadre +,25-30,Oui,2-5,e)1/an,3-4 h,C)PJ,b)Non,a)Oui,b)2-5,b)2-3,a)20
+H,1986-1990,Ouvrier,15-16,Non,6-10,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,a)1,a)1,a)20
+F,1986-1990,Etudiant,13-14,Oui,11-20,a)1/semaine,Le week end,C)PJ,a)Oui,a)Oui,b)2-5,e)11-15,b)20-50
+H,1971-1975,En recherche d'emploi,15-16,Non,6-10,c)1/mois,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,e)11-15,b)20-50
+H,1976-1980,Cadre +,13-14,Oui,21+,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,c)50-100
+H,1981-1985,Employe,13-14,Oui,21+,c)1/mois,7 h +,a)Les 2,a)Oui,a)Oui,b)2-5,g)21-30,c)50-100
+F,1996-2000,Etudiant,10,Oui,21+,b)2/mois,3-4 h,C)PJ,a)Oui,a)Oui,c)6-10,d)7-10,c)50-100
+H,1971-1975,Travailleur independant,11-12,Oui,21+,b)2/mois,5-6 h,b)MJ,a)Oui,a)Oui,d)11-15,i)51+,c)50-100
+H,1976-1980,Cadre +,13-14,Oui,11-20,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,g)21-30,b)20-50
+H,1981-1985,Travailleur independant,13-14,Oui,21+,a)1/semaine,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,g)21-30,a)20
+H,1991-1995,Etudiant,15-16,Non,2-5,b)2/mois,3-4 h,a)Les 2,b)Non,b)Non,f)0,j)0,g)0
+H,1966-1970,Cadre +,17-18,Oui,6-10,f)Plus vraiment,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,e)11-15,a)20
+F,1986-1990,Employe,19-20,Non,6-10,c)1/mois,5-6 h,C)PJ,a)Oui,a)Oui,a)1,c)4-6,c)50-100
+H,1981-1985,Employe,13-14,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,e)200-500
+F,1986-1990,Travailleur independant,21-22,Non,2-5,b)2/mois,3-4 h,b)MJ,a)Oui,a)Oui,b)2-5,b)2-3,c)50-100
+H,1976-1980,Profession intermediaire,13-14,Non,21+,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+F,1986-1990,Sans activite,17-18,Oui,6-10,a)1/semaine,Le week end,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,d)100-200
+H,1971-1975,Employe,13-14,Non,11-20,b)2/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,i)51+,c)50-100
+H,1981-1985,En recherche d'emploi,11-12,Oui,6-10,c)1/mois,5-6 h,b)MJ,b)Non,a)Oui,c)6-10,h)31-50,e)200-500
+H,1966-1970,Employe,17-18,Oui,11-20,e)1/an,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,d)100-200
+F,1986-1990,Profession intermediaire,10,Oui,6-10,b)2/mois,Le week end,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,b)20-50
+F,1986-1990,Etudiant,21-22,Non,2-5,a)1/semaine,3-4 h,C)PJ,b)Non,a)Oui,a)1,b)2-3,a)20
+H,1976-1980,Cadre +,25-30,Oui,2-5,a)1/semaine,3-4 h,a)Les 2,b)Non,b)Non,f)0,j)0,g)0
+H,1986-1990,Je ne souhaite pas repondre,11-12,Oui,11-20,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,g)21-30,d)100-200
+H,1966-1970,Travailleur independant,17-18,Oui,11-20,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,h)31-50,c)50-100
+H,1966-1970,Cadre +,11-12,Non,11-20,a)1/semaine,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,i)51+,c)50-100
+H,1971-1975,Employe,13-14,Oui,11-20,b)2/mois,5-6 h,b)MJ,b)Non,a)Oui,d)11-15,i)51+,e)200-500
+H,1991-1995,Etudiant,15-16,Oui,6-10,a)1/semaine,3-4 h,a)Les 2,a)Oui,b)Non,f)0,j)0,g)0
+F,1976-1980,Employe,21-22,Oui,11-20,a)1/semaine,3-4 h,C)PJ,a)Oui,a)Oui,c)6-10,i)51+,b)20-50
+H,1971-1975,Cadre +,11-12,Oui,21+,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,e)16+,h)31-50,b)20-50
+H,1971-1975,Profession intermediaire,15-16,Oui,6-10,d)3/an,3-4 h,C)PJ,b)Non,a)Oui,b)2-5,c)4-6,a)20
+H,1966-1970,Employe,11-12,Non,6-10,d)3/an,7 h +,C)PJ,a)Oui,a)Oui,b)2-5,f)16-20,c)50-100
+H,1976-1980,Cadre +,13-14,Non,2-5,c)1/mois,5-6 h,b)MJ,b)Non,a)Oui,b)2-5,i)51+,f)500+
+H,1981-1985,Employe,15-16,Oui,6-10,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,c)4-6,d)100-200
+F,1986-1990,Cadre +,15-16,Oui,11-20,e)1/an,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,c)4-6,a)20
+H,1976-1980,Employe,15-16,Oui,11-20,b)2/mois,5-6 h,a)Les 2,b)Non,a)Oui,d)11-15,i)51+,e)200-500
+H,1971-1975,Cadre +,11-12,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,e)200-500
+H,1971-1975,Cadre +,13-14,Non,21+,c)1/mois,3-4 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,c)50-100
+H,1976-1980,Cadre +,10,Non,21+,f)Plus vraiment,5-6 h,C)PJ,b)Non,a)Oui,c)6-10,f)16-20,b)20-50
+H,1976-1980,Employe,10,Oui,21+,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,a)20
+H,1976-1980,Employe,13-14,Non,6-10,e)1/an,5-6 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,d)100-200
+H,1971-1975,Cadre +,17-18,Non,11-20,a)1/semaine,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,e)11-15,b)20-50
+F,1986-1990,Profession intermediaire,19-20,Oui,21+,c)1/mois,5-6 h,C)PJ,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1981-1985,Employe,13-14,Non,2-5,b)2/mois,3-4 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1981-1985,Employe,11-12,Non,6-10,e)1/an,3-4 h,C)PJ,a)Oui,a)Oui,a)1,b)2-3,a)20
+H,1986-1990,Etudiant,10,Oui,21+,e)1/an,Le week end,C)PJ,b)Non,a)Oui,b)2-5,h)31-50,b)20-50
+H,1976-1980,Ouvrier,13-14,Non,6-10,d)3/an,5-6 h,C)PJ,a)Oui,a)Oui,b)2-5,b)2-3,a)20
+H,1971-1975,Cadre +,11-12,Non,11-20,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,g)21-30,a)20
+H,1991-1995,En recherche d'emploi,13-14,Non,2-5,c)1/mois,7 h +,a)Les 2,b)Non,a)Oui,b)2-5,b)2-3,a)20
+H,1976-1980,Cadre +,13-14,Oui,6-10,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,i)51+,a)20
+F,1981-1985,Cadre +,21-22,Oui,6-10,e)1/an,5-6 h,C)PJ,b)Non,a)Oui,a)1,a)1,a)20
+H,1991-1995,Etudiant,13-14,Oui,6-10,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,b)2-3,d)100-200
+H,1981-1985,Employe,15-16,Non,6-10,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,e)200-500
+H,1996-2000,Etudiant,11-12,Oui,2-5,c)1/mois,7 h +,C)PJ,b)Non,a)Oui,a)1,a)1,c)50-100
+H,1971-1975,Employe,11-12,Non,11-20,f)Plus vraiment,7 h +,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,f)500+
+H,1981-1985,Cadre +,17-18,Oui,11-20,c)1/mois,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,e)11-15,b)20-50
+F,1976-1980,Cadre +,15-16,Oui,11-20,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,c)50-100
+H,1971-1975,Employe,17-18,Non,6-10,f)Plus vraiment,5-6 h,C)PJ,b)Non,a)Oui,b)2-5,i)51+,a)20
+H,1971-1975,Cadre +,10,Oui,11-20,f)Plus vraiment,1-2 h,a)Les 2,a)Oui,a)Oui,d)11-15,i)51+,a)20
+H,1981-1985,Cadre +,19-20,Non,11-20,f)Plus vraiment,7 h +,C)PJ,a)Oui,a)Oui,a)1,d)7-10,a)20
+H,1976-1980,Profession intermediaire,21-22,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,h)31-50,b)20-50
+H,1966-1970,Cadre +,17-18,Oui,11-20,b)2/mois,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,f)16-20,a)20
+H,1981-1985,Cadre +,15-16,Oui,2-5,e)1/an,Le week end,C)PJ,b)Non,a)Oui,a)1,a)1,a)20
+H,1986-1990,Etudiant,13-14,Oui,2-5,a)1/semaine,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,f)16-20,d)100-200
+H,1986-1990,Employe,13-14,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,d)7-10,d)100-200
+H,1981-1985,Cadre +,11-12,Non,11-20,a)1/semaine,3-4 h,C)PJ,b)Non,a)Oui,b)2-5,d)7-10,a)20
+H,1976-1980,Employe,11-12,Oui,6-10,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,g)21-30,e)200-500
+H,1986-1990,Etudiant,11-12,Oui,11-20,d)3/an,7 h +,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1996-2000,Etudiant,15-16,Non,2-5,a)1/semaine,5-6 h,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1991-1995,Etudiant,19-20,Non,2-5,b)2/mois,7 h +,a)Les 2,b)Non,a)Oui,a)1,a)1,c)50-100
+H,1991-1995,Etudiant,19-20,Non,2-5,d)3/an,Le week end,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1966-1970,Cadre +,17-18,Non,6-10,f)Plus vraiment,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,d)7-10,b)20-50
+F,1996-2000,Etudiant,11-12,Oui,6-10,a)1/semaine,5-6 h,C)PJ,a)Oui,a)Oui,a)1,a)1,a)20
+F,1991-1995,Etudiant,19-20,Non,2-5,f)Plus vraiment,5-6 h,C)PJ,b)Non,a)Oui,b)2-5,c)4-6,c)50-100
+H,1981-1985,En recherche d'emploi,13-14,Non,2-5,f)Plus vraiment,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,e)11-15,c)50-100
+F,1976-1980,Cadre +,11-12,Oui,11-20,d)3/an,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,i)51+,d)100-200
+H,1986-1990,Employe,15-16,Oui,2-5,b)2/mois,7 h +,a)Les 2,b)Non,a)Oui,a)1,b)2-3,a)20
+H,1976-1980,Cadre +,10,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,f)16-20,c)50-100
+H,1981-1985,Employe,17-18,Oui,11-20,a)1/semaine,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,f)16-20,d)100-200
+F,1976-1980,Etudiant,15-16,Oui,6-10,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,h)31-50,b)20-50
+H,1971-1975,Employe,17-18,Oui,11-20,c)1/mois,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,i)51+,c)50-100
+F,1981-1985,Employe,25-30,Non,1,e)1/an,5-6 h,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1981-1985,Travailleur independant,10,Non,6-10,f)Plus vraiment,5-6 h,a)Les 2,b)Non,a)Oui,a)1,b)2-3,a)20
+H,1981-1985,Cadre +,21-22,Oui,6-10,e)1/an,5-6 h,a)Les 2,a)Oui,a)Oui,a)1,a)1,a)20
+H,1981-1985,Employe,11-12,Oui,2-5,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,b)2-3,a)20
+H,1976-1980,Employe,11-12,Non,2-5,f)Plus vraiment,1-2 h,a)Les 2,a)Oui,a)Oui,c)6-10,d)7-10,e)200-500
+H,1986-1990,Cadre +,19-20,Non,2-5,b)2/mois,5-6 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,f)500+
+H,1966-1970,En recherche d'emploi,15-16,Oui,21+,c)1/mois,3-4 h,b)MJ,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1986-1990,Cadre +,23-24,Oui,11-20,a)1/semaine,5-6 h,C)PJ,a)Oui,a)Oui,a)1,a)1,a)20
+H,1971-1975,Cadre +,11-12,Oui,11-20,c)1/mois,7 h +,a)Les 2,a)Oui,a)Oui,d)11-15,h)31-50,d)100-200
+H,1971-1975,Cadre +,13-14,Oui,21+,c)1/mois,5-6 h,b)MJ,b)Non,a)Oui,e)16+,i)51+,e)200-500
+H,1971-1975,Profession intermediaire,15-16,Oui,11-20,c)1/mois,7 h +,C)PJ,b)Non,a)Oui,b)2-5,d)7-10,b)20-50
+F,1981-1985,Cadre +,17-18,Oui,11-20,a)1/semaine,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,g)21-30,d)100-200
+H,1981-1985,Employe,13-14,Non,21+,f)Plus vraiment,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,c)4-6,a)20
+H,1981-1985,Employe,11-12,Non,21+,b)2/mois,7 h +,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,c)50-100
+H,1981-1985,Cadre +,25-30,Non,11-20,f)Plus vraiment,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,e)11-15,a)20
+F,1986-1990,Travailleur independant,11-12,Non,2-5,f)Plus vraiment,3-4 h,a)Les 2,b)Non,a)Oui,a)1,a)1,a)20
+H,1971-1975,Employe,13-14,Non,21+,c)1/mois,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,h)31-50,c)50-100
+H,1986-1990,Etudiant,21-22,Non,2-5,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,a)1,e)11-15,c)50-100
+H,1976-1980,Cadre +,11-12,Non,2-5,f)Plus vraiment,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,e)11-15,a)20
+H,1981-1985,En recherche d'emploi,19-20,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,f)16-20,c)50-100
+H,1971-1975,Cadre +,11-12,Oui,11-20,a)1/semaine,7 h +,a)Les 2,b)Non,a)Oui,d)11-15,i)51+,f)500+
+H,1976-1980,Cadre +,10,Non,11-20,d)3/an,5-6 h,b)MJ,b)Non,a)Oui,d)11-15,i)51+,f)500+
+H,1986-1990,En recherche d'emploi,21-22,Oui,2-5,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,e)11-15,e)200-500
+H,1986-1990,Etudiant,15-16,Non,6-10,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,c)4-6,d)100-200
+H,1976-1980,Employe,15-16,Non,21+,c)1/mois,3-4 h,b)MJ,a)Oui,a)Oui,d)11-15,h)31-50,d)100-200
+H,1991-1995,En recherche d'emploi,19-20,Non,11-20,b)2/mois,5-6 h,a)Les 2,a)Oui,b)Non,f)0,j)0,g)0
+H,1971-1975,Employe,15-16,Oui,11-20,a)1/semaine,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,d)7-10,d)100-200
+H,1981-1985,En recherche d'emploi,13-14,Non,11-20,a)1/semaine,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,g)21-30,c)50-100
+H,1971-1975,Cadre +,11-12,Non,21+,b)2/mois,5-6 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,c)50-100
+H,1976-1980,Cadre +,15-16,Non,6-10,d)3/an,5-6 h,C)PJ,b)Non,a)Oui,c)6-10,i)51+,e)200-500
+F,1971-1975,Employe,15-16,Oui,21+,a)1/semaine,5-6 h,C)PJ,a)Oui,a)Oui,b)2-5,c)4-6,a)20
+H,1966-1970,Employe,13-14,Oui,11-20,b)2/mois,5-6 h,C)PJ,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1981-1985,Cadre +,25-30,Oui,6-10,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,c)50-100
+H,1976-1980,Cadre +,10,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1981-1985,Cadre +,11-12,Non,2-5,f)Plus vraiment,3-4 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1966-1970,Cadre +,13-14,Oui,11-20,c)1/mois,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,c)50-100
+F,1976-1980,Profession intermediaire,19-20,Oui,6-10,d)3/an,5-6 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1996-2000,Etudiant,10,Non,6-10,c)1/mois,5-6 h,b)MJ,b)Non,a)Oui,a)1,b)2-3,b)20-50
+H,1991-1995,Etudiant,10,Non,6-10,c)1/mois,7 h +,a)Les 2,a)Oui,b)Non,f)0,j)0,g)0
+H,1971-1975,Cadre +,11-12,Oui,21+,b)2/mois,7 h +,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,b)20-50
+H,1991-1995,Cadre +,15-16,Non,2-5,c)1/mois,5-6 h,C)PJ,a)Oui,a)Oui,b)2-5,e)11-15,b)20-50
+H,1971-1975,Cadre +,11-12,Non,21+,f)Plus vraiment,7 h +,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,a)20
+F,1971-1975,Employe,17-18,Oui,6-10,c)1/mois,5-6 h,C)PJ,a)Oui,a)Oui,b)2-5,c)4-6,c)50-100
+H,1960 ou avant,Cadre +,25-30,Oui,11-20,d)3/an,7 h +,a)Les 2,a)Oui,a)Oui,d)11-15,i)51+,d)100-200
+H,1966-1970,Employe,13-14,Oui,21+,f)Plus vraiment,7 h +,C)PJ,b)Non,a)Oui,e)16+,i)51+,e)200-500
+F,1986-1990,Employe,13-14,Non,6-10,b)2/mois,5-6 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+F,1981-1985,En recherche d'emploi,15-16,Non,6-10,a)1/semaine,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,g)21-30,c)50-100
+H,1971-1975,Cadre +,13-14,Oui,21+,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,c)50-100
+H,1981-1985,Profession intermediaire,11-12,Oui,11-20,d)3/an,7 h +,a)Les 2,a)Oui,a)Oui,c)6-10,h)31-50,a)20
+H,1986-1990,Ouvrier,21-22,Non,2-5,f)Plus vraiment,5-6 h,C)PJ,b)Non,a)Oui,a)1,c)4-6,a)20
+H,1996-2000,Etudiant,10,Oui,2-5,a)1/semaine,3-4 h,a)Les 2,b)Non,a)Oui,a)1,b)2-3,a)20
+F,1981-1985,Je ne souhaite pas repondre,10,Non,6-10,b)2/mois,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,e)11-15,a)20
+H,1991-1995,Employe,19-20,Non,1,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,a)1,d)7-10,c)50-100
+H,1971-1975,Profession intermediaire,15-16,Oui,11-20,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,f)16-20,b)20-50
+H,1976-1980,Cadre +,13-14,Non,21+,e)1/an,7 h +,b)MJ,b)Non,a)Oui,b)2-5,h)31-50,c)50-100
+H,1991-1995,Etudiant,17-18,Non,2-5,b)2/mois,3-4 h,a)Les 2,b)Non,b)Non,f)0,j)0,g)0
+F,1976-1980,Cadre +,21-22,Oui,11-20,c)1/mois,7 h +,C)PJ,b)Non,a)Oui,a)1,d)7-10,a)20
+F,1981-1985,En recherche d'emploi,25-30,Oui,11-20,b)2/mois,7 h +,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1960 ou avant,Retraite,25-30,Oui,6-10,b)2/mois,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,i)51+,d)100-200
+F,1991-1995,Etudiant,10,Oui,6-10,a)1/semaine,5-6 h,a)Les 2,a)Oui,b)Non,f)0,j)0,g)0
+H,1991-1995,Etudiant,15-16,Oui,6-10,b)2/mois,5-6 h,C)PJ,b)Non,a)Oui,b)2-5,b)2-3,a)20
+H,1971-1975,Cadre +,11-12,Non,21+,f)Plus vraiment,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,d)100-200
+H,1976-1980,Ouvrier,11-12,Non,11-20,a)1/semaine,1-2 h,C)PJ,b)Non,a)Oui,b)2-5,e)11-15,c)50-100
+H,1976-1980,Employe,10,Non,11-20,c)1/mois,7 h +,a)Les 2,b)Non,a)Oui,d)11-15,i)51+,e)200-500
+H,1981-1985,Employe,17-18,Non,6-10,b)2/mois,3-4 h,C)PJ,a)Oui,a)Oui,b)2-5,d)7-10,b)20-50
+H,1976-1980,Profession intermediaire,15-16,Non,2-5,f)Plus vraiment,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,g)21-30,d)100-200
+H,1971-1975,Cadre +,15-16,Non,11-20,f)Plus vraiment,5-6 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,d)100-200
+H,1991-1995,Employe,17-18,Oui,6-10,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,e)11-15,d)100-200
+H,1976-1980,Cadre +,11-12,Oui,11-20,c)1/mois,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,d)100-200
+H,1971-1975,Profession intermediaire,11-12,Oui,11-20,c)1/mois,7 h +,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,e)200-500
+H,1976-1980,Cadre +,13-14,Non,6-10,f)Plus vraiment,3-4 h,b)MJ,b)Non,a)Oui,c)6-10,i)51+,c)50-100
+F,1981-1985,Cadre +,19-20,Non,2-5,c)1/mois,3-4 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1981-1985,Cadre +,11-12,Non,11-20,b)2/mois,7 h +,a)Les 2,b)Non,a)Oui,b)2-5,d)7-10,d)100-200
+H,1986-1990,Cadre +,15-16,Non,11-20,b)2/mois,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,i)51+,c)50-100
+F,1981-1985,En recherche d'emploi,11-12,Non,6-10,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,c)50-100
+H,1971-1975,Ouvrier,10,Oui,11-20,f)Plus vraiment,7 h +,a)Les 2,a)Oui,a)Oui,b)2-5,c)4-6,a)20
+H,1966-1970,Je ne souhaite pas repondre,15-16,Oui,11-20,a)1/semaine,Le week end,C)PJ,b)Non,a)Oui,b)2-5,f)16-20,a)20
+H,1986-1990,En recherche d'emploi,11-12,Non,2-5,f)Plus vraiment,1-2 h,b)MJ,a)Oui,a)Oui,b)2-5,b)2-3,a)20
+H,1971-1975,Profession intermediaire,15-16,Oui,21+,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+H,1986-1990,En recherche d'emploi,13-14,Oui,11-20,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,e)11-15,c)50-100
+H,1976-1980,Cadre +,11-12,Non,6-10,a)1/semaine,5-6 h,C)PJ,b)Non,a)Oui,b)2-5,b)2-3,a)20
+H,1981-1985,Travailleur independant,19-20,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1981-1985,Cadre +,15-16,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,e)200-500
+F,1986-1990,Cadre +,23-24,Non,2-5,b)2/mois,5-6 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1981-1985,Travailleur independant,25-30,Non,2-5,a)1/semaine,3-4 h,C)PJ,a)Oui,a)Oui,a)1,a)1,a)20
+H,1986-1990,Ouvrier,15-16,Non,6-10,e)1/an,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,c)4-6,a)20
+H,1966-1970,Travailleur independant,17-18,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,d)100-200
+F,1986-1990,Cadre +,17-18,Non,6-10,e)1/an,5-6 h,C)PJ,b)Non,a)Oui,b)2-5,c)4-6,b)20-50
+H,1971-1975,Travailleur independant,10,Oui,11-20,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,d)100-200
+F,1996-2000,Etudiant,15-16,Oui,11-20,b)2/mois,5-6 h,C)PJ,a)Oui,a)Oui,b)2-5,b)2-3,c)50-100
+H,1971-1975,Travailleur independant,19-20,Oui,2-5,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,i)51+,d)100-200
+F,1986-1990,En recherche d'emploi,17-18,Non,6-10,b)2/mois,Le week end,a)Les 2,a)Oui,b)Non,f)0,j)0,g)0
+H,1981-1985,Profession intermediaire,15-16,Non,11-20,d)3/an,7 h +,a)Les 2,b)Non,a)Oui,b)2-5,g)21-30,d)100-200
+H,1986-1990,Etudiant,13-14,Oui,2-5,f)Plus vraiment,3-4 h,a)Les 2,a)Oui,a)Oui,a)1,b)2-3,a)20
+H,1981-1985,Profession intermediaire,19-20,Non,21+,a)1/semaine,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,g)21-30,c)50-100
+H,1961-1965,Cadre +,19-20,Oui,21+,b)2/mois,5-6 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,f)500+
+H,1976-1980,Employe,11-12,Oui,21+,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,c)50-100
+H,1966-1970,Cadre +,13-14,Oui,21+,a)1/semaine,5-6 h,a)Les 2,b)Non,a)Oui,e)16+,i)51+,f)500+
+H,1971-1975,Cadre +,13-14,Non,11-20,b)2/mois,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,b)20-50
+H,1966-1970,Employe,15-16,Oui,21+,a)1/semaine,5-6 h,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,e)200-500
+H,1986-1990,Cadre +,13-14,Oui,11-20,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,e)11-15,d)100-200
+H,1981-1985,En recherche d'emploi,13-14,Oui,11-20,d)3/an,5-6 h,b)MJ,b)Non,a)Oui,c)6-10,g)21-30,b)20-50
+H,1986-1990,Etudiant,13-14,Non,6-10,f)Plus vraiment,3-4 h,a)Les 2,b)Non,a)Oui,b)2-5,g)21-30,a)20
+F,1976-1980,Cadre +,15-16,Oui,21+,d)3/an,Le week end,a)Les 2,a)Oui,a)Oui,c)6-10,h)31-50,c)50-100
+H,1966-1970,Employe,13-14,Oui,21+,c)1/mois,3-4 h,C)PJ,a)Oui,a)Oui,c)6-10,g)21-30,b)20-50
+H,1976-1980,En recherche d'emploi,13-14,Oui,11-20,d)3/an,Le week end,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,d)100-200
+H,1981-1985,En recherche d'emploi,23-24,Oui,11-20,a)1/semaine,7 h +,a)Les 2,b)Non,a)Oui,b)2-5,f)16-20,c)50-100
+H,1976-1980,Cadre +,13-14,Oui,21+,b)2/mois,3-4 h,b)MJ,a)Oui,a)Oui,e)16+,i)51+,d)100-200
+H,1981-1985,Profession intermediaire,15-16,Oui,11-20,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,d)7-10,c)50-100
+H,1971-1975,Cadre +,15-16,Oui,6-10,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,i)51+,d)100-200
+F,1986-1990,Employe,21-22,Oui,11-20,a)1/semaine,3-4 h,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1966-1970,Ouvrier,13-14,Non,2-5,f)Plus vraiment,3-4 h,a)Les 2,b)Non,a)Oui,d)11-15,i)51+,e)200-500
+H,1986-1990,Cadre +,15-16,Non,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,e)16+,i)51+,f)500+
+H,1976-1980,Cadre +,13-14,Oui,11-20,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,c)4-6,a)20
+H,1981-1985,Cadre +,25-30,Non,11-20,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,e)11-15,d)100-200
+H,1996-2000,Etudiant,17-18,Non,6-10,c)1/mois,Le week end,a)Les 2,a)Oui,a)Oui,b)2-5,b)2-3,c)50-100
+H,1981-1985,Cadre +,19-20,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,e)11-15,c)50-100
+H,1981-1985,Cadre +,11-12,Oui,21+,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,h)31-50,c)50-100
+H,1986-1990,Etudiant,15-16,Non,2-5,f)Plus vraiment,5-6 h,C)PJ,b)Non,a)Oui,a)1,a)1,a)20
+F,1991-1995,En recherche d'emploi,19-20,Oui,11-20,b)2/mois,7 h +,C)PJ,a)Oui,a)Oui,a)1,a)1,b)20-50
+H,1961-1965,Profession intermediaire,15-16,Oui,11-20,d)3/an,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,g)21-30,c)50-100
+H,1971-1975,Employe,15-16,Oui,11-20,c)1/mois,5-6 h,a)Les 2,a)Oui,a)Oui,b)2-5,g)21-30,c)50-100
+H,1986-1990,En recherche d'emploi,15-16,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,f)16-20,d)100-200
+H,1981-1985,Cadre +,15-16,Non,11-20,b)2/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,g)21-30,c)50-100
+H,1981-1985,Cadre +,13-14,Non,2-5,f)Plus vraiment,1-2 h,b)MJ,b)Non,a)Oui,c)6-10,f)16-20,d)100-200
+H,1966-1970,Employe,13-14,Oui,21+,d)3/an,7 h +,a)Les 2,b)Non,a)Oui,d)11-15,i)51+,c)50-100
+H,1976-1980,Cadre +,15-16,Oui,11-20,d)3/an,7 h +,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,c)50-100
+H,1981-1985,Cadre +,15-16,Oui,6-10,e)1/an,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,h)31-50,a)20
+H,1966-1970,Travailleur independant,25-30,Oui,21+,c)1/mois,7 h +,b)MJ,a)Oui,a)Oui,b)2-5,d)7-10,a)20
+F,1976-1980,Profession intermediaire,21-22,Non,6-10,a)1/semaine,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,e)11-15,a)20
+F,1991-1995,Etudiant,10,Oui,2-5,b)2/mois,3-4 h,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1986-1990,Je ne souhaite pas repondre,19-20,Oui,11-20,a)1/semaine,3-4 h,a)Les 2,a)Oui,a)Oui,b)2-5,b)2-3,a)20
+H,1976-1980,Cadre +,11-12,Oui,21+,d)3/an,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,h)31-50,a)20
+H,1971-1975,Je ne souhaite pas repondre,11-12,Oui,21+,f)Plus vraiment,7 h +,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,a)20
+H,1971-1975,Cadre +,11-12,Non,11-20,d)3/an,3-4 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,d)100-200
+H,1981-1985,Cadre +,13-14,Non,21+,e)1/an,7 h +,a)Les 2,b)Non,a)Oui,c)6-10,h)31-50,d)100-200
+H,1986-1990,Employe,11-12,Oui,2-5,f)Plus vraiment,5-6 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1986-1990,Employe,11-12,Oui,21+,a)1/semaine,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,c)4-6,a)20
+H,1981-1985,Cadre +,13-14,Oui,6-10,c)1/mois,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,h)31-50,b)20-50
+H,1991-1995,Etudiant,17-18,Non,2-5,a)1/semaine,3-4 h,a)Les 2,b)Non,b)Non,f)0,j)0,g)0
+H,1976-1980,Cadre +,13-14,Oui,11-20,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,d)11-15,h)31-50,b)20-50
+F,1966-1970,Travailleur independant,19-20,Oui,6-10,c)1/mois,7 h +,C)PJ,a)Oui,b)Non,f)0,j)0,g)0
+H,1960 ou avant,Travailleur independant,25-30,Oui,21+,a)1/semaine,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,i)51+,d)100-200
+H,1971-1975,Cadre +,11-12,Oui,6-10,d)3/an,5-6 h,a)Les 2,a)Oui,a)Oui,c)6-10,g)21-30,b)20-50
+H,1976-1980,Cadre +,31-40,Non,1,c)1/mois,3-4 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+F,1986-1990,En recherche d'emploi,17-18,Oui,11-20,a)1/semaine,5-6 h,a)Les 2,b)Non,a)Oui,b)2-5,d)7-10,d)100-200
+H,1986-1990,En recherche d'emploi,19-20,Non,2-5,f)Plus vraiment,5-6 h,C)PJ,b)Non,b)Non,f)0,j)0,g)0
+H,1981-1985,Cadre +,15-16,Oui,11-20,c)1/mois,3-4 h,a)Les 2,b)Non,a)Oui,c)6-10,i)51+,a)20
