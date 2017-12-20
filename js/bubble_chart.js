@@ -150,10 +150,10 @@ function initialisation() {
             myBubbleChart.redraw("AgeDec", "Sexe");
 
         }
-        if (index == 4) {
+        if (index == 5) {
             myBubbleChart.redraw("AnneeNaissance", "PJMJ");
         }
-        if (index == 5) {
+        if (index == 4) {
             myBubbleChart.redraw("AnneeNaissance", "FreqJeu");
         }
         if (index == 6) {
