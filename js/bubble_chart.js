@@ -50,8 +50,6 @@ function separate() {
     myBubbleChart.toggleDisplay();
     $("#all").click(function () {
         myBubbleChart.toggleDisplay();
-
-
     });
 }
 
@@ -149,20 +147,43 @@ function initialisation() {
 
         }
         if (index == 3) {
-            myBubbleChart.redraw("AnneeNaissance", "PJMJ");
+            myBubbleChart.redraw("AgeDec", "Sexe");
 
         }
         if (index == 4) {
-            myBubbleChart.redraw("AnneeNaissance", "FreqJeu");
+            myBubbleChart.redraw("AnneeNaissance", "PJMJ");
         }
         if (index == 5) {
-            myBubbleChart.redraw("AnneeNaissance", "DpnsAnnull");
-            console.log("j'aurais plei")
+            myBubbleChart.redraw("AnneeNaissance", "FreqJeu");
         }
         if (index == 6) {
-            myBubbleChart.redraw();
+            myBubbleChart.redraw("AnneeNaissance", "DpnsAnnull");
+
+        }
+        if (index == 7) {
+            myBubbleChart.redraw("PJMJ","DpnsAnnull");
             //document.getElementById("vis").style.position = 'relative';
         }
+        /*key: d.key,
+                radius: radiusScale,
+                Sexe: d.Sexe,
+                AnneeNaissance: d.AnneeNaissance,
+                CSP: d.CSP,
+                key1: 0,
+                key2: 0,
+                AgeDec: d.AgeDec,
+                PJMJ: d.PJMJ,
+                DureeMoyPartie: d.DureeMoyPartie,
+                DpnsAnnull: d.DpnsAnnull,
+                FreqJeu: d.FreqJeu,
+                NbJeuJoue: d.NbJeuJoue,
+                ClubJDR: d.ClubJDR,
+                Conv: d.Conv,
+                AchatJDR: d.AchatJDR,
+                NbUniversAchat: d.NbUniversAchat,
+                NbOuvrageAche: d.NbOuvrageAche,
+                x: Math.random() * 1000,
+                y: Math.random() * 700*/
 
     });
 
@@ -299,6 +320,7 @@ function bubbleChart(abscisse, ordonnee) {
                 y: Math.random() * 700
             };
         });
+
 
         // sort them to prevent occlusion of smaller nodes.
         //myNodes.sort(function (a, b) { return b.value - a.value; });
@@ -485,13 +507,12 @@ function bubbleChart(abscisse, ordonnee) {
         if (activesection === 2) {
             hideTitles();
         }
-        if (activesection === 6) {
+        if (activesection === 9) {
             hideTitles();
         }
         // @v4 Reset the 'x' force to draw the bubbles to the center.
         simulation.force('x', d3.forceX().strength(forceStrength).x(center.x));
         simulation.force('y', d3.forceY().strength(forceStrength).y(center.y));
-
         // @v4 We can reset the alpha value and restart the simulation
         simulation.alpha(1).restart();
     }
@@ -504,7 +525,6 @@ function bubbleChart(abscisse, ordonnee) {
      * yearCenter of their data's year.
      */
     function splitBubbles() {
-
 
         // @v4 Reset the 'x' force to draw the bubbles to their year centers
         simulation.force('x', d3.forceX().strength(forceStrength).x(xPos));
@@ -591,13 +611,13 @@ function bubbleChart(abscisse, ordonnee) {
         d3.select(this).attr('stroke', 'black');
 
         var content = '<span class="name" style="font-weight:bold">CSP : </span><span class="value">' +
-            d.CSP +
+            d.CSP.substr(2) +
             '</span><br/>' +
             '<span class="name" style="font-weight:bold">AnneeNaissance : </span><span class="value">' +
-            d.AnneeNaissance +
+            d.AnneeNaissance.substr(2) +
             '</span><br/>' +
             '<span class="name" style="font-weight:bold">Age découverte : </span><span class="value">' +
-            d.AgeDec +
+            d.AgeDec.substr(2) +
             '</span>';
 
         tooltip.showTooltip(content, d3.event);

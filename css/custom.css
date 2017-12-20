@@ -134,3 +134,29 @@ font-family: "Source Sans Pro";
 #lienintro {
     color : #444444;
 }
+.number {
+    font-family: 'Source Sans Pro';
+    font-size: 88px;
+    height: 94px;
+    font-weight: 300;
+    line-height: 1;
+    text-align: left;
+    /* border-bottom: 30px solid black; */
+    margin: 0 0 0 -0.05em;
+    color: black;
+    position: relative;
+}
+.large {
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+    padding: 25px 0 0 0;
+    margin: 0;
+    color: black;
+}
+.number-block {
+    position: relative;
+    padding: 0;
+    border-bottom: 20px solid #3EAD4E;
+}
