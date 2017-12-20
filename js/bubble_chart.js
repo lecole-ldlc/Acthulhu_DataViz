@@ -162,7 +162,11 @@ function initialisation() {
         }
         if (index == 7) {
             myBubbleChart.redraw("PJMJ","DpnsAnnull");
-            //document.getElementById("vis").style.position = 'relative';
+
+        }
+        if (index == 8) {
+            myBubbleChart.redraw();
+
         }
         /*key: d.key,
                 radius: radiusScale,
@@ -507,7 +511,7 @@ function bubbleChart(abscisse, ordonnee) {
         if (activesection === 2) {
             hideTitles();
         }
-        if (activesection === 9) {
+        if (activesection === 8) {
             hideTitles();
         }
         // @v4 Reset the 'x' force to draw the bubbles to the center.
