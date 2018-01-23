@@ -665,8 +665,5 @@ function bubbleChart(abscisse, ordonnee) {
     return chart;
 }
 
-/*
- * Below is the initialization code as well as some helper functions
- * to create a new bubble chart instance, load the data, and display it.
- */
+
 
