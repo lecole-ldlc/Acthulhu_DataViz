@@ -134,7 +134,7 @@ function initialisation() {
         //d3.selectAll('.step')
         //        .style('opacity', function (d, i) {
         //            return i === index ? 1 : 0.1;
-        //        });
+
         activesection = index;
         // activate current section
         console.log("ACTIVATE " + index);
