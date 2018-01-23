@@ -119,8 +119,44 @@ h1 {
 }
 
 #intro {
-    width: 350px;
+    font-family: "Source Sans Pro";
+    font-size: 14pt;
+    padding-bottom: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 10px;
 }
+
+.Accueil {
+    height: 100vh;
+    width: 100%;
+}
+
+.fleche {
+    animation: bouncing 1s infinite ease-in-out;
+    bottom: 0;
+    display: block;
+    height: 50px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    width: 50px;
+}
+
+@keyframes bouncing {
+    0% {bottom: 0;}
+    50% {bottom: 20px;}
+    100% {bottom: 0;}
+}
+
+.contentDiv {
+    background-color: #fdfdfe;
+    height: 300px;
+    position: relative;
+    width: 100px;
+    left: 48%;
+}
+
 .slogan{
 font-family: "Source Sans Pro";
     line-height: 18px;
