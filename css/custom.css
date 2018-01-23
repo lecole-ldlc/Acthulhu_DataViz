@@ -132,6 +132,10 @@ h1 {
     width: 100%;
 }
 
+.logo2 {
+    padding-top: 50px;
+}
+
 .fleche {
     animation: bouncing 1s infinite ease-in-out;
     bottom: 0;
@@ -151,7 +155,7 @@ h1 {
 
 .contentDiv {
     background-color: #fdfdfe;
-    height: 300px;
+    height: 250px;
     position: relative;
     width: 100px;
     left: 48%;
