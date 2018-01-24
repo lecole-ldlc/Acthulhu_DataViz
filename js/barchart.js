@@ -62,3 +62,8 @@ function barchart() {
 
     });
 }
+
+function clear() {
+    var svg = d3.select("#bar");
+    svg.selectAll("*").remove();
+}

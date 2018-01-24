@@ -75,7 +75,6 @@
         </div>
 
 
-
     </section>
 
     <section>
@@ -273,14 +272,20 @@
                         <section class="step">
                             <div class="tile">
 
-                                <p>Ce contenu vous êtes offert par Acthulhu et est issu de l'analyse d'un sondage réalisé par Le Thiase à
-                                l’automne 2014 sur les rôlistes, ce qu’il sont et ce qu’il font.
-                                Les dieux mis en avant dans cette dataviz représente les différents jeux de rôle les plus joué.<br><br>
-                                Ce sondage a été effectué via Google Forms en 2014 et a obtenu 4143 réponses.<br><br>
-                                À partir de cette base de données, nous avons travaillé sur une dataviz, ou l'art de communiquer des chiffres
-                                et informations bruts en les transformant en objets visuels animés.
-                                Nous en avons aussi profité pour créer une situation montrant plus clairement le côté obscure de Cthulhulhu qui,
-                                bien que mignon, n’est pas venu sur Baguettia pour courber des bananes (pour jouer au journaliste).
+                                <p>Ce contenu vous êtes offert par Acthulhu et est issu de l'analyse d'un sondage
+                                    réalisé par Le Thiase à
+                                    l’automne 2014 sur les rôlistes, ce qu’il sont et ce qu’il font.
+                                    Les dieux mis en avant dans cette dataviz représente les différents jeux de rôle les
+                                    plus joué.<br><br>
+                                    Ce sondage a été effectué via Google Forms en 2014 et a obtenu 4143
+                                    réponses.<br><br>
+                                    À partir de cette base de données, nous avons travaillé sur une dataviz, ou l'art de
+                                    communiquer des chiffres
+                                    et informations bruts en les transformant en objets visuels animés.
+                                    Nous en avons aussi profité pour créer une situation montrant plus clairement le
+                                    côté obscure de Cthulhulhu qui,
+                                    bien que mignon, n’est pas venu sur Baguettia pour courber des bananes (pour jouer
+                                    au journaliste).
                                 </p>
                             </div>
                         </section>
@@ -329,7 +334,8 @@
                                 </div>
 
                                 <div class="text-center" style="padding-top: 20px">
-                                    <button class="button buttton" onclick="location.href='http://acthulhu.fr';">Retourner au site
+                                    <button class="button buttton" onclick="location.href='http://acthulhu.fr';">
+                                        Retourner au site
                                     </button>
                                 </div>
                             </div>
@@ -337,17 +343,13 @@
                     </div>
 
 
-                    <div class="col-lg-8 col-lg-offset-1" id="vis">
-                    </div>
-                    <div class="col-lg-8 col-lg-offset-1" id="bar">
-                    </div>
-
-
                     <div class="clear comment"></div>
 
                 </div>
-
-                <div id="svg"></div>
+                <div class="col-lg-8 col-lg-offset-1" id="vis">
+                </div>
+                <div class="col-lg-8 col-lg-offset-1" id="bar">
+                </div>
 
 
                 <!-- </section><!-- #content end -->
@@ -361,13 +363,7 @@
 
                 <!-- Dataviz
                 ============================================= -->
-                <section id="dataviz">
-
-                    <div class="container-fullwidth clearfix">
-
-                    </div>
-
-                </section><!-- #page-title end -->
+                <!-- #page-title end -->
 
                 <!-- Footer
                 ============================================= -->
@@ -385,6 +381,7 @@
                     <script src="js/bubble_chart.js"></script>
                     <script src="js/scroller.js"></script>
                     <script src="js/opacity.js"></script>
+                    <script src="js/barchart.js"></script>
                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
                 </footer><!-- #footer end -->
@@ -404,7 +401,9 @@
             ============================================= -->
             <script type="text/javascript" src="js/functions.js"></script>
 
-            <script><!-- script des boules -->
+            <!--&lt;!&ndash; script des boules &ndash;&gt;-->
+            <script>
+                initialisation();
             </script>
 
 

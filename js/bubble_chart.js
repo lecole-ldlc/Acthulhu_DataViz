@@ -138,11 +138,12 @@ function initialisation() {
         // activate current section
         console.log("ACTIVATE " + index);
         if (index == 0) {
+            clear();
             //myBubbleChart.redraw();
 
         }
         if (index == 2) {
-            $("#bar").show();
+
             $("#vis").hide();
             console.log("barchart");
             barchart();
@@ -150,27 +151,32 @@ function initialisation() {
 
         }
         if (index == 3) {
-
+            clear();
             myBubbleChart.redraw("AgeDec", "Sexe");
             $("#vis").show();
-            $("#bar").hide();
+
 
         }
         if (index == 5) {
+            $("#vis").show();
             myBubbleChart.redraw("AnneeNaissance", "PJMJ");
         }
         if (index == 4) {
+            $("#vis").show();
             myBubbleChart.redraw("AnneeNaissance", "FreqJeu");
         }
         if (index == 6) {
+            $("#vis").show();
             myBubbleChart.redraw("AnneeNaissance", "DpnsAnnull");
 
         }
         if (index == 7) {
+            $("#vis").show();
             myBubbleChart.redraw("PJMJ","DpnsAnnull");
 
         }
         if (index == 8) {
+            $("#vis").show();
             myBubbleChart.redraw();
 
         }
