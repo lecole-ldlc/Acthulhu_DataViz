@@ -143,7 +143,7 @@ function initialisation() {
 
         }
         if (index == 2) {
-            myBubbleChart.redraw("Sexe", "");
+            barchart;
 
         }
         if (index == 3) {

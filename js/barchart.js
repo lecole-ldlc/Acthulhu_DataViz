@@ -1,22 +1,18 @@
-function barchart (){
-
-
+function barchart() {
 
     var margin = {top: 20, right: 20, bottom: 70, left: 40},
         width = 600 - margin.left - margin.right,
         height = 300 - margin.top - margin.bottom;
 
-// Parse the date / time
-    var parseDate = d3.time.format("%Y-%m").parse;
+    // Parse the date / time
 
-    var x = d3.scale.ordinal().rangeRoundBands([0, width], .05);
+    var x = d3.scale.ordinal().rangeRoundBands([0, width], 0.2);
 
     var y = d3.scale.linear().range([height, 0]);
 
     var xAxis = d3.svg.axis()
         .scale(x)
-        .orient("bottom")
-        .tickFormat(d3.time.format("%Y-%m"));
+        .orient("bottom");
 
     var yAxis = d3.svg.axis()
         .scale(y)
@@ -33,16 +29,15 @@ function barchart (){
     d3.csv("jeuxjoues.csv", function (error, data) {
 
         data.forEach(function (d) {
-            d.date = parseDate(d.date);
-            d.value = +d.value;
+            Dieu = d.Dieu;
+            adorateur = d.adorateur;
+            console.log(Dieu);
         });
 
         x.domain(data.map(function (d) {
-            return d.date;
+            return d.Dieu;
         }));
-        y.domain([0, d3.max(data, function (d) {
-            return d.value;
-        })]);
+        y.domain([0, 100]);
 
         svg.append("g")
             .attr("class", "x axis")
@@ -62,21 +57,22 @@ function barchart (){
             .attr("y", 6)
             .attr("dy", ".71em")
             .style("text-anchor", "end")
-            .text("Value ($)");
+            .text("Nombre d'Adorateur (%)");
 
         svg.selectAll("bar")
             .data(data)
             .enter().append("rect")
             .style("fill", "steelblue")
             .attr("x", function (d) {
-                return x(d.date);
+                return x(d.Dieu);
             })
             .attr("width", x.rangeBand())
             .attr("y", function (d) {
-                return y(d.value);
+                return y(d.adorateur);
             })
+
             .attr("height", function (d) {
-                return height - y(d.value);
+                return height - y(d.adorateur);
             });
 
     });
