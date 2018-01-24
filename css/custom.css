@@ -162,6 +162,12 @@ h1 {
     width: 100%;
 }
 
+.buttton {
+    width: 90%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
 .slogan{
 font-family: "Source Sans Pro";
     line-height: 18px;
