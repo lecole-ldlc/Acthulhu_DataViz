@@ -143,7 +143,7 @@ function initialisation() {
 
         }
         if (index == 2) {
-            barchart;
+            barchart();
 
         }
         if (index == 3) {
