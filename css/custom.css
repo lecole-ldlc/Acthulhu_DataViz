@@ -67,7 +67,6 @@
     display: inline-block;
     width: 80%;
     top: 0px;
-    padding-top: ;
     z-index: 90;
 }
 
@@ -178,8 +177,8 @@ font-family: "Source Sans Pro";
 }
 .number {
     font-family: 'Source Sans Pro';
-    font-size: 88px;
-    height: 94px;
+    font-size: 68px;
+    height: 50px;
     font-weight: 300;
     line-height: 1;
     text-align: left;
