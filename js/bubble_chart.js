@@ -83,10 +83,9 @@ function initialisation() {
         data = data_l;
         myBubbleChart = bubbleChart();
         myBubbleChart('#vis', data);
-
         // comment = split then unsplit
         //separate();
-
+        $("#vis").hide();
         $.wait(2000).then(function () {
             //separate();
         });
@@ -139,15 +138,22 @@ function initialisation() {
         // activate current section
         console.log("ACTIVATE " + index);
         if (index == 0) {
-            myBubbleChart.redraw();
+            //myBubbleChart.redraw();
 
         }
         if (index == 2) {
+            $("#bar").show();
+            $("#vis").hide();
+            console.log("barchart");
             barchart();
+
 
         }
         if (index == 3) {
+
             myBubbleChart.redraw("AgeDec", "Sexe");
+            $("#vis").show();
+            $("#bar").hide();
 
         }
         if (index == 5) {
