@@ -22,9 +22,10 @@
 }
 
 .tile {
-    width: 360px;
-    padding: 20px;
-    margin-left: 15px;
+    width: 120%;
+    padding: 15px;
+    margin-left: 1px;
+    margin-right: 1px;
     border:solid; /* no info for size nor color yet */
     background: #f4f4f4;
     box-shadow: 0 0 0 8px #f7f7f7;
@@ -64,8 +65,9 @@
 
     position: relative;
     display: inline-block;
-    width: 250px;
+    width: 80%;
     top: 0px;
+    padding-top: ;
     z-index: 90;
 }
 
@@ -102,6 +104,7 @@
     background: #dfdedd;
     margin-top: -30px;
     margin-left: -70px;
+    width: 28%;
 
 }
 
