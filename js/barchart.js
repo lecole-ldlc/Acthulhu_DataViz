@@ -49,7 +49,13 @@ function barchart() {
             })
             .attr("height", function (d) {
                 return height - y(d.adorateur);
+            })
+            .style("fill", function(d){
+                if (d.Dieu=="Yog-Sothoth") {return "#3EAD4E"}
+                else {return "#444444"};
             });
+
+
 
         // add the x Axis
         svg.append("g")

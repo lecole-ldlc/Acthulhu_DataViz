@@ -31,7 +31,7 @@ var activesection;
 
 // Sizes bubbles based on area.
 // @v4: new flattened scale names.
-var radiusScale = 3;
+var radiusScale = 2;
 
 var myBubbleChart = bubbleChart();
 var data = {};
@@ -61,7 +61,7 @@ function erase() {
 
 // @v4 strength to apply to the position forces
 var forceStrength = 0.03;
-var forceStrengthSeparate = 0.5;
+var forceStrengthSeparate = 0.02;
 
 function initialisation() {
 
@@ -152,34 +152,37 @@ function initialisation() {
         }
         if (index == 3) {
             clear();
-            myBubbleChart.redraw("AgeDec", "Sexe");
+            myBubbleChart.redraw("AgeMoy");
             $("#vis").show();
 
 
         }
         if (index == 5) {
             $("#vis").show();
-            myBubbleChart.redraw("AnneeNaissance", "PJMJ");
+            myBubbleChart.redraw("CSP");
         }
         if (index == 4) {
             $("#vis").show();
-            myBubbleChart.redraw("AnneeNaissance", "FreqJeu");
+            myBubbleChart.redraw("AgeDec");
         }
         if (index == 6) {
             $("#vis").show();
-            myBubbleChart.redraw("AnneeNaissance", "DpnsAnnull");
+            myBubbleChart.redraw("Freq");
 
         }
         if (index == 7) {
             $("#vis").show();
-            myBubbleChart.redraw("PJMJ","DpnsAnnull");
+            myBubbleChart.redraw("DpsAnnu");
 
         }
         if (index == 8) {
             $("#vis").show();
-            myBubbleChart.redraw();
+
+            myBubbleChart.redraw("Anciennete");
 
         }
+
+
         /*key: d.key,
                 radius: radiusScale,
                 Sexe: d.Sexe,
@@ -207,7 +210,7 @@ function initialisation() {
 
     });
     // Load the data.
-    d3.csv('1000_final.csv', data_loaded);
+    d3.csv('data_JoueursdeCthulhu.csv', data_loaded);
     console.log("coucou");
 }
 
@@ -256,8 +259,8 @@ function bubbleChart(abscisse, ordonnee) {
     var simulation = d3.forceSimulation()
         .velocityDecay(0.2)
         .force('x', d3.forceX().strength(forceStrength).x(center.x))
-        .force('y', d3.forceY().strength(forceStrength).y(center.y))
-        .force('collide', d3.forceCollide().radius(4).iterations(2).strength(1))
+        //.force('y', d3.forceY().strength(forceStrength).y(center.y))
+        .force('collide', d3.forceCollide().radius(2).iterations(2).strength(1))
         //.force('charge', d3.forceManyBody().strength(charge).distanceMax(50w00).distanceMin(1))
         .on('tick', ticked);
 
@@ -317,26 +320,18 @@ function bubbleChart(abscisse, ordonnee) {
                 key: d.key,
                 radius: radiusScale,
                 Sexe: d.Sexe,
-                AnneeNaissance: d.AnneeNaissance,
+                AgeMoy: d.AgeMoy,
                 CSP: d.CSP,
                 key1: 0,
                 key2: 0,
                 AgeDec: d.AgeDec,
-                PJMJ: d.PJMJ,
-                DureeMoyPartie: d.DureeMoyPartie,
-                DpnsAnnull: d.DpnsAnnull,
-                FreqJeu: d.FreqJeu,
-                NbJeuJoue: d.NbJeuJoue,
-                ClubJDR: d.ClubJDR,
-                Conv: d.Conv,
-                AchatJDR: d.AchatJDR,
-                NbUniversAchat: d.NbUniversAchat,
-                NbOuvrageAche: d.NbOuvrageAche,
+                Anciennete: d.Anciennete,
+                DpsAnnu: d.DpsAnnu,
+                Freq: d.Freq,
                 x: Math.random() * 1000,
                 y: Math.random() * 700
             };
         });
-
 
         // sort them to prevent occlusion of smaller nodes.
         //myNodes.sort(function (a, b) { return b.value - a.value; });
@@ -506,9 +501,9 @@ function bubbleChart(abscisse, ordonnee) {
         return centers[d.key1 + "_" + d.key2].x;
     }
 
-    function yPos(d) {
+    /*function yPos(d) {
         return centers[d.key1 + "_" + d.key2].y;
-    }
+    }*/
 
     /*
      * Sets visualization in "single group mode".
@@ -517,7 +512,7 @@ function bubbleChart(abscisse, ordonnee) {
      * center of the visualization.
      */
     function groupBubbles() {
-        if (activesection === 0) {
+        /*if (activesection === 0) {
             hideTitles();
         }
         if (activesection === 2) {
@@ -525,7 +520,7 @@ function bubbleChart(abscisse, ordonnee) {
         }
         if (activesection === 8) {
             hideTitles();
-        }
+        }*/
         // @v4 Reset the 'x' force to draw the bubbles to the center.
         simulation.force('x', d3.forceX().strength(forceStrength).x(center.x));
         simulation.force('y', d3.forceY().strength(forceStrength).y(center.y));
@@ -544,7 +539,7 @@ function bubbleChart(abscisse, ordonnee) {
 
         // @v4 Reset the 'x' force to draw the bubbles to their year centers
         simulation.force('x', d3.forceX().strength(forceStrength).x(xPos));
-        simulation.force('y', d3.forceY().strength(forceStrength).y(yPos));
+        //simulation.force('y', d3.forceY().strength(forceStrength).y(yPos));
 
         // @v4 We can reset the alpha value and restart the simulation
         simulation.alpha(1).restart();
@@ -576,24 +571,24 @@ function bubbleChart(abscisse, ordonnee) {
             .attr('x', function (d, ind) {
                 return (ind + 1) * width / (keys1.length + 1);
             })
-            .attr('y', 40)
+            .attr('y', 650)
             .attr('text-anchor', 'middle')
             .text(function (d) {
-                return d.substr(2);
+                return d;
             });
 
-        svg.selectAll('.keys2')
+        /*svg.selectAll('.keys2')
             .data(keys2)
             .enter().append('text')
             .attr('class', 'keys2')
             .attr('y', function (d, ind) {
                 return (ind + 1) * height / (keys2.length + 1);
-            })
+            })f
             .attr('x', 40)
             .attr('text-anchor', 'middle')
             .text(function (d) {
                 return d.substr(2);
-            });
+            });*/
 
         if (false) {
             var _centers = []
