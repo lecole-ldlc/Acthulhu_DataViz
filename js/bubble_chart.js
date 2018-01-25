@@ -574,8 +574,8 @@ function bubbleChart(abscisse, ordonnee) {
             .attr('y', 650)
             .attr('text-anchor', 'middle')
             .text(function (d) {
-                return d;
-            });
+                return d.substr(2);
+            });;
 
         /*svg.selectAll('.keys2')
             .data(keys2)
