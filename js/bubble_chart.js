@@ -142,15 +142,18 @@ function initialisation() {
             //myBubbleChart.redraw();
 
         }
-        if (index == 2) {
+
+        if (index == 3) {
 
             $("#vis").hide();
             console.log("barchart");
             barchart();
+            var div = document.getElementById("bar");
+            div.style.position = "sticky";
 
 
         }
-        if (index == 3) {
+        if (index == 4) {
             clear();
             myBubbleChart.redraw("AgeMoy");
             $("#vis").show();
@@ -161,21 +164,21 @@ function initialisation() {
             $("#vis").show();
             myBubbleChart.redraw("CSP");
         }
-        if (index == 4) {
+        if (index == 6) {
             $("#vis").show();
             myBubbleChart.redraw("AgeDec");
         }
-        if (index == 6) {
+        if (index == 7) {
             $("#vis").show();
             myBubbleChart.redraw("Freq");
 
         }
-        if (index == 7) {
+        if (index == 8) {
             $("#vis").show();
             myBubbleChart.redraw("DpsAnnu");
 
         }
-        if (index == 8) {
+        if (index == 9) {
             $("#vis").show();
 
             myBubbleChart.redraw("Anciennete");
@@ -184,25 +187,25 @@ function initialisation() {
 
 
         /*key: d.key,
-                radius: radiusScale,
-                Sexe: d.Sexe,
-                AnneeNaissance: d.AnneeNaissance,
-                CSP: d.CSP,
-                key1: 0,
-                key2: 0,
-                AgeDec: d.AgeDec,
-                PJMJ: d.PJMJ,
-                DureeMoyPartie: d.DureeMoyPartie,
-                DpnsAnnull: d.DpnsAnnull,
-                FreqJeu: d.FreqJeu,
-                NbJeuJoue: d.NbJeuJoue,
-                ClubJDR: d.ClubJDR,
-                Conv: d.Conv,
-                AchatJDR: d.AchatJDR,
-                NbUniversAchat: d.NbUniversAchat,
-                NbOuvrageAche: d.NbOuvrageAche,
-                x: Math.random() * 1000,
-                y: Math.random() * 700*/
+         radius: radiusScale,
+         Sexe: d.Sexe,
+         AnneeNaissance: d.AnneeNaissance,
+         CSP: d.CSP,
+         key1: 0,
+         key2: 0,
+         AgeDec: d.AgeDec,
+         PJMJ: d.PJMJ,
+         DureeMoyPartie: d.DureeMoyPartie,
+         DpnsAnnull: d.DpnsAnnull,
+         FreqJeu: d.FreqJeu,
+         NbJeuJoue: d.NbJeuJoue,
+         ClubJDR: d.ClubJDR,
+         Conv: d.Conv,
+         AchatJDR: d.AchatJDR,
+         NbUniversAchat: d.NbUniversAchat,
+         NbOuvrageAche: d.NbOuvrageAche,
+         x: Math.random() * 1000,
+         y: Math.random() * 700*/
 
     });
 
@@ -502,8 +505,8 @@ function bubbleChart(abscisse, ordonnee) {
     }
 
     /*function yPos(d) {
-        return centers[d.key1 + "_" + d.key2].y;
-    }*/
+     return centers[d.key1 + "_" + d.key2].y;
+     }*/
 
     /*
      * Sets visualization in "single group mode".
@@ -513,14 +516,14 @@ function bubbleChart(abscisse, ordonnee) {
      */
     function groupBubbles() {
         /*if (activesection === 0) {
-            hideTitles();
-        }
-        if (activesection === 2) {
-            hideTitles();
-        }
-        if (activesection === 8) {
-            hideTitles();
-        }*/
+         hideTitles();
+         }
+         if (activesection === 2) {
+         hideTitles();
+         }
+         if (activesection === 8) {
+         hideTitles();
+         }*/
         // @v4 Reset the 'x' force to draw the bubbles to the center.
         simulation.force('x', d3.forceX().strength(forceStrength).x(center.x));
         simulation.force('y', d3.forceY().strength(forceStrength).y(center.y));
@@ -575,20 +578,21 @@ function bubbleChart(abscisse, ordonnee) {
             .attr('text-anchor', 'middle')
             .text(function (d) {
                 return d.substr(2);
-            });;
+            });
+        ;
 
         /*svg.selectAll('.keys2')
-            .data(keys2)
-            .enter().append('text')
-            .attr('class', 'keys2')
-            .attr('y', function (d, ind) {
-                return (ind + 1) * height / (keys2.length + 1);
-            })f
-            .attr('x', 40)
-            .attr('text-anchor', 'middle')
-            .text(function (d) {
-                return d.substr(2);
-            });*/
+         .data(keys2)
+         .enter().append('text')
+         .attr('class', 'keys2')
+         .attr('y', function (d, ind) {
+         return (ind + 1) * height / (keys2.length + 1);
+         })f
+         .attr('x', 40)
+         .attr('text-anchor', 'middle')
+         .text(function (d) {
+         return d.substr(2);
+         });*/
 
         if (false) {
             var _centers = []
