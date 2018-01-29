@@ -181,7 +181,7 @@ function initialisation() {
         if (index == 9) {
             $("#vis").show();
 
-            myBubbleChart.redraw("Anciennete");
+            myBubbleChart.redraw("");
 
         }
 

@@ -217,3 +217,7 @@ font-family: "Source Sans Pro";
     padding: 0;
     border-bottom: 20px solid #3EAD4E;
 }
+.symbol{
+    display: inline-block;
+    vertical-align: top;
+}
