@@ -1,5 +1,12 @@
 @media screen and (min-width: 1920px) {
-  .logo2{
+    .logo2{
       padding-top: 5%;
-  }
+    }
+    #intro{
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+    .dieux {
+    padding-top: 300px;
+    }
 }

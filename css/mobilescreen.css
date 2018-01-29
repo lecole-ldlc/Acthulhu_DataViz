@@ -1,0 +1,39 @@
+
+@media screen and (max-width: 800px) {
+    #intro {
+        font-family: "Source Sans Pro";
+        font-size: 12pt;
+        padding-bottom: 2%;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-bottom: 50px;
+    }
+    #bg {
+        background: #dfdedd;
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .container-fullwidth.clearfix {
+        padding-left : 0px !important;
+        padding-right : 0px !important;
+        margin: 0;
+    }
+    .number {
+        font-size: 45px;
+    }
+    .large {
+        font-size: 16px;
+        padding: 0;
+    }
+    p {
+        margin: 0;
+    }
+    .dieux {
+        padding-top: 50%;
+    }
+    .step {
+        margin-top: 50%;
+        margin-bottom: 200px;
+    }
+}

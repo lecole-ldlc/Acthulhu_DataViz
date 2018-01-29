@@ -22,7 +22,7 @@
 }
 
 .tile {
-    width: 120%;
+    width: 100%;
     padding: 15px;
     margin-left: 1px;
     margin-right: 1px;
@@ -65,7 +65,7 @@
 
     position: relative;
     display: inline-block;
-    width: 80%;
+    width: 100%;
     top: 0px;
     z-index: 90;
 }
@@ -103,7 +103,8 @@
     background: #dfdedd;
     margin-top: -30px;
     margin-left: -70px;
-    width: 28%;
+    width: 30%;
+
 
 }
 
@@ -168,6 +169,10 @@ h1 {
     padding-left: 5%;
 }
 
+h2 {
+    margin: 0 0 0 0;
+}
+
 .slogan{
 font-family: "Source Sans Pro";
     line-height: 18px;
@@ -195,7 +200,7 @@ font-family: "Source Sans Pro";
 }
 
 .dieux {
-    padding-top: 300px;
+    padding-top: 100px;
 }
 
 .large {
