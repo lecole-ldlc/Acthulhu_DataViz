@@ -23,7 +23,7 @@ function toggle(anId) {
 
 
 // Constants for sizing
-var width = 1300;
+var width = 72%;
 var height = 700;
 var selector;
 var rawData;
