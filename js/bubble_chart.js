@@ -23,11 +23,19 @@ function toggle(anId) {
 
 
 // Constants for sizing
-var width = 1300;
+var width = 900;
 var height = 700;
 var selector;
 var rawData;
 var activesection;
+
+function clear() {
+    $("#bar").hide();
+    $("#blasons").html("");
+    $("#viz").hide();
+    $(".symbol").css("top", "0");
+}
+
 
 // Sizes bubbles based on area.
 // @v4: new flattened scale names.
@@ -62,6 +70,7 @@ function erase() {
 // @v4 strength to apply to the position forces
 var forceStrength = 0.03;
 var forceStrengthSeparate = 0.02;
+var current_index = 0;
 
 function initialisation() {
 
@@ -71,6 +80,7 @@ function initialisation() {
             setTimeout(def.resolve, duration);
         });
     };
+
     /*
      * Function called once data is loaded from CSV.
      * Calls bubble chart function to display inside #vis div.
@@ -79,10 +89,12 @@ function initialisation() {
         if (error) {
             console.log(error);
         }
+        clear();
         console.log(data_l);
         data = data_l;
         myBubbleChart = bubbleChart();
         myBubbleChart('#vis', data);
+        barchart();
         // comment = split then unsplit
         //separate();
         $("#vis").hide();
@@ -123,7 +135,6 @@ function initialisation() {
     var scroll = scroller()
         .container(d3.select('body'));
 
-    console.log(d3.selectAll('.tile'));
     // pass in .step selection as the steps
     scroll(d3.selectAll('.tile'));
 
@@ -135,56 +146,60 @@ function initialisation() {
         //            return i === index ? 1 : 0.1;
 
         activesection = index;
-        // activate current section
-        console.log("ACTIVATE " + index);
-        if (index == 0) {
-            clear();
-            //myBubbleChart.redraw();
+        if (current_index != index) {
 
+            // activate current section
+            console.log("ACTIVATE " + index);
+            if (index == 0 || index == 1) {
+                clear();
+            }
+
+            if (index == 2) {
+                clear();
+                $("#blasons").html($("#step1").html());
+            }
+
+            if (index == 3) {
+                $("#vis").hide();
+                $("#bar, .not_selected").fadeIn(2000);
+                console.log("barchart");
+                $(".symbol").animate({top: "100px"}, 2000);
+            }
+            if (index == 4) {
+                $("#bar, .not_selected").fadeOut(2000, function () {
+                    $("#vis").show();
+                    setTimeout(function () {
+                        myBubbleChart.redraw("AgeMoy");
+                    }, 2000)
+                });
+                myBubbleChart.toggleDisplay();
+            }
+            if (index == 5) {
+                $("#vis").show();
+                myBubbleChart.redraw("CSP");
+            }
+            if (index == 6) {
+                $("#vis").show();
+                myBubbleChart.redraw("AgeDec");
+            }
+            if (index == 7) {
+                $("#vis").show();
+                myBubbleChart.redraw("Freq");
+
+            }
+            if (index == 8) {
+                $("#vis").show();
+                myBubbleChart.redraw("DpsAnnu");
+
+            }
+            if (index == 9) {
+                $("#vis").show();
+
+                myBubbleChart.redraw("");
+
+            }
         }
-
-        if (index == 3) {
-
-            $("#vis").hide();
-            console.log("barchart");
-            barchart();
-            var div = document.getElementById("bar");
-            div.style.position = "sticky";
-
-
-        }
-        if (index == 4) {
-            clear();
-            myBubbleChart.redraw("AgeMoy");
-            $("#vis").show();
-
-
-        }
-        if (index == 5) {
-            $("#vis").show();
-            myBubbleChart.redraw("CSP");
-        }
-        if (index == 6) {
-            $("#vis").show();
-            myBubbleChart.redraw("AgeDec");
-        }
-        if (index == 7) {
-            $("#vis").show();
-            myBubbleChart.redraw("Freq");
-
-        }
-        if (index == 8) {
-            $("#vis").show();
-            myBubbleChart.redraw("DpsAnnu");
-
-        }
-        if (index == 9) {
-            $("#vis").show();
-
-            myBubbleChart.redraw("");
-
-        }
-
+        current_index = index;
 
         /*key: d.key,
          radius: radiusScale,

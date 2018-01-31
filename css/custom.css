@@ -26,11 +26,18 @@
     padding: 15px;
     margin-left: 1px;
     margin-right: 1px;
-    border:solid; /* no info for size nor color yet */
+    border: solid; /* no info for size nor color yet */
     background: #f4f4f4;
     box-shadow: 0 0 0 8px #f7f7f7;
-    border-radius:3px; /* prefix not needed anymore */
+    border-radius: 3px; /* prefix not needed anymore */
     text-align: justify;
+}
+
+#dataviz {
+    display: inline-block;
+    position: fixed;
+    right: 10px;
+    top: 50px;
 }
 
 #vis {
@@ -42,6 +49,21 @@
     margin-left: 0;
 }
 
+#blasons {
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+#bar {
+    position: sticky;
+}
+.symbol {
+    margin: 24px;
+    position: relative;
+}
+.symbol_legend {
+    text-align: center;
+}
 .middot {
     padding-top: 3px;
     padding-right: 10px;
@@ -90,7 +112,8 @@
 #Auteur {
     box-shadow: 0 0 0 8px #3EAD4E;;
 }
-#legend{
+
+#legend {
     display: inline-block;
     position: fixed;
     right: 50px;
@@ -105,21 +128,20 @@
     margin-left: -70px;
     width: 30%;
 
-
 }
 
 h1 {
-	font-family: Bitter;
-	font-size: 30px;
-	font-style: normal;
-	font-variant: bold;
-	font-weight: 700;
-    margin-bottom : 0px;
+    font-family: Bitter;
+    font-size: 30px;
+    font-style: normal;
+    font-variant: bold;
+    font-weight: 700;
+    margin-bottom: 0px;
 }
 
 .container-fullwidth.clearfix {
-    padding-left : 70px !important;
-    padding-right : 0px !important;
+    padding-left: 70px !important;
+    padding-right: 0px !important;
 }
 
 #intro {
@@ -151,9 +173,15 @@ h1 {
 }
 
 @keyframes bouncing {
-    0% {bottom: 0;}
-    50% {bottom: 20px;}
-    100% {bottom: 0;}
+    0% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 20px;
+    }
+    100% {
+        bottom: 0;
+    }
 }
 
 .contentDiv {
@@ -173,8 +201,8 @@ h2 {
     margin: 0 0 0 0;
 }
 
-.slogan{
-font-family: "Source Sans Pro";
+.slogan {
+    font-family: "Source Sans Pro";
     line-height: 18px;
     font-weight: 400;
     font-style: normal;
@@ -183,9 +211,11 @@ font-family: "Source Sans Pro";
     opacity: 1;
     visibility: visible;
 }
+
 #lienintro {
-    color : #444444;
+    color: #444444;
 }
+
 .number {
     font-family: 'Source Sans Pro';
     font-size: 68px;
@@ -212,12 +242,15 @@ font-family: "Source Sans Pro";
     margin: 0;
     color: black;
 }
+
 .number-block {
     position: relative;
     padding: 0;
     border-bottom: 20px solid #3EAD4E;
 }
-.symbol{
+
+.symbol {
     display: inline-block;
     vertical-align: top;
 }
+

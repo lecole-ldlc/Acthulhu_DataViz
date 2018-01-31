@@ -1,5 +1,5 @@
 function barchart() {
-    var margin = {top: 100, right: 20, bottom: 30, left: 40},
+    var margin = {top: 10, right: 20, bottom: 20, left: 40},
         width = 960 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
 
@@ -67,11 +67,6 @@ function barchart() {
             .call(d3.axisLeft(y));
 
     });
-}
-
-function clear() {
-    var svg = d3.select("#bar");
-    svg.selectAll("*").remove();
 }
 
 function changepos(){

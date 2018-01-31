@@ -20,8 +20,8 @@
     <link rel="icon" type="image/png" href="images/ico.png"/>
     <link rel="stylesheet" href="css/responsive.css" type="text/css"/>
     <link rel="stylesheet" href="css/custom.css" type="text/css"/>
-    <link rel="stylesheet" media="screen and (min-width: 1920px)" href="css/smallscreen.css" type="text/css" />
-    <link rel="stylesheet" media="screen and (max-width: 800px)" href="css/mobilescreen.css" type="text/css" />
+    <link rel="stylesheet" media="screen and (min-width: 1920px)" href="css/smallscreen.css" type="text/css"/>
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="css/mobilescreen.css" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <!-- Document Title
@@ -70,10 +70,11 @@
                 Afin d’obtenir ces résultats, j’ai dû enquêter sur un échantillon représentatif de zumains faisant
                 partie de la communauté religieuse de la contrée.
             </p>
-
+            <!--
             <div>
                 <img src="images/fleche-scroll.png" class="fleche">
             </div>
+            -->
         </div>
 
 
@@ -336,99 +337,85 @@
                     <div class="clear comment"></div>
 
                 </div>
-                <div class="col-lg-8 col-lg-offset-1" id="img" style="margin: 50px;">
-
-                    <div class="symbol">
-                        <img src="images/x_Selune.png">
-                        <p style="padding-left: 18px; ">Selune</p>
+                <div class="col-lg-8 col-lg-offset-1" id="dataviz">
+                    <div id="blasons">
                     </div>
-                    <div class="symbol">
-                        <img src="images/x_Cain.png">
-                        <p style="padding-left: 18px">Cain</p>
+                    <div id="vis">
                     </div>
-                    <div class="symbol">
-                        <img src="images/x_Ghal%20Maraz.png">
-                        <p style="padding-left: 18px">Ghal Maraz</p>
+                    <div id="bar">
                     </div>
-                    <div class="symbol">
-                        <img src="images/x_Harlequin.png">
-                        <p style="padding-left: 18px">Harlequin</p>
-                    </div>
-                    <div class="symbol">
-                        <img src="images/x_Yoda.png">
-                        <p style="padding-left: 18px">Yoda</p>
-                    </div>
-                    <div class="symbol">
-                        <img src="images/x_Yog.png">
-                        <p style="padding-left: 18px">Yog-Sothoth</p>
-                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fullwidth">
 
-                    <div class="symbol">
-                        <img src="images/x_Asmoday.png">
-                        <p style="padding-left: 18px;">Asmoday</p>
-                    </div>
+        </div>
+    </footer><!-- #footer end -->
+</div><!-- #wrapper end -->
 
-                    <div class="col-lg-8 col-lg-offset-1" id="vis">
-                    </div>
-                    <div class="col-lg-8 col-lg-offset-1" id="bar">
-                    </div>
+<div id="step1" style="display:none;">
+    <div class="symbol not_selected">
+        <img src="images/x_Selune.png">
+        <p class="symbol_legend">Selune</p>
+    </div>
+    <div class="symbol">
+        <img src="images/x_Yog.png">
+        <p class="symbol_legend">Yog-Sothoth</p>
+    </div>
 
+    <div class="symbol not_selected">
+        <img src="images/x_Cain.png">
+        <p class="symbol_legend">Cain</p>
+    </div>
+    <div class="symbol not_selected">
+        <img src="images/x_Ghal%20Maraz.png">
+        <p class="symbol_legend">Ghal Maraz</p>
+    </div>
 
-                    <!-- </section><!-- #content end -->
+    <div class="symbol not_selected">
+        <img src="images/x_Asmoday.png">
+        <p class="symbol_legend">Asmoday</p>
+    </div>
 
-                    <!-- <section id="explanations">
-                        <div class="content-wrap">
-                            <div class="container-fullwidth clearfix">
-                            </div>
-                        </div>
-                    </section> -->
-
-                    <!-- Dataviz
-                    ============================================= -->
-                    <!-- #page-title end -->
-
-                    <!-- Footer
-                    ============================================= -->
-                    <footer>
-
-                        <div class="container-fullwidth">
-
-                        </div>
-
-                        <!-- Copyrights
-                        ============================================= -->
+    <div class="symbol not_selected">
+        <img src="images/x_Harlequin.png">
+        <p class="symbol_legend">Harlequin</p>
+    </div>
+    <div class="symbol not_selected">
+        <img src="images/x_Yoda.png">
+        <p class="symbol_legend">Yoda</p>
+    </div>
 
 
-                        <script src="js/tooltip.js"></script>
-                        <script src="js/bubble_chart.js"></script>
-                        <script src="js/scroller.js"></script>
-                        <script src="js/opacity.js"></script>
-                        <script src="js/barchart.js"></script>
-                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
-                    </footer><!-- #footer end -->
+</div>
+<script src="js/tooltip.js"></script>
+<script src="js/bubble_chart.js"></script>
+<script src="js/scroller.js"></script>
+<script src="js/opacity.js"></script>
+<script src="js/barchart.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
-                </div><!-- #wrapper end -->
+<!-- Go To Top
+============================================= -->
+<div id="gotoTop" class="icon-angle-up"></div>
 
-                <!-- Go To Top
-                ============================================= -->
-                <div id="gotoTop" class="icon-angle-up"></div>
+<!-- External JavaScripts
+============================================= -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/plugins.js"></script>
 
-                <!-- External JavaScripts
-                ============================================= -->
-                <script type="text/javascript" src="js/jquery.js"></script>
-                <script type="text/javascript" src="js/plugins.js"></script>
+<!-- Footer Scripts
+============================================= -->
+<script type="text/javascript" src="js/functions.js"></script>
 
-                <!-- Footer Scripts
-                ============================================= -->
-                <script type="text/javascript" src="js/functions.js"></script>
-
-                <!--&lt;!&ndash; script des boules &ndash;&gt;-->
-                <script>
-                    initialisation();
-                </script>
-            <!--&lt;!&ndash; script des boules &ndash;&gt;-->
-
+<!--&lt;!&ndash; script des boules &ndash;&gt;-->
+<script>
+    initialisation();
+</script>
+<!--&lt;!&ndash; script des boules &ndash;&gt;-->
 
 
 </body>
