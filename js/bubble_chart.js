@@ -166,7 +166,8 @@ function initialisation() {
                 $(".symbol").animate({top: "100px"}, 2000);
             }
             if (index == 4) {
-                $("#bar, .not_selected").fadeOut(2000, function () {
+                $(".not_selected").animate({opacity: 0.1}, 2000);
+                $("#bar").fadeOut(2000, function () {
                     $("#vis").show();
                     setTimeout(function () {
                         myBubbleChart.redraw("AgeMoy");
@@ -176,26 +177,15 @@ function initialisation() {
             }
             if (index == 5) {
                 $("#vis").show();
-                myBubbleChart.redraw("CSP");
+                myBubbleChart.redraw("Freq");
             }
             if (index == 6) {
                 $("#vis").show();
-                myBubbleChart.redraw("AgeDec");
+                myBubbleChart.redraw("DpsAnnu");
             }
             if (index == 7) {
                 $("#vis").show();
-                myBubbleChart.redraw("Freq");
-
-            }
-            if (index == 8) {
-                $("#vis").show();
-                myBubbleChart.redraw("DpsAnnu");
-
-            }
-            if (index == 9) {
-                $("#vis").show();
-
-                myBubbleChart.redraw("");
+                myBubbleChart.redraw("CSP");
 
             }
         }
@@ -290,7 +280,7 @@ function bubbleChart(abscisse, ordonnee) {
     // @v4 scales now have a flattened naming scheme
     var fillColor = d3.scaleOrdinal()
         .domain(['low', 'medium', 'high'])
-        .range(['#d84b2a', '#349142', '#7aa25c']);
+        .range(['#349142']);
 
 
     /*

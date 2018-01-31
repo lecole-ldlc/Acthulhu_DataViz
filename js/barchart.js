@@ -69,6 +69,3 @@ function barchart() {
     });
 }
 
-function changepos(){
-
-}
