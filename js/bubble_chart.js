@@ -161,7 +161,8 @@ function initialisation() {
             if (index == 2) {
                 clear();
                 $("#blasons").html($("#step1").html());
-                $("#graphtitle").html($("#step2").html());
+                $("#graphtitle").html($("#title1").html());
+
             }
 
             if (index == 3) {
@@ -169,6 +170,7 @@ function initialisation() {
                 $("#bar, .not_selected").fadeIn(2000);
                 console.log("barchart");
                 $(".symbol").animate({top: "100px"}, 2000);
+                $("#graphtitle").html($("#title2").html());
             }
             if (index == 4){
                 $(".not_selected").animate({opacity: 0.1}, 2000);
@@ -179,30 +181,37 @@ function initialisation() {
                     }, 2000)
                 });
                 myBubbleChart.toggleDisplay();
+                $("#graphtitle").hide();
             }
 
             if (index == 5) {
                 $("#vis").show();
                 myBubbleChart.redraw("AgeMoy");
+                $("#graphtitle").show();
+                $("#graphtitle").html($("#title3").html());
             }
 
             if (index == 6) {
                 $("#vis").show();
                 myBubbleChart.redraw("Freq");
+                $("#graphtitle").html($("#title4").html());
             }
             if (index == 7) {
                 $("#vis").show();
                 myBubbleChart.redraw("DpsAnnu");
+                $("#graphtitle").html($("#title5").html());
             }
             if (index == 8) {
                 $("#vis").show();
                 myBubbleChart.redraw("CSP");
+                $("#graphtitle").html($("#title6").html());
 
             }
             if (index == 9) {
                 $("#vis").show();
                 myBubbleChart.redraw("");
                 $(".keys1").remove();
+                $("#graphtitle").remove();
 
             }
         }

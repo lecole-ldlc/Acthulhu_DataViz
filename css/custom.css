@@ -49,13 +49,15 @@
     margin-left: 0;
 }
 
-#graphtitle{
+.graphtitle{
+    display:;
     top: 1800px;
     position: relative;
 }
 
 .graphtitle_text{
     text-align: center;
+    font-size: 33px;
 }
 
 #blasons {
@@ -289,3 +291,4 @@ h2 {
     font-size: 20px;
 
 }
+
