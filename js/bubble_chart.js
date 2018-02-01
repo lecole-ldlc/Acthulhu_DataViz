@@ -154,6 +154,7 @@ function initialisation() {
                 clear();
             }
 
+
             if (index == 2) {
                 clear();
                 $("#blasons").html($("#step1").html());
