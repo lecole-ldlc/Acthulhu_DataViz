@@ -43,7 +43,7 @@
 #vis {
     display: inline-block;
     position: fixed;
-    /*right: 100px;*/
+    right: 230px;
     top: 100px;
     z-index: 1;
     margin-left: 0;
@@ -105,7 +105,7 @@
 
 .step {
     margin-top: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 400px;
 }
 
 #context {
@@ -258,7 +258,7 @@ h2 {
     position: relative;
     margin-bottom: 15px;
     border-bottom: 20px solid #3EAD4E;
-    margin-right: 14px;
+    margin-right: 12px;
     display: inline-block;
     width: 11%;
 }
@@ -280,7 +280,7 @@ h2 {
     position: relative;
     margin-bottom: 15px;
     border-bottom: 20px solid #000000;
-    margin-right: 14px;
+    margin-right: 12px;
     display: inline-block;
     width: 11%;
     opacity: 0.1;

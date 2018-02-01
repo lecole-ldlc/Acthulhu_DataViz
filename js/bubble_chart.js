@@ -172,7 +172,7 @@ function initialisation() {
                 $(".symbol").animate({top: "100px"}, 2000);
                 $("#graphtitle").html($("#title2").html());
             }
-            if (index == 4){
+            if (index == 4) {
                 $(".not_selected").animate({opacity: 0.1}, 2000);
                 $("#bar").fadeOut(2000, function () {
                     $("#vis").show();
@@ -182,23 +182,25 @@ function initialisation() {
                 });
                 myBubbleChart.toggleDisplay();
                 $("#graphtitle").hide();
+
             }
 
             if (index == 5) {
                 $("#vis").show();
-                myBubbleChart.redraw("AgeMoy");
+                myBubbleChart.redraw("AgeMoy", "d)41-50");
                 $("#graphtitle").show();
                 $("#graphtitle").html($("#title3").html());
+
             }
 
             if (index == 6) {
                 $("#vis").show();
-                myBubbleChart.redraw("Freq");
+                myBubbleChart.redraw("Freq", "b)Au moins une fois par mois");
                 $("#graphtitle").html($("#title4").html());
             }
             if (index == 7) {
                 $("#vis").show();
-                myBubbleChart.redraw("DpsAnnu");
+                myBubbleChart.redraw("DpsAnnu","e)⩾100");
                 $("#graphtitle").html($("#title5").html());
             }
             if (index == 8) {
@@ -244,7 +246,7 @@ function initialisation() {
 
     });
     // Load the data.
-    d3.csv('data_JoueursdeCthulhu.csv', data_loaded);
+    d3.csv('datatest.csv', data_loaded);
     console.log("coucou");
 }
 
@@ -372,11 +374,11 @@ function bubbleChart(abscisse, ordonnee) {
         return myNodes;
     }
 
-    function do_redraw(svg, key1, key2) {
+    function do_redraw(svg, key1, hl) {
 
         // reset the state
         splitted = false;
-
+        var key2 = '';
         //svg.selectAll('.bubble').remove();
 
         updateNodes(key1, key2);
@@ -429,6 +431,7 @@ function bubbleChart(abscisse, ordonnee) {
 
         });
 
+        colorize(key1, hl);
 
         // Set the simulation's nodes to our newly created nodes array.
         // @v4 Once we set the nodes, the simulation will start running automatically!
@@ -667,6 +670,21 @@ function bubbleChart(abscisse, ordonnee) {
             '</span>';
 
         tooltip.showTooltip(content, d3.event);
+    }
+
+    function colorize(key1, hl) {
+        console.log(hl);
+        console.log("colorize");
+        d3.selectAll(".bubble")
+            .filter(function (d) {
+                if (d[key1] == hl) {
+                    console.log(d[key1]);
+                    return true;
+                } else {
+                    return false;
+                }
+            })
+            .attr("fill", "#349142");
     }
 
     /*
