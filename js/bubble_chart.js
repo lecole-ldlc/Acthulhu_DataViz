@@ -89,8 +89,9 @@ function update_display(index) {
     }
     if (index == 2) {
         clear();
-        $(".symbol").css("top", "0");
+        //$(".symbol").css({top: "0px"});
         $("#blasons").fadeIn(1000);
+        $(".not_selected").animate({opacity: 1}, 1000);
         $("#graphtitle").html($("#title1").html());
         $("#graphtitle").show();
 
@@ -99,22 +100,24 @@ function update_display(index) {
     if (index == 3) {
         clear();
         $("#blasons").show();
-        $(".not_selected").fadeOut(1000);
+        $(".not_selected").animate({opacity: 0.1}, 1000, function(){
+            //$(".symbol").animate({top: "100px"}, 2000);
+        });
         $("#bar").fadeIn(2000);
-        $(".symbol").animate({top: "100px"}, 2000);
+
         $("#graphtitle").html($("#title2").html());
         $("#graphtitle").show();
     }
     if (index == 4) {
         clear();
         $("#blasons").show();
-        $(".not_selected").hide();
         $(".not_selected").css({opacity: 0.1});
         $("#vis").hide();
-        $(".not_selected").animate({opacity: 0.1}, 2000);
-        $("#bar").fadeOut(2000, function () {
-            $("#vis").fadeIn(2000);
+        $("#bar").show();
+        $("#bar").fadeOut(1000, function () {
+            $("#vis").fadeIn(1000);
         });
+        myBubbleChart.redraw("Sexe", "");
         myBubbleChart.group();
         $("#graphtitle").html("<p class=\"graphtitle_text\">3000 fidèles !</p>");
         $("#graphtitle").show();
@@ -140,6 +143,7 @@ function update_display(index) {
         $("#vis").show();
         myBubbleChart.redraw("Freq", "b)Au moins une fois par mois");
         $("#graphtitle").html($("#title4").html());
+        $("#graphtitle").show();
     }
     if (index == 7) {
         clear();
@@ -148,6 +152,7 @@ function update_display(index) {
         $("#vis").show();
         myBubbleChart.redraw("DpsAnnu", "e)⩾100");
         $("#graphtitle").html($("#title5").html());
+        $("#graphtitle").show();
     }
     if (index == 8) {
         clear();
@@ -156,13 +161,16 @@ function update_display(index) {
         $("#vis").show();
         myBubbleChart.redraw("CSP", "a)Chefs");
         $("#graphtitle").html($("#title6").html());
+        $("#graphtitle").css({opacity: 1});
+        $("#graphtitle").show();
 
     }
     if (index == 9) {
         $("#vis").show();
+        $("#blasons").css({opacity: 0});
         myBubbleChart.redraw("");
         $(".keys1").remove();
-        $("#graphtitle").remove();
+        $("#graphtitle").css({opacity: 0});
 
     }
 
@@ -581,6 +589,7 @@ function bubbleChart(abscisse, ordonnee) {
      * center of the visualization.
      */
     function groupBubbles() {
+        //hideTitles();
         /*if (activesection === 0) {
          hideTitles();
          }
@@ -705,8 +714,7 @@ function bubbleChart(abscisse, ordonnee) {
     }
 
     function colorize(key1, hl) {
-        console.log(key1);
-        console.log(hl);
+
         d3.selectAll(".bubble")
             .filter(function (d) {
                 if (d[key1] == hl) {
@@ -719,7 +727,6 @@ function bubbleChart(abscisse, ordonnee) {
 
         d3.selectAll(".bubble")
             .filter(function (d) {
-                console.log(d[key1]);
                 if (d[key1] == hl) {
                     return false;
                 } else {
@@ -728,6 +735,7 @@ function bubbleChart(abscisse, ordonnee) {
             })
             .attr("fill", "#349142");
     }
+
 
     /*
      * Hides tooltip
@@ -768,6 +776,7 @@ function bubbleChart(abscisse, ordonnee) {
         if (splitted) {
             splitted = false;
             groupBubbles();
+            hideTitles();
         }
     };
 
