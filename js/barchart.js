@@ -3,6 +3,8 @@ function barchart() {
         width = 960 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
 
+
+
 // set the ranges
     var x = d3.scaleBand()
         .range([0, width])
@@ -19,6 +21,8 @@ function barchart() {
         .append("g")
         .attr("transform",
             "translate(" + margin.left + "," + margin.top + ")");
+
+
 
 // get the data
     d3.csv("jeuxjoues.csv", function (error, data) {
@@ -67,5 +71,6 @@ function barchart() {
             .call(d3.axisLeft(y));
 
     });
+
 }
 

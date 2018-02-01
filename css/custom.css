@@ -49,6 +49,15 @@
     margin-left: 0;
 }
 
+#graphtitle{
+    top: 1800px;
+    position: relative;
+}
+
+.graphtitle_text{
+    text-align: center;
+}
+
 #blasons {
     margin-top: 40px;
     margin-left: 35px;

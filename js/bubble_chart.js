@@ -32,6 +32,7 @@ var activesection;
 function clear() {
     $("#bar").hide();
     $("#blasons").html("");
+    $("#graphtitle").html("");
     $("#viz").hide();
     $(".symbol").css("top", "0");
 }
@@ -119,6 +120,8 @@ function initialisation() {
      * Helper function to convert a number into a string
      * and add commas to it to improve presentation.
      */
+
+
     function addCommas(nStr) {
         nStr += '';
         var x = nStr.split('.');
@@ -158,6 +161,7 @@ function initialisation() {
             if (index == 2) {
                 clear();
                 $("#blasons").html($("#step1").html());
+                $("#graphtitle").html($("#step2").html());
             }
 
             if (index == 3) {
