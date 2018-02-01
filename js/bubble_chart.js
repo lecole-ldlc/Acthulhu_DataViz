@@ -165,27 +165,39 @@ function initialisation() {
                 console.log("barchart");
                 $(".symbol").animate({top: "100px"}, 2000);
             }
-            if (index == 4) {
+            if (index == 4){
                 $(".not_selected").animate({opacity: 0.1}, 2000);
                 $("#bar").fadeOut(2000, function () {
                     $("#vis").show();
                     setTimeout(function () {
-                        myBubbleChart.redraw("AgeMoy");
+                        myBubbleChart.redraw("1");
                     }, 2000)
                 });
                 myBubbleChart.toggleDisplay();
             }
+
             if (index == 5) {
+                $("#vis").show();
+                myBubbleChart.redraw("AgeMoy");
+            }
+
+            if (index == 6) {
                 $("#vis").show();
                 myBubbleChart.redraw("Freq");
             }
-            if (index == 6) {
+            if (index == 7) {
                 $("#vis").show();
                 myBubbleChart.redraw("DpsAnnu");
             }
-            if (index == 7) {
+            if (index == 8) {
                 $("#vis").show();
                 myBubbleChart.redraw("CSP");
+
+            }
+            if (index == 9) {
+                $("#vis").show();
+                myBubbleChart.redraw("");
+                $(".keys1").remove();
 
             }
         }

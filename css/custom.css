@@ -249,7 +249,7 @@ h2 {
     border-bottom: 20px solid #3EAD4E;
     margin-right: 14px;
     display: inline-block;
-    width: 14%;
+    width: 11%;
 }
 .number-block-end {
     position: relative;
@@ -257,7 +257,7 @@ h2 {
     margin-bottom: 15px;
     border-bottom: 20px solid #3EAD4E;
     display: inline-block;
-    width: 14%;
+    width: 11%;
 }
 
 .symbol {
@@ -265,3 +265,18 @@ h2 {
     vertical-align: top;
 }
 
+.number-block-emp {
+    position: relative;
+    margin-bottom: 15px;
+    border-bottom: 20px solid #000000;
+    margin-right: 14px;
+    display: inline-block;
+    width: 11%;
+    opacity: 0.1;
+}
+
+.keys1{
+    font-family: "Open Sans";
+    font-size: 20px;
+
+}
