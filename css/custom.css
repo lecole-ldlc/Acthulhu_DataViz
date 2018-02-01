@@ -42,9 +42,9 @@
 
 #vis {
     display: inline-block;
-    position: fixed;
-    right: 230px;
-    top: 100px;
+    position: absolute;
+    left: 50px;
+    top: 10px;
     z-index: 1;
     margin-left: 0;
 }

@@ -31,10 +31,9 @@ var activesection;
 
 function clear() {
     $("#bar").hide();
-    $("#blasons").html("");
-    $("#graphtitle").html("");
-    $("#viz").hide();
-    $(".symbol").css("top", "0");
+    $("#blasons").hide();
+    $("#graphtitle").hide();
+    $("#vis").hide();
 }
 
 
@@ -70,11 +69,109 @@ function erase() {
 
 // @v4 strength to apply to the position forces
 var forceStrength = 0.03;
-var forceStrengthSeparate = 0.02;
+var forceStrengthSeparate = 0.2;
 var current_index = 0;
+var loaded = false;
+
+function update_display(index) {
+// highlight current step text
+    //d3.selectAll('.step')
+    //        .style('opacity', function (d, i) {
+    //            return i === index ? 1 : 0.1;
+
+    activesection = index;
+
+    // activate current section
+    console.log("DO ACTIVATE " + index);
+
+    if (index == 0 || index == 1) {
+        clear();
+    }
+    if (index == 2) {
+        clear();
+        $(".symbol").css("top", "0");
+        $("#blasons").fadeIn(1000);
+        $("#graphtitle").html($("#title1").html());
+        $("#graphtitle").show();
+
+    }
+
+    if (index == 3) {
+        clear();
+        $("#blasons").show();
+        $(".not_selected").fadeOut(1000);
+        $("#bar").fadeIn(2000);
+        $(".symbol").animate({top: "100px"}, 2000);
+        $("#graphtitle").html($("#title2").html());
+        $("#graphtitle").show();
+    }
+    if (index == 4) {
+        clear();
+        $("#blasons").show();
+        $(".not_selected").hide();
+        $(".not_selected").css({opacity: 0.1});
+        $("#vis").hide();
+        $(".not_selected").animate({opacity: 0.1}, 2000);
+        $("#bar").fadeOut(2000, function () {
+            $("#vis").fadeIn(2000);
+        });
+        myBubbleChart.group();
+        $("#graphtitle").html("<p class=\"graphtitle_text\">3000 fidèles !</p>");
+        $("#graphtitle").show();
+
+    }
+
+    if (index == 5) {
+        clear();
+        $("#blasons").show();
+        $(".not_selected").css({opacity: 0.1});
+        $("#vis").show();
+        myBubbleChart.split();
+        myBubbleChart.redraw("AgeMoy", "d)41-50");
+        $("#graphtitle").show();
+        $("#graphtitle").html($("#title3").html());
+
+    }
+
+    if (index == 6) {
+        clear();
+        $("#blasons").show();
+        $(".not_selected").css({opacity: 0.1});
+        $("#vis").show();
+        myBubbleChart.redraw("Freq", "b)Au moins une fois par mois");
+        $("#graphtitle").html($("#title4").html());
+    }
+    if (index == 7) {
+        clear();
+        $("#blasons").show();
+        $(".not_selected").css({opacity: 0.1});
+        $("#vis").show();
+        myBubbleChart.redraw("DpsAnnu", "e)⩾100");
+        $("#graphtitle").html($("#title5").html());
+    }
+    if (index == 8) {
+        clear();
+        $("#blasons").show();
+        $(".not_selected").css({opacity: 0.1});
+        $("#vis").show();
+        myBubbleChart.redraw("CSP", "a)Chefs");
+        $("#graphtitle").html($("#title6").html());
+
+    }
+    if (index == 9) {
+        $("#vis").show();
+        myBubbleChart.redraw("");
+        $(".keys1").remove();
+        $("#graphtitle").remove();
+
+    }
+
+    current_index = index;
+}
 
 function initialisation() {
 
+    $("#blasons").html($("#step1").html());
 
     $.wait = function (duration) {
         return $.Deferred(function (def) {
@@ -91,11 +188,13 @@ function initialisation() {
             console.log(error);
         }
         clear();
-        console.log(data_l);
+        //console.log(data_l);
         data = data_l;
         myBubbleChart = bubbleChart();
         myBubbleChart('#vis', data);
         barchart();
+        loaded = true;
+        update_display(current_index);
         // comment = split then unsplit
         //separate();
         $("#vis").hide();
@@ -143,81 +242,15 @@ function initialisation() {
 
     // setup event handling
     scroll.on('active', function (index) {
-        // highlight current step text
-        //d3.selectAll('.step')
-        //        .style('opacity', function (d, i) {
-        //            return i === index ? 1 : 0.1;
 
-        activesection = index;
-        if (current_index != index) {
-
-            // activate current section
-            console.log("ACTIVATE " + index);
-            if (index == 0 || index == 1) {
-                clear();
-            }
-
-
-            if (index == 2) {
-                clear();
-                $("#blasons").html($("#step1").html());
-                $("#graphtitle").html($("#title1").html());
-
-            }
-
-            if (index == 3) {
-                $("#vis").hide();
-                $("#bar, .not_selected").fadeIn(2000);
-                console.log("barchart");
-                $(".symbol").animate({top: "100px"}, 2000);
-                $("#graphtitle").html($("#title2").html());
-            }
-            if (index == 4) {
-                $(".not_selected").animate({opacity: 0.1}, 2000);
-                $("#bar").fadeOut(2000, function () {
-                    $("#vis").show();
-                    setTimeout(function () {
-                        myBubbleChart.redraw("1");
-                    }, 2000)
-                });
-                myBubbleChart.toggleDisplay();
-                $("#graphtitle").hide();
-
-            }
-
-            if (index == 5) {
-                $("#vis").show();
-                myBubbleChart.redraw("AgeMoy", "d)41-50");
-                $("#graphtitle").show();
-                $("#graphtitle").html($("#title3").html());
-
-            }
-
-            if (index == 6) {
-                $("#vis").show();
-                myBubbleChart.redraw("Freq", "b)Au moins une fois par mois");
-                $("#graphtitle").html($("#title4").html());
-            }
-            if (index == 7) {
-                $("#vis").show();
-                myBubbleChart.redraw("DpsAnnu","e)⩾100");
-                $("#graphtitle").html($("#title5").html());
-            }
-            if (index == 8) {
-                $("#vis").show();
-                myBubbleChart.redraw("CSP");
-                $("#graphtitle").html($("#title6").html());
-
-            }
-            if (index == 9) {
-                $("#vis").show();
-                myBubbleChart.redraw("");
-                $(".keys1").remove();
-                $("#graphtitle").remove();
-
-            }
+        console.log("ACTIVATE",index);
+        if (!loaded) {
+            current_index = index;
+            return;
         }
-        current_index = index;
+        if (current_index != index) {
+            update_display(index);
+        }
 
         /*key: d.key,
          radius: radiusScale,
@@ -247,7 +280,6 @@ function initialisation() {
     });
     // Load the data.
     d3.csv('datatest.csv', data_loaded);
-    console.log("coucou");
 }
 
 function bubbleChart(abscisse, ordonnee) {
@@ -673,15 +705,25 @@ function bubbleChart(abscisse, ordonnee) {
     }
 
     function colorize(key1, hl) {
+        console.log(key1);
         console.log(hl);
-        console.log("colorize");
         d3.selectAll(".bubble")
             .filter(function (d) {
                 if (d[key1] == hl) {
-                    console.log(d[key1]);
                     return true;
                 } else {
                     return false;
+                }
+            })
+            .attr("fill", "#f00");
+
+        d3.selectAll(".bubble")
+            .filter(function (d) {
+                console.log(d[key1]);
+                if (d[key1] == hl) {
+                    return false;
+                } else {
+                    return true;
                 }
             })
             .attr("fill", "#349142");
@@ -711,6 +753,19 @@ function bubbleChart(abscisse, ordonnee) {
             splitted = true;
             splitBubbles();
         } else {
+            splitted = false;
+            groupBubbles();
+        }
+    };
+
+    chart.split = function () {
+        if (!splitted) {
+            splitted = true;
+            splitBubbles();
+        }
+    };
+    chart.group = function () {
+        if (splitted) {
             splitted = false;
             groupBubbles();
         }
