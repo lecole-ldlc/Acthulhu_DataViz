@@ -110,6 +110,7 @@ function update_display(index) {
     if (index == 0 || index == 1) {
         clear();
     }
+
     if (index == 2) {
         clear();
         //$(".symbol").css({top: "0px"});
@@ -128,7 +129,7 @@ function update_display(index) {
         $(".not_selected").animate({opacity: 0.1}, 3000, function () {
             //$(".symbol").animate({top: "100px"}, 2000);
         });
-        $("#bar").fadeIn(2000);
+        $("#bar").fadeIn(1500);
         barchart();
         $("#graphtitle").html($("#title2").html());
         $("#graphtitle").show();
@@ -140,7 +141,7 @@ function update_display(index) {
         $(".not_selected").css({opacity: 0.1});
         $("#vis").hide();
         $("#bar").show();
-        $("#bar").fadeOut(1000, function () {
+        $("#bar").fadeOut(800, function () {
             $("#vis").fadeIn(1000);
         });
         myBubbleChart.redraw("Sexe", "");
@@ -313,7 +314,7 @@ function initialisation() {
 
     });
     // Load the data.
-    d3.csv('datatest.csv', data_loaded);
+    d3.csv('data_JoueursdeCthulhu.csv', data_loaded);
 }
 
 function bubbleChart(abscisse, ordonnee) {

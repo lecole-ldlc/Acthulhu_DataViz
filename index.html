@@ -113,13 +113,15 @@
 
                         <section class="step dieux">
                             <div class="tile">
-                                <div class="number-block"></div>
-                                <div class="number-block-emp"></div>
-                                <div class="number-block-emp"></div>
-                                <div class="number-block-emp"></div>
-                                <div class="number-block-emp"></div>
-                                <div class="number-block-emp"></div>
-                                <div class="number-block-emp"></div>
+                                <div class="progress_bar" id="1">
+                                    <div class="number-block 1" ></div>
+                                    <div class="number-block-emp 2" ></div>
+                                    <div class="number-block-emp 3" ></div>
+                                    <div class="number-block-emp 4" ></div>
+                                    <div class="number-block-emp 5" ></div>
+                                    <div class="number-block-emp 6" ></div>
+                                    <div class="number-block-emp 7" ></div>
+                                </div>
                                 <div style="text-align: justify">
                                     Pour vous présenter rapidement la situation religieuse,
                                     Baguettia est un pays polythéiste où les “croyants” sont nombreux et vénère jusqu’à
@@ -134,8 +136,8 @@
                                 </div>
                             </div>
                         </section>
-                        <section class="step" >
-                            <div class="tile" >
+                        <section class="step">
+                            <div class="tile">
                                 <div class="number-block"></div>
                                 <div class="number-block"></div>
                                 <div class="number-block-emp"></div>
@@ -477,6 +479,13 @@
 <!--&lt;!&ndash; script des boules &ndash;&gt;-->
 <script>
     initialisation();
+
+    $(".fleche").click(function () {
+        $('html,body').animate({
+                    scrollTop: $("#sections").offset().top
+                },
+                'slow');
+    });
 </script>
 <!--&lt;!&ndash; script des boules &ndash;&gt;-->
 
