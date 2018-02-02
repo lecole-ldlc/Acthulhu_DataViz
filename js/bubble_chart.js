@@ -723,7 +723,7 @@ function bubbleChart(abscisse, ordonnee) {
                     return false;
                 }
             })
-            .attr("fill", "#f00");
+            .attr("fill", "#3EAD4E");
 
         d3.selectAll(".bubble")
             .filter(function (d) {
@@ -733,7 +733,7 @@ function bubbleChart(abscisse, ordonnee) {
                     return true;
                 }
             })
-            .attr("fill", "#349142");
+            .attr("fill", "#444444");
     }
 
 
