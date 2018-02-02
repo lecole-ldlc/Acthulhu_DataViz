@@ -21,10 +21,29 @@ function toggle(anId) {
     }
 }
 
-
+var isMobile = false;
+function resizer() {
+    var w = $(window).width();
+    if (w < 4000) {
+        console.log("resize");
+        isMobile = true;
+        console.log(isMobile);
+    }
+    else {
+        isMobile = false;
+    }
+}
 // Constants for sizing
-var width = 900;
-var height = 700;
+if (isMobile == false) {
+    var width = 900;
+    var height = 700;
+    console.log("mobile" + isMobile);
+}
+else {
+    console.log("mobile" + isMobile);
+    var width = 500;
+    var height = 700;
+}
 var selector;
 var rawData;
 var activesection;
@@ -36,6 +55,10 @@ function clear() {
     $("#vis").hide();
 }
 
+
+$(window).on('load resize', function () {
+    resizer();
+});
 
 // Sizes bubbles based on area.
 // @v4: new flattened scale names.
@@ -90,8 +113,9 @@ function update_display(index) {
     if (index == 2) {
         clear();
         //$(".symbol").css({top: "0px"});
+        $("#bar").children().remove();
         $("#blasons").fadeIn(1000);
-        $(".not_selected").animate({opacity: 1}, 1000);
+        $(".not_selected").animate({opacity: 1}, 2000);
         $("#graphtitle").html($("#title1").html());
         $("#graphtitle").show();
 
@@ -99,17 +123,19 @@ function update_display(index) {
 
     if (index == 3) {
         clear();
+
         $("#blasons").show();
-        $(".not_selected").animate({opacity: 0.1}, 1000, function(){
+        $(".not_selected").animate({opacity: 0.1}, 3000, function () {
             //$(".symbol").animate({top: "100px"}, 2000);
         });
         $("#bar").fadeIn(2000);
-
+        barchart();
         $("#graphtitle").html($("#title2").html());
         $("#graphtitle").show();
     }
     if (index == 4) {
         clear();
+        $("#bar").children().remove();
         $("#blasons").show();
         $(".not_selected").css({opacity: 0.1});
         $("#vis").hide();
@@ -159,7 +185,7 @@ function update_display(index) {
         $("#blasons").show();
         $(".not_selected").css({opacity: 0.1});
         $("#vis").show();
-        myBubbleChart.redraw("CSP", "a)Chefs");
+        myBubbleChart.redraw("CSP", "a)Chefs", "a)Travailleurs");
         $("#graphtitle").html($("#title6").html());
         $("#graphtitle").css({opacity: 1});
         $("#graphtitle").show();
@@ -199,8 +225,8 @@ function initialisation() {
         //console.log(data_l);
         data = data_l;
         myBubbleChart = bubbleChart();
+
         myBubbleChart('#vis', data);
-        barchart();
         loaded = true;
         update_display(current_index);
         // comment = split then unsplit
@@ -251,7 +277,7 @@ function initialisation() {
     // setup event handling
     scroll.on('active', function (index) {
 
-        console.log("ACTIVATE",index);
+        console.log("ACTIVATE", index);
         if (!loaded) {
             current_index = index;
             return;
@@ -414,7 +440,7 @@ function bubbleChart(abscisse, ordonnee) {
         return myNodes;
     }
 
-    function do_redraw(svg, key1, hl) {
+    function do_redraw(svg, key1, hl, hl2) {
 
         // reset the state
         splitted = false;
@@ -471,7 +497,7 @@ function bubbleChart(abscisse, ordonnee) {
 
         });
 
-        colorize(key1, hl);
+        colorize(key1, hl, hl2);
 
         // Set the simulation's nodes to our newly created nodes array.
         // @v4 Once we set the nodes, the simulation will start running automatically!
@@ -713,11 +739,11 @@ function bubbleChart(abscisse, ordonnee) {
         tooltip.showTooltip(content, d3.event);
     }
 
-    function colorize(key1, hl) {
+    function colorize(key1, hl, hl2) {
 
         d3.selectAll(".bubble")
             .filter(function (d) {
-                if (d[key1] == hl) {
+                if (d[key1] == hl || d[key1]== hl2) {
                     return true;
                 } else {
                     return false;
@@ -727,7 +753,7 @@ function bubbleChart(abscisse, ordonnee) {
 
         d3.selectAll(".bubble")
             .filter(function (d) {
-                if (d[key1] == hl) {
+                if (d[key1] == hl || d[key1]== hl2) {
                     return false;
                 } else {
                     return true;
