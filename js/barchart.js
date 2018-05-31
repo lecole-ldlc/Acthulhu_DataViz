@@ -74,7 +74,7 @@ function barchart() {
             .merge(bar) //選択済みセレクションをenterで追加されるセレクションにマージする
             .attr("fill", function (d) {
                 if (d.Dieu == "Yog-Sothoth") {
-                    return "#3EAD4E"
+                    return "#35C2F2"
                 }
                 else {
                     return "#444444"

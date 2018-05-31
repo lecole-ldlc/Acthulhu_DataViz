@@ -314,7 +314,7 @@ function initialisation() {
 
     });
     // Load the data.
-    d3.csv('data_JoueursdeCthulhu.csv', data_loaded);
+    d3.csv('JoueursdeCthulhu.csv', data_loaded);
 }
 
 function bubbleChart(abscisse, ordonnee) {
@@ -750,7 +750,7 @@ function bubbleChart(abscisse, ordonnee) {
                     return false;
                 }
             })
-            .attr("fill", "#3EAD4E");
+            .attr("fill", "#35C2F2");
 
         d3.selectAll(".bubble")
             .filter(function (d) {
